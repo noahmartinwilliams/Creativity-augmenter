@@ -5,13 +5,20 @@
 
 :- dynamic sentence/2.
 
-write_sentence([]):-
+write_sentence_intern([]):-
 	write('\n').
 
-write_sentence([First|Rest]):-
+write_sentence_intern([First|Rest]):-
 	write(First),
-	write(' '),
-	write_sentence(Rest).
+	write_sentence_intern(Rest).
+
+write_sentence([First|Rest]):-
+	atom_concat(' ', NewFirst, First),
+	write(NewFirst),
+	write_sentence_intern(Rest).
+
+write_sentence(L):-
+	write_sentence_intern(L).
 
 reassert_sentences([]).
 reassert_sentences([[A, B]|Rest]):-
