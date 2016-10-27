@@ -1,5 +1,8 @@
 sentence(main, [main_intern]).
-sentence(main, [main_intern, [' It\'s only'], np, [' science.']]).
+sentence(main, [main_intern, [' It\'s only'], np, [' science!']]).
+sentence(main_intern, [[' We just need more'], npl, ['! :D']]).
+sentence(main_intern, [[' We just need more'], adj, npl, ['! :D']]).
+sentence(main_intern, [[' We just need more'], adj, np, ['s! :D']]).
 sentence(main_intern, [action_movie_sentence, ['.']]).
 sentence(main_intern, [boring_sentence, ['.']]).
 sentence(main_intern, [interesting_sentence]).
