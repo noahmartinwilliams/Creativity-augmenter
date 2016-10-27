@@ -12,6 +12,7 @@ sentence(main, [personsg, [' Proves That 2 + 2 ='], number, condition, ['.']]).
 sentence(main, [personsg, [' Overturns Idea that'], obvious_statement, ['.']]).
 sentence(main, [personsg, [' Proves'], obvious_statement, ['.']]).
 sentence(main, [personsg, [' Proves Idea That'], obvious_statement, [' Is'], bad_thing, ['.']]).
+sentence(main, [[' Rogue Group Of'], bad_people, [' Captured And Sentenced To Count To'], number, ['.']]).
 
 sentence(number_prop, [[' Irrational']]).
 sentence(number_prop, [[' Rational']]).
@@ -74,10 +75,15 @@ sentence(method_of_proof, [[' Repeating It Until It\'s True']]).
 sentence(method_of_proof, [[' Praying To The'], personpl, [' For It To Be True']]).
 sentence(method_of_proof, [[' Asking Someone Smart']]).
 
+sentence(bad_people, [[' Traitors']]).
+sentence(bad_people, [[' Traitors To The All-Powerful Math AI']]).
+sentence(bad_people, [[' Treasonous Heretics']]).
 sentence(bad_people, [[' Heretics']]).
 sentence(bad_people, [[' Fools']]).
 sentence(bad_people, [[' Arrogant Fools']]).
 sentence(bad_people, [[' Anti-Math Conspiracy Theorists']]).
+sentence(bad_people, [[' Math Conspiracy Theorists']]).
+sentence(bad_people, [[' Alternative Math Advocates']]).
 
 sentence(thing, [[' The Edge Of Infinity']]).
 sentence(thing, [theorem]).
@@ -123,14 +129,17 @@ sentence(thing_to_ignore, [[' Math']]).
 sentence(thing_to_ignore, [[' Reality']]).
 sentence(thing_to_ignore, [[' The Math Gods']]).
 sentence(thing_to_ignore, [[' Logic And Reason']]).
+sentence(thing_to_ignore, [[' All That Is Sane And Good In The World']]).
 sentence(thing_to_ignore, [[' The Call Of Cthulhu']]).
 
 sentence(condition, [[' If You\'re Good At Math']]).
+sentence(condition, [[' If You\'re Good At'], method_of_proof]).
 sentence(condition, [[' If You Ignore'], thing_to_ignore]).
 sentence(condition, [[' If You\'re Bad At Math']]).
 sentence(condition, [[' If You Try Really Hard']]).
 sentence(condition, [[' If You Have An Expensive Calculator']]).
 sentence(condition, [[' If 2 + 2 = 4']]).
+sentence(condition, [[' If 2 + 2 ='], number]).
 
 sentence(method_of_proof, [[' Consulting With'], personpl]).
 sentence(method_of_proof, [[' Flipping A Coin']]).

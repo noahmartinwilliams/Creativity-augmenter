@@ -39,7 +39,7 @@ sentence(vp, [[' upgrading to our advanced'], product]).
 sentence(vp, [[' setting it on fire']]).
 sentence(vp, [[' switching to the'], product]).
 sentence(vp, [[' moving it to'], place]).
-sentence(vp, [[' pressing random keys until something happens']]).
+sentence(vp, [[' pressing random keys until'], event, [' happens']]).
 sentence(vp, [[' running it on a computer that has a lot of marketing hype']]).
 sentence(vp, [[' taking advantage of our'], product]).
 
@@ -79,6 +79,9 @@ sentence(product, [company, adj, boring_thing]).
 sentence(product, [[' consultants that give you'], thing_you_need]).
 sentence(product, [[' broken'], boring_thing]).
 sentence(product, [[' Linux kernel']]).
+sentence(product, [[' quantum chromodynamic energy pumps']]).
+sentence(product, [[' really fancy server racks']]).
+sentence(product, [[' better software just in general']]).
 
 sentence(boring_thing, [[' server that\'s painted chrome']]).
 sentence(boring_thing, [[' server that has LEDs on it']]).
@@ -87,3 +90,9 @@ sentence(boring_thing, [[' cloud']]).
 sentence(boring_thing, [[' sentient toaster']]).
 sentence(boring_thing, [[' web framework']]).
 sentence(boring_thing, [[' smart refrigerator']]).
+
+sentence(event, [[' the end of the world']]).
+sentence(event, [[' something']]).
+sentence(event, [[' something interesting']]).
+sentence(event, [[' the witch hunt of all systemd heretics']]).
+sentence(event, [[' the year of the Linux desktop']]).
