@@ -12,7 +12,13 @@ sentence(main, [personsg, [' Proves That 2 + 2 ='], number, condition, ['.']]).
 sentence(main, [personsg, [' Overturns Idea that'], obvious_statement, ['.']]).
 sentence(main, [personsg, [' Proves'], obvious_statement, ['.']]).
 sentence(main, [personsg, [' Proves Idea That'], obvious_statement, [' Is'], bad_thing, ['.']]).
-sentence(main, [[' Rogue Group Of'], bad_people, [' Captured And Sentenced To Count To'], number, ['.']]).
+sentence(main, [[' Rogue Group Of'], bad_people, [' Captured And Sentenced To'], punishment, ['.']]).
+sentence(main, [[' New'], new_thing, [' Bets You Can\'t Count To'], number, [' And I Think They\'re Right.']]).
+
+sentence(punishment, [[' Count To'], number]).
+sentence(punishment, [[' Solve A Horrendous Equation For X']]).
+sentence(punishment, [[' Find The Definite Integral Of sin(x)/x From 0 To'], number, [' By Hand']]).
+sentence(punishment, [[' Manually Take The Square Root Of'], number]).
 
 sentence(number_prop, [[' Irrational']]).
 sentence(number_prop, [[' Rational']]).
@@ -75,15 +81,19 @@ sentence(method_of_proof, [[' Repeating It Until It\'s True']]).
 sentence(method_of_proof, [[' Praying To The'], personpl, [' For It To Be True']]).
 sentence(method_of_proof, [[' Asking Someone Smart']]).
 
+sentence(bad_people, [[' Applied Mathematicians']]).
 sentence(bad_people, [[' Traitors']]).
 sentence(bad_people, [[' Traitors To The All-Powerful Math AI']]).
 sentence(bad_people, [[' Treasonous Heretics']]).
 sentence(bad_people, [[' Heretics']]).
 sentence(bad_people, [[' Fools']]).
+sentence(bad_people, [[' Math Insurgents']]).
+sentence(bad_people, [[' Math God Nonbelievers']]).
 sentence(bad_people, [[' Arrogant Fools']]).
 sentence(bad_people, [[' Anti-Math Conspiracy Theorists']]).
 sentence(bad_people, [[' Math Conspiracy Theorists']]).
 sentence(bad_people, [[' Alternative Math Advocates']]).
+sentence(bad_people, [[' Math Spies Trying To Steal Our Research Papers']]).
 
 sentence(thing, [[' The Edge Of Infinity']]).
 sentence(thing, [theorem]).
