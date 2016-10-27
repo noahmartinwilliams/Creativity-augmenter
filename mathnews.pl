@@ -1,27 +1,51 @@
-sentence(main, [[' New'], new_thing, [' proves'], thing, [' is actually'], a_state, ['.']]).
-sentence(main, [personsg, [' Reveals That'], thing, [' Is'], a_state, ['.']]).
+sentence(main, [[' New'], new_thing, [' Proves'], thing, [' Is Actually'], a_state, ['.']]).
+sentence(main, [personsg, [' Reveals That'], number, [' Is'], number_prop, ['.']]).
 sentence(main, [theorem, [' Finally Proven To Be True After'], personpl, [' Tried'], method_of_proof, ['.']]).
 sentence(main, [personpl, [' Prove'], theorem, ['.']]).
 sentence(main, [personsg, [' Proves'], theorem, ['.']]).
 sentence(main, [unlikely_thing, [' Found In'], set, ['.']]).
 sentence(main, [personpl, [' Show That'], thing, [' Does Not Exist By'], method_of_proof, ['.']]).
-sentence(main, [[' Largest prime number discovered by'], really_bad_way_to_find_numbers, ['.']]).
+sentence(main, [[' Largest'], type_of_number, [' Number Discovered By'], really_bad_way_to_find_numbers, ['.']]).
 sentence(main, [personsg, [' Shows That'], thing, [' Is Actually'], a_state, ['.']]).
 sentence(main, [personsg, [' Proves That 2 + 2 ='], number, ['.']]).
-sentence(main, [personsg, [' Overturn Idea that 2 + 2 = '], number, ['.']]).
+sentence(main, [personsg, [' Proves That 2 + 2 ='], number, condition, ['.']]).
 sentence(main, [personsg, [' Overturns Idea that'], obvious_statement, ['.']]).
+sentence(main, [personsg, [' Proves'], obvious_statement, ['.']]).
+sentence(main, [personsg, [' Proves Idea That'], obvious_statement, [' Is'], bad_thing, ['.']]).
+
+sentence(number_prop, [[' Irrational']]).
+sentence(number_prop, [[' Rational']]).
+sentence(number_prop, [[' Negative']]).
+sentence(number_prop, [[' Imaginary']]).
+sentence(number_prop, [[' Real']]).
 
 sentence(obvious_statement, [[' 2 + 2 = 4']]).
 sentence(obvious_statement, [[' 9 > 3']]).
-sentence(obvious_statement, [[' pi is irrational']]).
-sentence(obvious_statement, [[' some numbers are bigger than other numbers']]).
-sentence(obvious_statement, [[' there are a lot of numbers']]).
+sentence(obvious_statement, [[' Pi Is'], number_prop]).
+sentence(obvious_statement, [[' Some Numbers Are Bigger Than Other Numbers']]).
+sentence(obvious_statement, [[' There Are A Lot Of Numbers']]).
 
 sentence(personsg, [[' Waldo']]).
 sentence(personsg, [[' Probability']]).
+sentence(personsg, [[' Geometry']]).
 sentence(personsg, [[' All-powerful Math AI']]).
+sentence(personsg, [[' The President']]).
+sentence(personsg, [[' My Ex-Wife']]).
+sentence(personsg, [[' Pythagorus']]).
+sentence(personsg, [[' An Old Math Professor']]).
+
 sentence(personpl, [[' Mathematicians']]).
+sentence(personpl, [[' Math Robots']]).
 sentence(personpl, [[' New Field Of Mathematics']]).
+sentence(personpl, [[' Math Gods']]).
+sentence(personpl, [[' Dark Powers']]).
+sentence(personpl, [bad_people]).
+sentence(personpl, [[' People']]).
+
+sentence(type_of_number, [[' Prime']]).
+sentence(type_of_number, [[' Irrational']]).
+sentence(type_of_number, [[' Imaginary']]).
+sentence(type_of_number, [[' Complex']]).
 
 sentence(really_bad_way_to_find_numbers, [[' Drawing It Randomly Out Of A Hat']]).
 sentence(really_bad_way_to_find_numbers, [[' Making One Up On The Spot']]).
@@ -47,11 +71,18 @@ sentence(method_of_proof, [[' Integrating The'], thing, [' With Respect To'], th
 sentence(method_of_proof, [[' Punching It Into A Calculator']]).
 sentence(method_of_proof, [[' Assuming It Without Ever Questioning The Idea']]).
 sentence(method_of_proof, [[' Repeating It Until It\'s True']]).
-sentence(method_of_proof, [[' Praying To The Math Gods For It To Be True']]).
+sentence(method_of_proof, [[' Praying To The'], personpl, [' For It To Be True']]).
+sentence(method_of_proof, [[' Asking Someone Smart']]).
+
+sentence(bad_people, [[' Heretics']]).
+sentence(bad_people, [[' Fools']]).
+sentence(bad_people, [[' Arrogant Fools']]).
+sentence(bad_people, [[' Anti-Math Conspiracy Theorists']]).
 
 sentence(thing, [[' The Edge Of Infinity']]).
 sentence(thing, [theorem]).
 sentence(thing, [[' The Square Root Of'], number]).
+sentence(thing, [[' The Square Root Of'], theorem]).
 sentence(thing, [number]).
 sentence(thing, [set]).
 sentence(thing, [unlikely_thing]).
@@ -63,37 +94,62 @@ sentence(number, [[' Infinity']]).
 sentence(number, [[' The Imaginary Number']]).
 sentence(number, [[' Pi']]).
 sentence(number, [[' Infinity Minus One']]).
-sentence(number, [[' The Phone Number Of The President']]).
-sentence(number, [[' The Phone Number Of My Ex-Wife']]).
+sentence(number, [[' The Phone Number Of'], personsg]).
 
-sentence(set, [[' The Set Of Every Number That\'s A Palindrome']]).
+sentence(set, [[' The Set Of Every'], number, [' That\'s A Palindrome']]).
+sentence(set, [[' The Set Of Every'], new_thing, [' That\'s A Palindrome']]).
 sentence(set, [[' The Set Of All My Favorite Numbers']]).
 sentence(set, [[' The Set Of All The Phone Numbers In My Phone']]).
 sentence(set, [[' The Set Of Every Number That\'s Big Enough For Scientific Notation']]).
 sentence(set, [[' The Set Of Every Number You Can Fit On A Chalkboard']]).
 sentence(set, [[' The Set Of All Real Numbers That Are Realistic']]).
+sentence(set, [[' The Set Of All Numbers That Are'], a_state]).
 
 sentence(a_state, [[' Infinite']]).
 sentence(a_state, [[' Unsolvable']]).
 sentence(a_state, [[' Solvable But Only Sometimes']]).
-sentence(a_state, [[' Solvable If You Try Really Hard']]).
-sentence(a_state, [[' Only Solvable If You Have An Expensive Calculator']]).
+sentence(a_state, [[' Solvable'], condition]).
+sentence(a_state, [[' Only Solvable'], condition ]).
+sentence(a_state, [[' Never Solvable'], condition ]).
 sentence(a_state, [[' Provable']]).
+sentence(a_state, [[' Provable'], condition]).
 sentence(a_state, [[' Mostly Decidable']]).
-sentence(a_state, [[' Completely False And Only Believed By Arrogant Fools']]).
+sentence(a_state, [[' Mostly Decidable'], condition]).
+sentence(a_state, [[' Completely False And Only Believed By'], bad_people]).
 sentence(a_state, [[' Actually Really Boring']]).
+sentence(a_state, [[' Actually Really Boring'], condition]).
 
-sentence(method_of_proof, [[' Consulting With The Dark Powers']]).
+sentence(thing_to_ignore, [[' Math']]).
+sentence(thing_to_ignore, [[' Reality']]).
+sentence(thing_to_ignore, [[' The Math Gods']]).
+sentence(thing_to_ignore, [[' Logic And Reason']]).
+sentence(thing_to_ignore, [[' The Call Of Cthulhu']]).
+
+sentence(condition, [[' If You\'re Good At Math']]).
+sentence(condition, [[' If You Ignore'], thing_to_ignore]).
+sentence(condition, [[' If You\'re Bad At Math']]).
+sentence(condition, [[' If You Try Really Hard']]).
+sentence(condition, [[' If You Have An Expensive Calculator']]).
+sentence(condition, [[' If 2 + 2 = 4']]).
+
+sentence(method_of_proof, [[' Consulting With'], personpl]).
 sentence(method_of_proof, [[' Flipping A Coin']]).
 sentence(method_of_proof, [[' Consulting With The All-Powerful Math AI']]).
+sentence(method_of_proof, [[' Suing'], personpl, [' Who Says Otherwise']]).
 sentence(method_of_proof, [[' Suing Anyone Who Says Otherwise']]).
-sentence(method_of_proof, [[' Getting Into Arguments With Anyone Who Disagrees']]).
-sentence(method_of_proof, [[' Declaring All Else To Be Heresy']]).
+sentence(method_of_proof, [[' Getting Into Arguments With'], personpl, [' Who Disagree']]).
+sentence(method_of_proof, [[' Declaring All Else To Be'], bad_thing]).
+
+sentence(bad_thing, [[' Heresy']]).
+sentence(bad_thing, [[' Slander']]).
+sentence(bad_thing, [[' An Insult To Humanity']]).
+sentence(bad_thing, [[' An Attack On Humanity']]).
+sentence(bad_thing, [[' An Attack On Math']]).
 
 sentence(theorem, [[' The Pythagorean Theorem']]).
 sentence(theorem, [[' The Theorem I Disproved Yesterday']]).
 sentence(theorem, [[' Fermat\'s Last Theorem']]).
 sentence(theorem, [[' Fermat\'s Second To Last Theorem']]).
-sentence(theorem, [[' The Indecipherable Scribblings Of An Old Math Professor']]).
+sentence(theorem, [[' The Indecipherable Scribblings Of'], personsg]).
 sentence(theorem, [[' That Thing That That Guy On The Bus Shouted At Me Today']]).
 sentence(theorem, [[' The Theorem Of Everything']]).
