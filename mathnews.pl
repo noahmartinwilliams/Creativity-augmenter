@@ -14,8 +14,13 @@ sentence(main, [personsg, [' Proves'], obvious_statement, ['.']]).
 sentence(main, [personsg, [' Proves Idea That'], obvious_statement, [' Is'], bad_thing, ['.']]).
 sentence(main, [[' Rogue Group Of'], bad_people, [' Captured And Sentenced To'], punishment, ['.']]).
 sentence(main, [[' New'], new_thing, [' Bets You Can\'t Count To'], number, [' And I Think They\'re Right.']]).
+sentence(main, [[' New'], new_thing, [' Bets You Can\'t Count To'], number, [' And I Think They\'re Right. Are you gonna take that from them?!']]).
+sentence(main, [personsg, [' Bans Idea That'], obvious_statement, ['.']]).
+sentence(main, [personsg, [' Bans'], theorem, ['.']]).
+sentence(main, [personsg, [' Declares War On'], bad_people, ['.']]).
 
 sentence(punishment, [[' Count To'], number]).
+sentence(punishment, [[' Count To Negative'], number]).
 sentence(punishment, [[' Solve A Horrendous Equation For X']]).
 sentence(punishment, [[' Find The Definite Integral Of sin(x)/x From 0 To'], number, [' By Hand']]).
 sentence(punishment, [[' Manually Take The Square Root Of'], number]).
@@ -35,12 +40,13 @@ sentence(obvious_statement, [[' There Are A Lot Of Numbers']]).
 sentence(personsg, [[' Waldo']]).
 sentence(personsg, [[' Probability']]).
 sentence(personsg, [[' Geometry']]).
-sentence(personsg, [[' All-powerful Math AI']]).
+sentence(personsg, [[' All-Powerful Math AI']]).
 sentence(personsg, [[' The President']]).
 sentence(personsg, [[' My Ex-Wife']]).
 sentence(personsg, [[' Pythagorus']]).
 sentence(personsg, [[' An Old Math Professor']]).
 
+sentence(personpl, [[' The Pi Government']]).
 sentence(personpl, [[' Mathematicians']]).
 sentence(personpl, [[' Math Robots']]).
 sentence(personpl, [[' New Field Of Mathematics']]).
@@ -94,6 +100,7 @@ sentence(bad_people, [[' Anti-Math Conspiracy Theorists']]).
 sentence(bad_people, [[' Math Conspiracy Theorists']]).
 sentence(bad_people, [[' Alternative Math Advocates']]).
 sentence(bad_people, [[' Math Spies Trying To Steal Our Research Papers']]).
+sentence(bad_people, [[' The Tau Rebels']]).
 
 sentence(thing, [[' The Edge Of Infinity']]).
 sentence(thing, [theorem]).
@@ -142,6 +149,7 @@ sentence(thing_to_ignore, [[' Logic And Reason']]).
 sentence(thing_to_ignore, [[' All That Is Sane And Good In The World']]).
 sentence(thing_to_ignore, [[' The Call Of Cthulhu']]).
 
+sentence(condition, [[' If The'], bad_people, [' Surrender To The'], personpl]).
 sentence(condition, [[' If You\'re Good At Math']]).
 sentence(condition, [[' If You\'re Good At'], method_of_proof]).
 sentence(condition, [[' If You Ignore'], thing_to_ignore]).
@@ -151,6 +159,7 @@ sentence(condition, [[' If You Have An Expensive Calculator']]).
 sentence(condition, [[' If 2 + 2 = 4']]).
 sentence(condition, [[' If 2 + 2 ='], number]).
 
+sentence(method_of_proof, [[' Advanced Hand Waving']]).
 sentence(method_of_proof, [[' Consulting With'], personpl]).
 sentence(method_of_proof, [[' Flipping A Coin']]).
 sentence(method_of_proof, [[' Consulting With The All-Powerful Math AI']]).
