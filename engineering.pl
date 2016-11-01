@@ -92,7 +92,7 @@ sentence(adj, [[' hyper']]).
 sentence(adj, [[' hexadecimal']]).
 sentence(adj, [[' inductive']]).
 sentence(adj, [[' functional']]).
-sentence(adj, [[' magento']]).
+sentence(adj, [[' magneto']]).
 
 sentence(nsg, [adj, [' detector']]).
 sentence(nsg, [[' graviolie', ' detector']]).
