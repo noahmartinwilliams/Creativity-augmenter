@@ -11,6 +11,12 @@ sentence(main_intern, [[' Real developers use the'], product, [' to'], boring_th
 sentence(main_intern, [[' Deploy your'], boring_thing, [' more easily by'], vp, ['.']]).
 sentence(main_intern, [[' Deploy your'], boring_thing, [' faster by'], vp, ['.']]).
 sentence(main_intern, [[' Make'], things_users_have, [' easier for your users by'], vp]).
+sentence(main_intern, [[' Use'], product, [' to manager your'], type_of_website, [' site.']]).
+
+sentence(type_of_website, [[' social media']]).
+sentence(type_of_website, [[' social news']]).
+sentence(type_of_website, [[' news']]).
+sentence(type_of_website, [[' funny cat pictures blog']]).
 
 sentence(boring_thing_to_do, [[' track a bunch of random numbers']]).
 sentence(boring_thing_to_do, [[' manage their customer database']]).
@@ -97,6 +103,7 @@ sentence(boring_thing, [[' sentient toaster']]).
 sentence(boring_thing, [[' web framework']]).
 sentence(boring_thing, [[' smart refrigerator']]).
 
+sentence(bad_people, [[' evil script-kiddies and scanner monkeys']]).
 sentence(bad_people, [[' treasonous systemd heretics']]).
 sentence(bad_people, [[' noSQL fan boys']]).
 sentence(bad_people, [[' search engine optimization companies']]).

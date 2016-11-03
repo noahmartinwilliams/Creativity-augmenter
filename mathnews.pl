@@ -1,18 +1,40 @@
-sentence(main, [unlikely_thing, [' Found In'], set, ['.']]).
+sentence(main, [[' What I Learned Trying To'], punishment, [' And The Friends I Made Along The Way.']]).
 sentence(main, [[' Largest'], type_of_number, [' Number Discovered By'], really_bad_way_to_find_numbers, ['.']]).
 sentence(main, [personsg, [' Proves Idea That'], obvious_statement, [' Is'], bad_thing, ['.']]).
 sentence(main, [[' Rogue Group Of'], bad_people, [' Captured And Sentenced To'], punishment, ['.']]).
 sentence(main, [[' New'], new_thing, [' Bets You Can\'t Count To'], number, condition, [' And I Think They\'re Right.']]).
 sentence(main, [authority_figure, [' Bans Idea That'], obvious_statement, ['.']]).
 sentence(main, [authority_figure, [' Bans'], theorem, ['.']]).
+sentence(main, [authority_figure, [' Demands Sacrifices!']]).
 sentence(main, [authority_figure, [' Declares War On'], bad_people, ['.']]).
 sentence(main, [[' Is'], personsg, [' Secretely A'], bad_people, ['?']]).
 sentence(main, [authority_figure, [' Demands That You Ignore'], thing_to_ignore]).
 sentence(main, [[' New'], new_thing, [' Bets That'], obvious_statement, [' And I Think They\'re Wrong.']]).
-sentence(main, [bad_people, [' Are ALL'], bad_people, ['. Trust Me. I Know Because I Tried'], method_of_proof]).
+sentence(main, [bad_people, [' Are ALL'], bad_people, ['. Trust Me. I Know Because I Tried'], method_of_proof, ['.']]).
 sentence(main, [authority_figure, [' Has Shown That'], set, [' Does Not Exist And Only'], bad_people, [' Believe Otherwise. ALL HAIL'], authority_figure, ['!']]).
 sentence(main, [[' I Tried Counting To'], number, [' And Here\'s What I Learned Along The Way.']]).
+sentence(main, [['Finding Large'], type_of_number, [' Numbers By'], really_bad_way_to_find_numbers, [' Openly Called Into Question By'], bad_people, [' Who Should Be Force To'], punishment]).
+sentence(main, [[' Only'], bad_people, [' Believe'], obvious_statement, [' And Should Be Forced To'], punishment]).
+sentence(main, [personsg, [' Finally Proves'], obvious_statement, [' By'], method_of_proof, [' But Is Still Crazy And Is Still Not Invited To Theresea\'s Party.']]).
+sentence(main, [number, [' Clearly Does Not Exist And Anyone Claiming Otherwise Is One Of The'], bad_people, ['.']]).
+sentence(main, [personsg, [' Is Clearly Insane And Those Who Disagree Are Clearly'], bad_people, ['.']]).
+sentence(main, [[' Do'], bad_people, [' Really Deserve Human Rights?']]).
+sentence(main, [[' Is'], really_bad_way_to_find_numbers, [' Really A Safe Way To Take Measurements When Building Bridges? YES.']]).
+sentence(main, [[' Only'], bad_people, [' And'], bad_people, [' Would Question'], authority_figure, ['. I Proved This By'], method_of_proof, ['.']]).
+sentence(main, [[' What I Learned Dating One Of The'], bad_people, [' And What It\'s Like To Turn Your Lover In To'], authority_figure, ['.']]).
+sentence(main, [[' New'], new_thing, [' Proves That'], authority_figure, [' Is All-Powerful By'], method_of_proof, ['.']]).
+sentence(main, [[' New'], new_thing, [' Betrays'], authority_figure, [' And Should Be Banned.']]).
+sentence(main, [[' Op-Ed: All'], bad_people, [' Should Be Shot And Sacrificed To'], authority_figure, ['.']]).
+sentence(main, [[' If We Can All Agree'], obvious_statement, [' Then We Can All Agree That'], authority_figure, [' Knows Best.']]).
+sentence(main, [[' Op-Ed: The Use Of Torture On'], bad_people, [' Is Absolutely Justified For Our War On'], bad_people, ['.']]).
+sentence(main, [[' Op-Ed: If All'], bad_people, [' Surrendered To'], authority_figure, [' Then Our'], societal_problem, [' Problem Would Be Solved!']]).
 
+sentence(societal_problem, [bad_people]).
+sentence(societal_problem, [[' Racism']]).
+sentence(societal_problem, [[' Sexism']]).
+sentence(societal_problem, [[' Boring Math Textbooks']]).
+
+% The creative process here is to imagine Cecil Ballwin from welcome to Nightvale saying all of this.
 sentence(authority_figure, [[' The Math Gods']]).
 sentence(authority_figure, [[' The All-Powerful Math AI']]).
 sentence(authority_figure, [[' The Pi Government']]).
@@ -22,18 +44,23 @@ sentence(authority_figure, [[' Geometry']]).
 sentence(authority_figure, [[' The Monolith Of Infinity']]).
 sentence(authority_figure, [[' The Illuminati']]).
 sentence(authority_figure, [[' The Chosen One Who Will Overthrow'], authority_figure]).
+sentence(authority_figure, [[' Math']]).
+sentence(authority_figure, [[' The Dark Powers']]).
+sentence(authority_figure, [[' The Mighty Hypercube That Controls Your Thoughts']]).
 
 sentence(punishment, [[' Count To'], number]).
 sentence(punishment, [[' Count To Negative'], number]).
 sentence(punishment, [[' Solve A Horrendous Equation For X']]).
-sentence(punishment, [[' Find The Definite Integral Of sin(x)/x From 0 To'], number, [' By Hand']]).
+sentence(punishment, [[' Find The Definite Integral Of sin(x)/x From'], number, [' To'], number, [' By Hand']]).
 sentence(punishment, [[' Manually Take The Square Root Of'], number]).
+sentence(punishment, [[' Take The Inverse Of A Square Matrix Of Length'], number]).
 
 sentence(number_prop, [[' Irrational']]).
 sentence(number_prop, [[' Rational']]).
 sentence(number_prop, [[' Negative']]).
 sentence(number_prop, [[' Imaginary']]).
 sentence(number_prop, [[' Real']]).
+sentence(number_prop, [[' Complex']]).
 
 sentence(obvious_statement, [[' 0 + 0 = 0']]).
 sentence(obvious_statement, [[' 2 + 2 = 4']]).
@@ -41,6 +68,7 @@ sentence(obvious_statement, [[' 9 > 3']]).
 sentence(obvious_statement, [[' Pi Is'], number_prop]).
 sentence(obvious_statement, [[' Some Numbers Are Bigger Than Other Numbers']]).
 sentence(obvious_statement, [[' There Are A Lot Of Numbers']]).
+sentence(obvious_statement, [[' Ten Is A Big Number But There Are Bigger Numbers']]).
 sentence(obvious_statement, [[' Math Is Fun']]).
 
 sentence(personsg, [[' Waldo']]).
@@ -90,6 +118,7 @@ sentence(new_thing, [[' Field Of Mathematics']]).
 sentence(new_thing, [[' Lucky Guess Someone Made']]).
 sentence(new_thing, [[' Idea']]).
 sentence(new_thing, [[' Randomly Generated String Of Text']]).
+sentence(new_thing, [[' Idea We Read On The Internet']]).
 
 sentence(method_of_proof, [[' Pulling Rank']]).
 sentence(method_of_proof, [[' Checking The Back Of The Book']]).
@@ -105,6 +134,14 @@ sentence(method_of_proof, [[' Thinking Abou It And Coming Up With An Answer']]).
 sentence(method_of_proof, [[' Eliminating Literally All Other Possibly True Statements']]).
 
 sentence(bad_people, [[' Applied Mathematicians']]).
+sentence(bad_people, [[' Applied Mathematicians']]).
+sentence(bad_people, [[' Applied Mathematicians']]).
+sentence(bad_people, [[' Applied Mathematicians']]).
+sentence(bad_people, [[' Applied Mathematicians']]).
+sentence(bad_people, [[' Applied Mathematicians']]).
+sentence(bad_people, [[' Boring Math Teachers']]).
+sentence(bad_people, [[' Math Lobyists']]).
+sentence(bad_people, [[' Free Thinkers']]).
 sentence(bad_people, [[' Traitors']]).
 sentence(bad_people, [[' Traitors To The All-Powerful Math AI']]).
 sentence(bad_people, [[' Treasonous Heretics']]).
@@ -118,6 +155,10 @@ sentence(bad_people, [[' Math Conspiracy Theorists']]).
 sentence(bad_people, [[' Alternative Math Advocates']]).
 sentence(bad_people, [[' Math Spies Trying To Steal Our Research Papers']]).
 sentence(bad_people, [[' Tau Rebels']]).
+sentence(bad_people, [[' Evil Math Wizards']]).
+sentence(bad_people, [[' Newton Notation Users']]).
+sentence(bad_people, [[' Leibnitz Notation Users']]).
+sentence(bad_people, [[' Dot Notation Users']]).
 
 sentence(thing, [[' The Edge Of Infinity']]).
 sentence(thing, [theorem]).
@@ -186,8 +227,12 @@ sentence(condition, [[' If You Have An Expensive Calculator']]).
 sentence(condition, [[' If 2 + 2 = 4']]).
 sentence(condition, [[' If 2 + 2 ='], number]).
 sentence(condition, [[' If It\'s Not Raining Outside']]).
+sentence(condition, [[' If This Statement Is False']]).
+sentence(condition, [[' If'], authority_figure, [' Is Overthrown']]).
 
+sentence(method_of_proof, [[' Math Magic']]).
 sentence(method_of_proof, [[' Advanced Hand Waving']]).
+sentence(method_of_proof, [[' Process Of Elimination']]).
 sentence(method_of_proof, [[' Consulting With'], personpl]).
 sentence(method_of_proof, [[' Flipping A Coin']]).
 sentence(method_of_proof, [[' Consulting With The All-Powerful Math AI']]).
@@ -207,6 +252,8 @@ sentence(bad_thing, [[' Slander']]).
 sentence(bad_thing, [[' An Insult To Humanity']]).
 sentence(bad_thing, [[' An Attack On Humanity']]).
 sentence(bad_thing, [[' An Attack On Math']]).
+sentence(bad_thing, [[' Thought Crime']]).
+sentence(bad_thing, [[' Math Heresy']]).
 
 sentence(theorem, [[' The Pythagorean Theorem']]).
 sentence(theorem, [[' The Theorem I Disproved Yesterday']]).
