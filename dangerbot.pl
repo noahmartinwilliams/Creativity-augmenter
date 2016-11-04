@@ -12,6 +12,12 @@ sentence(stupid_paranoia, [[' You people need to focus on REAL problems! Problem
 sentence(stupid_paranoia, [[' Wake up'], sleeping_thing, ['!']]).
 sentence(stupid_paranoia, [[' I know this guy who knows'], nonauthority_figure, [' who says that'], random_minority, [' are trying to take over the world!']]).
 sentence(stupid_paranoia, [[' How can you talk about'], serious_problem, [' when'], nonproblem, [' is happening?']]).
+sentence(stupid_paranoia, [[' That quote from'], nonauthority_figure, [' about'], awful_thing_to_do, [' is taken out of context!']]).
+
+sentence(awful_thing_to_do, [[' shooting puppies']]).
+sentence(awful_thing_to_do, [[' suing people until they run out of money']]).
+sentence(awful_thing_to_do, [[' wanting to murder poor people']]).
+sentence(awful_thing_to_do, [[' wanting to nuke Mexico']]).
 
 sentence(nonauthority_figure, [this_guy_intern]).
 sentence(nonauthority_figure, [[' a screaming conspiracy theorist on tv']]).
@@ -137,7 +143,6 @@ sentence(nonproblem, [[' fluoride in the water']]).
 sentence(nonproblem, [[' stripey clouds']]).
 sentence(nonproblem, [[' Hillarys emails']]).
 sentence(nonproblem, [[' terrorists in other countries']]).
-sentence(nonproblem, [[' Islamic terrorism']]).
 sentence(nonproblem, [[' scary brown people']]).
 
 sentence(dangerous_situation, [gravitational_body, [' is smashing into the Earth']]).
