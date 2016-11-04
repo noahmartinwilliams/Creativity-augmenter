@@ -7,7 +7,7 @@ sentence(main, [authority_figure, [' Bans Idea That'], obvious_statement, ['.']]
 sentence(main, [authority_figure, [' Bans'], theorem, ['.']]).
 sentence(main, [authority_figure, [' Demands Sacrifices!']]).
 sentence(main, [authority_figure, [' Declares War On'], bad_people, ['.']]).
-sentence(main, [[' Is'], personsg, [' Secretely A'], bad_people, ['?']]).
+sentence(main, [[' Is'], personsg, [' Secretely One Of The'], bad_people, ['?']]).
 sentence(main, [authority_figure, [' Demands That You Ignore'], thing_to_ignore]).
 sentence(main, [[' New'], new_thing, [' Bets That'], obvious_statement, [' And I Think They\'re Wrong.']]).
 sentence(main, [bad_people, [' Are ALL'], bad_people, ['. Trust Me. I Know Because I Tried'], method_of_proof, ['.']]).
@@ -47,6 +47,7 @@ sentence(authority_figure, [[' The Chosen One Who Will Overthrow'], authority_fi
 sentence(authority_figure, [[' Math']]).
 sentence(authority_figure, [[' The Dark Powers']]).
 sentence(authority_figure, [[' The Mighty Hypercube That Controls Your Thoughts']]).
+sentence(authority_figure, [[' The Math God Theocracy']]).
 
 sentence(punishment, [[' Count To'], number]).
 sentence(punishment, [[' Count To Negative'], number]).
