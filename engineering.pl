@@ -2,7 +2,7 @@ sentence(main, [main_intern]).
 sentence(main, [main_intern, [' It\'s only'], np, [' science!']]).
 sentence(main_intern, [[' We just need more'], npl, ['! :D']]).
 sentence(main_intern, [[' We just need more'], adj, npl, ['! :D']]).
-sentence(main_intern, [[' We just need more'], adj, npl, ['! :D The ALL our problems will be solved!']]).
+sentence(main_intern, [[' We just need more'], adj, npl, ['! :D Then ALL our problems will be solved!']]).
 sentence(main_intern, [[' We just need more'], adj, np, ['s! :D']]).
 sentence(main_intern, [action_movie_sentence, ['.']]).
 sentence(main_intern, [boring_sentence, ['.']]).
