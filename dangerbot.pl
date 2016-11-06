@@ -18,15 +18,22 @@ sentence(awful_thing_to_do, [[' shooting puppies']]).
 sentence(awful_thing_to_do, [[' suing people until they run out of money']]).
 sentence(awful_thing_to_do, [[' wanting to murder poor people']]).
 sentence(awful_thing_to_do, [[' wanting to nuke Mexico']]).
+sentence(awful_thing_to_do, [[' trying to blow up the statue of liberty']]).
 
 sentence(nonauthority_figure, [this_guy_intern]).
 sentence(nonauthority_figure, [[' a screaming conspiracy theorist on tv']]).
 sentence(nonauthority_figure, [[' a billionaire who stole billions']]).
+sentence(nonauthority_figure, [[' the pastor asking for money in exchange for miracles']]).
+sentence(nonauthority_figure, [[' the snake oil salesman']]).
+sentence(nonauthority_figure, [[' the ancient prophecy']]).
+sentence(nonauthority_figure, [[' the ancient Mayans']]).
+sentence(nonauthority_figure, [[' aliens']]).
 
 sentence(this_guy_intern, [[' this guy who knows'], this_guy_intern]):- maybe.
 sentence(this_guy_intern, [[' this guy who knows this guys cousin who knows'], this_guy_intern]):- maybe, maybe.
 sentence(this_guy_intern, [[' this guy']]).
 
+sentence(sleeping_thing, [[' everyone who wears the same tie as me']]).
 sentence(sleeping_thing, [[' America']]):- maybe.
 sentence(sleeping_thing, [[' sheeple']]).
 sentence(sleeping_thing, [[' society']]).
@@ -34,6 +41,7 @@ sentence(sleeping_thing, [[' people I identify with']]).
 sentence(sleeping_thing, [[' my Internet friends that I get into shouting matches with']]).
 sentence(sleeping_thing, [[' everyone who looks kind of like me']]).
 sentence(sleeping_thing, [[' everyone with the same accent as me']]).
+sentence(sleeping_thing, [[' big scary dragons']]).
 
 sentence(random_minority, [[' scary brown people']]).
 sentence(random_minority, [[' people in need of help']]).
@@ -44,6 +52,8 @@ sentence(random_minority, [[' foreign people with foreign accents']]).
 sentence(random_minority, [[' Vulcans']]).
 sentence(random_minority, [[' people I disagree with']]).
 sentence(random_minority, [[' people I don\'t like']]).
+sentence(random_minority, [[' millenials']]).
+sentence(random_minority, [[' super millenials']]).
 
 sentence(meaningless_attribute, [[' gay']]).
 sentence(meaningless_attribute, [[' black']]).
@@ -57,6 +67,7 @@ sentence(animals, [[' horses']]).
 sentence(animals, [[' ducks']]).
 sentence(animals, [[' octopuses']]).
 
+sentence(logical_thing_to_do, [[' remain calm']]).
 sentence(logical_thing_to_do, [[' water plants']]).
 sentence(logical_thing_to_do, [[' use statistics']]).
 sentence(logical_thing_to_do, [[' defend human rights']]).
@@ -89,6 +100,7 @@ sentence(important_thing, [[' science']]).
 sentence(important_thing, [[' cancer research']]).
 sentence(important_thing, [[' welfare']]).
 
+sentence(stupid_response, [[' Let\'s ask'], nonauthority_figure, [' what to do.']]).
 sentence(stupid_response, [[' Let\'s cut the funding to'], important_thing]).
 sentence(stupid_response, [[' Let\'s fill out the proper form and wait twelve months for a response.']]).
 sentence(stupid_response, [[' Let\'s attack anyone who tries to solve the problem.']]).
@@ -110,6 +122,7 @@ sentence(random_authority_figure, [[' the vice president']]).
 sentence(random_authority_figure, [[' the presidents campaign manager']]).
 sentence(random_authority_figure, [[' NASA']]).
 sentence(random_authority_figure, [[' the scientific community']]).
+sentence(random_authority_figure, [[' smart people']]).
 
 sentence(other_side_of_thing, [[' the galaxy']]).
 sentence(other_side_of_thing, [[' the universe']]).
@@ -119,6 +132,7 @@ sentence(irrelevant_issue, [[' terrorists']]).
 sentence(irrelevant_issue, [[' terrorism on the other side of'], other_side_of_thing]).
 sentence(irrelevant_issue, [[' how people should use the restroom']]).
 sentence(irrelevant_issue, [[' whether or not lizard people are running the world']]).
+sentence(irrelevant_issue, [[' gun-shaped pop tarts']]).
 
 sentence(people_to_shoot, [[' people']]).
 sentence(people_to_shoot, [[' brown people']]).
@@ -131,6 +145,7 @@ sentence(bad_decision_makers, [[' our most stubborn old men']]).
 sentence(bad_decision_makers, [[' our stupidest conspiracy theorists']]).
 
 
+sentence(serious_problem, [[' hate']]).
 sentence(serious_problem, [[' racism']]).
 sentence(serious_problem, [[' the KKK']]).
 sentence(serious_problem, [[' white supremacists']]).
@@ -145,6 +160,7 @@ sentence(nonproblem, [[' Hillarys emails']]).
 sentence(nonproblem, [[' terrorists in other countries']]).
 sentence(nonproblem, [[' scary brown people']]).
 
+sentence(dangerous_situation, [[' the'], vehicle, [' and the'], vehicle, [' are going to crash!']]).
 sentence(dangerous_situation, [gravitational_body, [' is smashing into the Earth']]).
 sentence(dangerous_situation, [[' The'], important_thing, [' is down']]).
 sentence(dangerous_situation, [[' The'], vehicle, [' is going to crash']]).

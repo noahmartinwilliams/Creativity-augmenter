@@ -2,6 +2,7 @@ sentence(main, [main_intern]).
 sentence(main, [main_intern, [' Only on the'], product, ['.']]).
 sentence(main, [main_intern, [' So your users can'], thing_users_do, [' while they'], thing_users_do, ['.']]).
 sentence(main, [[' The'], product, ['. For'], adj, [' developers who need'], adj, thing_you_need, ['.']]).
+sentence(main, [[' How do you keep a'], bad_thing, [' out of production? by constantly testing your'], product, [' after every'], event, ['!']]).
 
 sentence(main_intern, [[' Make your'], boring_thing, buzzword, [' by'], vp, ['.']]).
 sentence(main_intern, [[' Make your'], boring_thing, adj, [' by'], vp, ['.']]).
@@ -11,7 +12,23 @@ sentence(main_intern, [[' Real developers use the'], product, [' to'], boring_th
 sentence(main_intern, [[' Deploy your'], boring_thing, [' more easily by'], vp, ['.']]).
 sentence(main_intern, [[' Deploy your'], boring_thing, [' faster by'], vp, ['.']]).
 sentence(main_intern, [[' Make'], things_users_have, [' easier for your users by'], vp]).
-sentence(main_intern, [[' Use'], product, [' to manager your'], type_of_website, [' site.']]).
+sentence(main_intern, [[' Use'], product, [' to manage your'], type_of_website, [' site.']]).
+sentence(main_intern, [[' What does'], product, [' mean to you?'], product, [' for'], adj, [' developers.']]).
+sentence(main_intern, [[' Monetize your'], product, [' with ads. Only on the'], product, ['.']]).
+
+sentence(bad_thing, [[' bug']]).
+sentence(bad_thing, [[' design flaw']]).
+sentence(bad_thing, [[' backdoor']]).
+sentence(bad_thing, [[' code injection attack']]).
+sentence(bad_thing, [[' hacked compiler']]).
+sentence(bad_thing, [[' horrendously ugly hack']]).
+sentence(bad_thing, [[' bad technical standard']]).
+sentence(bad_thing, [[' vague technical standard']]).
+sentence(bad_thing, [[' buggy technical standard']]).
+sentence(bad_thing, [[' poor documentation']]).
+sentence(bad_thing, [[' no documentation']]).
+sentence(bad_thing, [[' encrypted documentation']]).
+sentence(bad_thing, [[' documentation written in latin']]).
 
 sentence(type_of_website, [[' social media']]).
 sentence(type_of_website, [[' social news']]).
@@ -48,7 +65,8 @@ sentence(vp, [[' setting it on fire']]).
 sentence(vp, [[' switching to the'], product]).
 sentence(vp, [[' moving it to'], place]).
 sentence(vp, [[' pressing random keys until'], event, [' happens']]).
-sentence(vp, [[' running it on a computer that has a lot of marketing hype']]).
+sentence(vp, [[' running it on an overhyped computer']]).
+sentence(vp, [[' running it on a glorified server']]).
 sentence(vp, [[' taking advantage of our'], product]).
 
 sentence(buzzword, [[' webscale']]).
@@ -70,6 +88,8 @@ sentence(adj, [[' enterprise']]).
 sentence(adj, [[' scalable']]).
 sentence(adj, [[' fast']]).
 sentence(adj, [[' overhyped']]).
+sentence(adj, [[' fancy']]).
+sentence(adj, [[' savvy']]).
 
 sentence(company, [[' Microsoft']]).
 sentence(company, [[' Oracle']]).
@@ -103,7 +123,8 @@ sentence(boring_thing, [[' sentient toaster']]).
 sentence(boring_thing, [[' web framework']]).
 sentence(boring_thing, [[' smart refrigerator']]).
 
-sentence(bad_people, [[' evil script-kiddies and scanner monkeys']]).
+sentence(bad_people, [[' evil script-kiddies']]).
+sentence(bad_people, [[' evil scanner monkeys']]).
 sentence(bad_people, [[' treasonous systemd heretics']]).
 sentence(bad_people, [[' noSQL fan boys']]).
 sentence(bad_people, [[' search engine optimization companies']]).

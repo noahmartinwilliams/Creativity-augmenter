@@ -28,6 +28,7 @@ sentence(main, [[' Op-Ed: All'], bad_people, [' Should Be Shot And Sacrificed To
 sentence(main, [[' If We Can All Agree'], obvious_statement, [' Then We Can All Agree That'], authority_figure, [' Knows Best.']]).
 sentence(main, [[' Op-Ed: The Use Of Torture On'], bad_people, [' Is Absolutely Justified For Our War On'], bad_people, ['.']]).
 sentence(main, [[' Op-Ed: If All'], bad_people, [' Surrendered To'], authority_figure, [' Then Our'], societal_problem, [' Problem Would Be Solved!']]).
+sentence(main, [personpl, [':'], bad_people, [' Or'], bad_people, ['?']]).
 
 sentence(societal_problem, [bad_people]).
 sentence(societal_problem, [[' Racism']]).
@@ -48,6 +49,7 @@ sentence(authority_figure, [[' Math']]).
 sentence(authority_figure, [[' The Dark Powers']]).
 sentence(authority_figure, [[' The Mighty Hypercube That Controls Your Thoughts']]).
 sentence(authority_figure, [[' The Math God Theocracy']]).
+sentence(authority_figure, [[' Statistics']]).
 
 sentence(punishment, [[' Count To'], number]).
 sentence(punishment, [[' Count To Negative'], number]).
@@ -55,6 +57,7 @@ sentence(punishment, [[' Solve A Horrendous Equation For X']]).
 sentence(punishment, [[' Find The Definite Integral Of sin(x)/x From'], number, [' To'], number, [' By Hand']]).
 sentence(punishment, [[' Manually Take The Square Root Of'], number]).
 sentence(punishment, [[' Take The Inverse Of A Square Matrix Of Length'], number]).
+sentence(punishment, [[' Manually Dividing'], number, [' By'], number]).
 
 sentence(number_prop, [[' Irrational']]).
 sentence(number_prop, [[' Rational']]).
@@ -91,6 +94,15 @@ sentence(personpl, [[' Dark Powers']]).
 sentence(personpl, [bad_people]).
 sentence(personpl, [[' People']]).
 
+sentence(adj, [type_of_number]).
+sentence(adj, [coloradj]).
+
+sentence(coloradj, [[' Golden']]).
+sentence(coloradj, [[' Green']]).
+sentence(coloradj, [[' Silver']]).
+sentence(coloradj, [[' Rainbow Colored']]).
+sentence(coloradj, [[' Randomly Colored']]).
+
 sentence(type_of_number, [[' Prime']]).
 sentence(type_of_number, [[' Irrational']]).
 sentence(type_of_number, [[' Imaginary']]).
@@ -121,18 +133,6 @@ sentence(new_thing, [[' Idea']]).
 sentence(new_thing, [[' Randomly Generated String Of Text']]).
 sentence(new_thing, [[' Idea We Read On The Internet']]).
 
-sentence(method_of_proof, [[' Pulling Rank']]).
-sentence(method_of_proof, [[' Checking The Back Of The Book']]).
-sentence(method_of_proof, [[' Solving For X']]).
-sentence(method_of_proof, [[' Integrating The'], thing, [' With Respect To'], thing]).
-sentence(method_of_proof, [[' Punching It Into A Calculator']]).
-sentence(method_of_proof, [[' Assuming It Without Ever Questioning The Idea']]).
-sentence(method_of_proof, [[' Repeating It Until It\'s True']]).
-sentence(method_of_proof, [[' Praying To The'], personpl, [' For It To Be True']]).
-sentence(method_of_proof, [[' Asking Someone Smart']]).
-sentence(method_of_proof, [[' Doing The Math']]).
-sentence(method_of_proof, [[' Thinking Abou It And Coming Up With An Answer']]).
-sentence(method_of_proof, [[' Eliminating Literally All Other Possibly True Statements']]).
 
 sentence(bad_people, [[' Applied Mathematicians']]).
 sentence(bad_people, [[' Applied Mathematicians']]).
@@ -180,6 +180,8 @@ sentence(number, [[' The Imaginary Number']]).
 sentence(number, [[' Pi']]).
 sentence(number, [[' Infinity Minus One']]).
 sentence(number, [[' The Phone Number Of'], personsg]).
+sentence(number, [[' The Golden Ratio']]).
+sentence(number, [[' The'], adj, [' Ratio']]).
 sentence(number, [[' 0/0']]).
 sentence(number, [[' The Number Of'], bad_people, [' That'], authority_figure, [' Still Has To Hunt Down And Force To'], punishment]).
 
@@ -236,12 +238,25 @@ sentence(method_of_proof, [[' Advanced Hand Waving']]).
 sentence(method_of_proof, [[' Process Of Elimination']]).
 sentence(method_of_proof, [[' Consulting With'], personpl]).
 sentence(method_of_proof, [[' Flipping A Coin']]).
-sentence(method_of_proof, [[' Consulting With The All-Powerful Math AI']]).
+sentence(method_of_proof, [[' Consulting With'], authority_figure]).
 sentence(method_of_proof, [[' Suing'], personpl, [' Who Says Otherwise']]).
 sentence(method_of_proof, [[' Suing Anyone Who Says Otherwise']]).
 sentence(method_of_proof, [[' Getting Into Arguments With'], personpl, [' Who Disagree']]).
 sentence(method_of_proof, [[' Declaring All Else To Be'], bad_thing]).
 sentence(method_of_proof, [[' Openly Questioning The'], thing_to_question, [' Of'], personpl, [' Who Disagree']]).
+sentence(method_of_proof, [[' Pulling Rank']]).
+sentence(method_of_proof, [[' Checking The Back Of The Book']]).
+sentence(method_of_proof, [[' Solving For X']]).
+sentence(method_of_proof, [[' Integrating The'], thing, [' With Respect To'], thing]).
+sentence(method_of_proof, [[' Punching It Into A Calculator']]).
+sentence(method_of_proof, [[' Assuming It With Absolute Confidence']]).
+sentence(method_of_proof, [[' Repeating It Until It\'s True']]).
+sentence(method_of_proof, [[' Praying To The'], personpl, [' For It To Be True']]).
+sentence(method_of_proof, [[' Asking Someone Smart']]).
+sentence(method_of_proof, [[' Doing The Math']]).
+sentence(method_of_proof, [[' Thinking Abou It And Coming Up With An Answer']]).
+sentence(method_of_proof, [[' Eliminating Literally All Other Possibly True Statements']]).
+sentence(method_of_proof, [[' Voting On It']]).
 
 sentence(thing_to_question, [[' Authority']]).
 sentence(thing_to_question, [[' Intelligence']]).
