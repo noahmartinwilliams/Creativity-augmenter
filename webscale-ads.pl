@@ -1,9 +1,13 @@
 sentence(main, [main_intern]).
 sentence(main, [main_intern, [' Only on the'], product, ['.']]).
 sentence(main, [main_intern, [' So your users can'], thing_users_do, [' while they'], thing_users_do, ['.']]).
+sentence(main, [main_intern, company, product, ['. drink the kool-aid.']]).
 sentence(main, [[' The'], product, ['. For'], adj, [' developers who need'], adj, thing_you_need, ['.']]).
 sentence(main, [[' How do you keep a'], bad_thing, [' out of production? by constantly testing your'], product, [' after every'], event, ['!']]).
+sentence(main, [[' All the cool kids are using'], product, [' because of this ad, and you should join them'], ['.']]).
 
+sentence(main_intern, [[' All the cool kids are using'], product, ['.']]).
+sentence(main_intern, [[' Control the chaos of reality with'], product, ['.']]).
 sentence(main_intern, [[' Make your'], boring_thing, buzzword, [' by'], vp, ['.']]).
 sentence(main_intern, [[' Make your'], boring_thing, adj, [' by'], vp, ['.']]).
 sentence(main_intern, [[' Access your'], adj, boring_thing, [' from anywhere by'], vp, ['.']]).
@@ -83,13 +87,21 @@ sentence(adj, [[' SQL']]).
 sentence(adj, [[' barely usable']]).
 sentence(adj, [[' non-SQL']]).
 sentence(adj, [[' boring']]).
+sentence(adj, [[' nonboring']]).
 sentence(adj, [[' serious']]).
+sentence(adj, [[' nonserious']]).
 sentence(adj, [[' enterprise']]).
+sentence(adj, [[' nonenterprise']]).
 sentence(adj, [[' scalable']]).
+sentence(adj, [[' nonscalable']]).
 sentence(adj, [[' fast']]).
+sentence(adj, [[' nonfast']]).
 sentence(adj, [[' overhyped']]).
+sentence(adj, [[' nonoverhyped']]).
 sentence(adj, [[' fancy']]).
+sentence(adj, [[' nonfancy']]).
 sentence(adj, [[' savvy']]).
+sentence(adj, [[' nonsavvy']]).
 
 sentence(company, [[' Microsoft']]).
 sentence(company, [[' Oracle']]).
@@ -135,3 +147,4 @@ sentence(event, [[' something interesting']]).
 sentence(event, [[' the witch hunt of all'], bad_people]).
 sentence(event, [[' the year of the Linux desktop']]).
 sentence(event, [[' the dotcom bubble bursts']]).
+sentence(event, [[' when the cloud starts to rain']]).

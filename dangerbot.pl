@@ -47,7 +47,7 @@ sentence(random_minority, [[' scary brown people']]).
 sentence(random_minority, [[' people in need of help']]).
 sentence(random_minority, [[' smart people']]).
 sentence(random_minority, [[' women']]).
-sentence(random_minority, [[' Mexicans entrepreneurs bringing taco truck jobs']]).
+sentence(random_minority, [[' Mexican entrepreneurs bringing taco truck jobs']]).
 sentence(random_minority, [[' foreign people with foreign accents']]).
 sentence(random_minority, [[' Vulcans']]).
 sentence(random_minority, [[' people I disagree with']]).
@@ -81,6 +81,7 @@ sentence(witch, [[' traitor']]).
 sentence(witch, [[' feminist']]).
 sentence(witch, [[' smart feminist']]).
 
+sentence(stupid_reason, [[' Because it\'s traditional.']]).
 sentence(stupid_reason, [[' Because everyone needs to feel like they have a say in the matter.']]).
 sentence(stupid_reason, [[' Because this is a democracy.']]).
 sentence(stupid_reason, [[' Because we need to fill our'], quota_to_fill, [' quota.']]).
@@ -93,16 +94,19 @@ sentence(quota_to_fill, [[' awfulness']]).
 sentence(quota_to_fill, [[' stupidity']]).
 sentence(quota_to_fill, [[' racism']]).
 sentence(quota_to_fill, [[' hate']]).
+sentence(quota_to_fill, [[' bad decision']]).
 
 sentence(important_thing, [[' sex education']]).
 sentence(important_thing, [[' education']]).
 sentence(important_thing, [[' science']]).
 sentence(important_thing, [[' cancer research']]).
 sentence(important_thing, [[' welfare']]).
+sentence(important_thing, [[' the Internet']]).
 
 sentence(stupid_response, [[' Let\'s ask'], nonauthority_figure, [' what to do.']]).
 sentence(stupid_response, [[' Let\'s cut the funding to'], important_thing]).
 sentence(stupid_response, [[' Let\'s fill out the proper form and wait twelve months for a response.']]).
+sentence(stupid_response, [[' Let\'s cry about it for '], [YearStr], [' years.']]):- random(10, 20, Years), atom_number(YearStr, Years).
 sentence(stupid_response, [[' Let\'s attack anyone who tries to solve the problem.']]).
 sentence(stupid_response, [[' Let\'s argue about whether it should be a man or a woman solving the problem!']]).
 sentence(stupid_response, [[' Let\'s ignore the problem!']]).
@@ -116,6 +120,7 @@ sentence(stupid_response, [[' Let\'s mindlessly shoot'],  people_to_shoot, [' un
 sentence(stupid_response, [[' Let\'s put'], bad_decision_makers, [' in charge of solving it.']]).
 sentence(stupid_response, [[' Let\'s argue about'], irrelevant_issue]).
 sentence(stupid_response, [[' Let\'s demand that'], random_authority_figure, [' talk about'], irrelevant_issue, ['!']]).
+sentence(stupid_response, [[' Let\'s show people documentaries about how'], nonproblem, [' are killing us all!']]).
 
 sentence(random_authority_figure, [[' the president']]).
 sentence(random_authority_figure, [[' the vice president']]).
@@ -145,6 +150,7 @@ sentence(bad_decision_makers, [[' our most stubborn old men']]).
 sentence(bad_decision_makers, [[' our stupidest conspiracy theorists']]).
 
 
+sentence(serious_problem, [[' crumbling infrastructure']]).
 sentence(serious_problem, [[' hate']]).
 sentence(serious_problem, [[' racism']]).
 sentence(serious_problem, [[' the KKK']]).
@@ -159,6 +165,7 @@ sentence(nonproblem, [[' stripey clouds']]).
 sentence(nonproblem, [[' Hillarys emails']]).
 sentence(nonproblem, [[' terrorists in other countries']]).
 sentence(nonproblem, [[' scary brown people']]).
+sentence(nonproblem, [[' petty crimes committed by'], random_minority]).
 
 sentence(dangerous_situation, [[' the'], vehicle, [' and the'], vehicle, [' are going to crash!']]).
 sentence(dangerous_situation, [gravitational_body, [' is smashing into the Earth']]).
