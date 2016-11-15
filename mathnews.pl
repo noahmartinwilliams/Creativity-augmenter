@@ -29,6 +29,9 @@ sentence(main, [[' If We Can All Agree'], obvious_statement, [' Then We Can All 
 sentence(main, [[' Op-Ed: The Use Of Torture On'], bad_people, [' Is Absolutely Justified For Our War On'], bad_people, ['.']]).
 sentence(main, [[' Op-Ed: If All'], bad_people, [' Surrendered To'], authority_figure, [' Then Our'], societal_problem, [' Problem Would Be Solved!']]).
 sentence(main, [personpl, [':'], bad_people, [' Or'], bad_people, ['?']]).
+sentence(main, [[' New Theorem Shows That'], bad_people, [' Should All Be Forced To'], punishment, ['.']]).
+sentence(main, [[' Could Electing'], authority_figure, [' Have Been A Bad Idea?']]).
+sentence(main, [[' New'], new_thing, [' Shows That Electing'], authority_figure, [' Was A Terrible Idea That Will Destroy Us All.']]).
 
 sentence(societal_problem, [bad_people]).
 sentence(societal_problem, [[' Racism']]).
@@ -65,6 +68,7 @@ sentence(number_prop, [[' Negative']]).
 sentence(number_prop, [[' Imaginary']]).
 sentence(number_prop, [[' Real']]).
 sentence(number_prop, [[' Complex']]).
+sentence(number_prop, [[' Really Big']]).
 
 sentence(obvious_statement, [[' 0 + 0 = 0']]).
 sentence(obvious_statement, [[' 2 + 2 = 4']]).
@@ -184,6 +188,7 @@ sentence(number, [[' The Golden Ratio']]).
 sentence(number, [[' The'], adj, [' Ratio']]).
 sentence(number, [[' 0/0']]).
 sentence(number, [[' The Number Of'], bad_people, [' That'], authority_figure, [' Still Has To Hunt Down And Force To'], punishment]).
+sentence(number, [[Num]]):- random(-100, 100, R), atom_number(Num2, R), atom_concat(' ', Num2, Num).
 
 sentence(set, [[' The Set Of All Numbers Found By'], really_bad_way_to_find_numbers]).
 sentence(set, [[' The Set Of All The Best Things In The World']]).

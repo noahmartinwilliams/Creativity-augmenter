@@ -5,6 +5,28 @@ sentence(main, [main_intern, company, product, ['. drink the kool-aid.']]).
 sentence(main, [[' The'], product, ['. For'], adj, [' developers who need'], adj, thing_you_need, ['.']]).
 sentence(main, [[' How do you keep a'], bad_thing, [' out of production? by constantly testing your'], product, [' after every'], event, ['!']]).
 sentence(main, [[' All the cool kids are using'], product, [' because of this ad, and you should join them'], ['.']]).
+sentence(main, [[' Deploy from'], place, [' with'], product, ['.']]).
+sentence(main, [[' Survive the apocalypse with'], product, [' only from'], company, ['.']]).
+sentence(main, [[' Survive the crashed economy with'], product, [' only from'], company, ['.']]).
+sentence(main, [[' Debug your'], product, [' with'], difficulty_level, ['. use'], product, [' the smartest'], dev_environment, [' for'], type_of_dev, [' developers.']]).
+
+
+sentence(difficulty_level, [[' ease']]).
+sentence(difficulty_level, [[' difficulty']]).
+
+sentence(dev_environment, [[' IDE']]).
+sentence(dev_environment, [[' command line']]).
+sentence(dev_environment, [[' wall of buttons for writing in binary']]).
+sentence(dev_environment, [[' punchcard system']]).
+sentence(dev_environment, [[' teletype']]).
+sentence(dev_environment, [[' terminal']]).
+
+sentence(type_of_dev, [[' webscale']]).
+sentence(type_of_dev, [[' webscale 2.0']]).
+sentence(type_of_dev, [[' Unix']]).
+sentence(type_of_dev, [[' Linux']]).
+sentence(type_of_dev, [[' Javascript']]).
+sentence(type_of_dev, [[' Web']]).
 
 sentence(main_intern, [[' All the cool kids are using'], product, ['.']]).
 sentence(main_intern, [[' Control the chaos of reality with'], product, ['.']]).
@@ -107,6 +129,7 @@ sentence(company, [[' Microsoft']]).
 sentence(company, [[' Oracle']]).
 sentence(company, [[' Cloudera']]).
 
+sentence(place, [[' outer space']]).
 sentence(place, [company]).
 sentence(place, [[' another planet']]).
 sentence(place, [[' a room with a bunch of computers']]).
@@ -126,6 +149,7 @@ sentence(product_intern, [[' better software just in general']]).
 
 sentence(product, [product_intern]).
 sentence(product, [product_intern, [' that catches on fire']]):- maybe.
+sentence(product, [[' bitcoin']]).
 
 sentence(boring_thing, [[' server that\'s painted chrome']]).
 sentence(boring_thing, [[' server that has LEDs on it']]).

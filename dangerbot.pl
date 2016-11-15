@@ -3,6 +3,16 @@ sentence(main, [dangerous_situation, ['!'], stupid_response, stupid_reason]).
 sentence(main, [dangerous_situation, ['! Every man for himself!']]).
 sentence(main, [stupid_paranoia]).
 sentence(main, [[' Make'], sleeping_thing, [' great again!']]).
+sentence(main, [[' Why isn\'t the media talking about'], nonproblem, ['?!']]).
+sentence(main, [[' Only'], nonauthority_figure, [' can solve our'], nonproblem, [' problem!']]).
+sentence(main, [[' What do we want?'], something_terrible, ['! When do we want it?'], some_time, ['!']]).
+
+sentence(something_terrible, [[' nuclear annihilation']]).
+sentence(some_time, [[' now']]).
+sentence(some_time, [[' later']]).
+sentence(some_time, [[' in '], [Time], [' hours']]):- random(0, 100, R), atom_number(Time, R).
+sentence(some_time, [[' yesterday']]).
+sentence(some_time, [[' NEVER']]).
 
 sentence(stupid_paranoia, [[' Only a'], witch, [' would'], logical_thing_to_do, ['!']]).
 sentence(stupid_paranoia, [[' CLEARLY'], serious_problem, [' is just a distraction from'], nonproblem, ['!']]).
@@ -20,14 +30,16 @@ sentence(awful_thing_to_do, [[' wanting to murder poor people']]).
 sentence(awful_thing_to_do, [[' wanting to nuke Mexico']]).
 sentence(awful_thing_to_do, [[' trying to blow up the statue of liberty']]).
 
+sentence(nonauthority_figure, [[' the charming man talking about genocide']]).
 sentence(nonauthority_figure, [this_guy_intern]).
-sentence(nonauthority_figure, [[' a screaming conspiracy theorist on tv']]).
+sentence(nonauthority_figure, [[' a conspiracy theorist on tv']]).
 sentence(nonauthority_figure, [[' a billionaire who stole billions']]).
-sentence(nonauthority_figure, [[' the pastor asking for money in exchange for miracles']]).
+sentence(nonauthority_figure, [[' the televangelist']]).
 sentence(nonauthority_figure, [[' the snake oil salesman']]).
 sentence(nonauthority_figure, [[' the ancient prophecy']]).
 sentence(nonauthority_figure, [[' the ancient Mayans']]).
 sentence(nonauthority_figure, [[' aliens']]).
+sentence(nonauthority_figure, [[' pseudo science']]).
 
 sentence(this_guy_intern, [[' this guy who knows'], this_guy_intern]):- maybe.
 sentence(this_guy_intern, [[' this guy who knows this guys cousin who knows'], this_guy_intern]):- maybe, maybe.
@@ -42,6 +54,7 @@ sentence(sleeping_thing, [[' my Internet friends that I get into shouting matche
 sentence(sleeping_thing, [[' everyone who looks kind of like me']]).
 sentence(sleeping_thing, [[' everyone with the same accent as me']]).
 sentence(sleeping_thing, [[' big scary dragons']]).
+sentence(sleeping_thing, [[' mindless idiots']]).
 
 sentence(random_minority, [[' scary brown people']]).
 sentence(random_minority, [[' people in need of help']]).
@@ -71,6 +84,7 @@ sentence(logical_thing_to_do, [[' remain calm']]).
 sentence(logical_thing_to_do, [[' water plants']]).
 sentence(logical_thing_to_do, [[' use statistics']]).
 sentence(logical_thing_to_do, [[' defend human rights']]).
+sentence(logical_thing_to_do, [[' vote for the most competent leader']]).
 
 sentence(witch, [[' smart person']]).
 sentence(witch, [[' woman']]).
@@ -80,21 +94,25 @@ sentence(witch, [[' socialist']]).
 sentence(witch, [[' traitor']]).
 sentence(witch, [[' feminist']]).
 sentence(witch, [[' smart feminist']]).
+sentence(witch, [[' witch']]).
+sentence(witch, [[' scientist']]).
 
 sentence(stupid_reason, [[' Because it\'s traditional.']]).
-sentence(stupid_reason, [[' Because everyone needs to feel like they have a say in the matter.']]).
+sentence(stupid_reason, [[' Because everyone needs to feel like they have a say in it.']]).
 sentence(stupid_reason, [[' Because this is a democracy.']]).
 sentence(stupid_reason, [[' Because we need to fill our'], quota_to_fill, [' quota.']]).
 sentence(stupid_reason, [[' Because that makes so much sense.']]).
-sentence(stupid_reason, [[' Because that\'s the best way to make decisions.']]).
-sentence(stupid_reason, [[' Because there\'s overwhelming evidence to suggest that this isn\'t a problem.']]).
+sentence(stupid_reason, [[' Because that\'s the best way to do things.']]).
 sentence(stupid_reason, [[' Because that\'s how'], important_thing, [' is supposed to work.']]).
 
+sentence(quota_to_fill, [[' hypocrisy']]).
 sentence(quota_to_fill, [[' awfulness']]).
 sentence(quota_to_fill, [[' stupidity']]).
 sentence(quota_to_fill, [[' racism']]).
 sentence(quota_to_fill, [[' hate']]).
 sentence(quota_to_fill, [[' bad decision']]).
+sentence(quota_to_fill, [[' war']]).
+sentence(quota_to_fill, [[' arrest']]).
 
 sentence(important_thing, [[' sex education']]).
 sentence(important_thing, [[' education']]).
@@ -102,7 +120,10 @@ sentence(important_thing, [[' science']]).
 sentence(important_thing, [[' cancer research']]).
 sentence(important_thing, [[' welfare']]).
 sentence(important_thing, [[' the Internet']]).
+sentence(important_thing, [[' the all knowing AI that runs society']]).
 
+sentence(stupid_response, [[' Let\'s give'], nonauthority_figure, [' a chance!']]).
+sentence(stupid_response, [[' Let\'s give nuclear weapons to an actual fucking neo-Nazi.']]).
 sentence(stupid_response, [[' Let\'s ask'], nonauthority_figure, [' what to do.']]).
 sentence(stupid_response, [[' Let\'s cut the funding to'], important_thing]).
 sentence(stupid_response, [[' Let\'s fill out the proper form and wait twelve months for a response.']]).
@@ -113,7 +134,7 @@ sentence(stupid_response, [[' Let\'s ignore the problem!']]).
 sentence(stupid_response, [[' Let\'s try killing each other!']]).
 sentence(stupid_response, [[' Let\'s take an opinion poll on it!']]).
 sentence(stupid_response, [[' Let\'s all take a vote on whether or not we should do anything!']]).
-sentence(stupid_response, [[' Let\'s make a committee with an infinite number of subcommittees to analyze the problem']]).
+sentence(stupid_response, [[' Let\'s make a committee to analyze the problem']]).
 sentence(stupid_response, [[' Let\'s argue about whether or not it\'s happening!']]).
 sentence(stupid_response, [[' Let\'s debate about it and come up with an answer that everyone likes.']]).
 sentence(stupid_response, [[' Let\'s mindlessly shoot'],  people_to_shoot, [' until the problem gets scared and goes away.']]).
@@ -128,6 +149,8 @@ sentence(random_authority_figure, [[' the presidents campaign manager']]).
 sentence(random_authority_figure, [[' NASA']]).
 sentence(random_authority_figure, [[' the scientific community']]).
 sentence(random_authority_figure, [[' smart people']]).
+sentence(random_authority_figure, [[' the board for protecting'], important_thing]).
+sentence(random_authority_figure, [[' the board for protecting'], important_thing, [' from'], nonproblem]).
 
 sentence(other_side_of_thing, [[' the galaxy']]).
 sentence(other_side_of_thing, [[' the universe']]).
@@ -138,6 +161,7 @@ sentence(irrelevant_issue, [[' terrorism on the other side of'], other_side_of_t
 sentence(irrelevant_issue, [[' how people should use the restroom']]).
 sentence(irrelevant_issue, [[' whether or not lizard people are running the world']]).
 sentence(irrelevant_issue, [[' gun-shaped pop tarts']]).
+sentence(irrelevant_issue, [[' people holding protest signs that I disagree with']]).
 
 sentence(people_to_shoot, [[' people']]).
 sentence(people_to_shoot, [[' brown people']]).
@@ -159,6 +183,8 @@ sentence(serious_problem, [[' sexism']]).
 sentence(serious_problem, [[' poverty']]).
 sentence(serious_problem, [[' "'], dangerous_situation, ['"']]).
 
+sentence(nonproblem, [[' economics']]).
+sentence(nonproblem, [[' the fact that some people are annoying']]).
 sentence(nonproblem, [[' other religions']]).
 sentence(nonproblem, [[' fluoride in the water']]).
 sentence(nonproblem, [[' stripey clouds']]).
@@ -193,6 +219,7 @@ sentence(important_thing, [[' road system']]).
 sentence(important_thing, [[' medical system']]).
 sentence(important_thing, [[' electrical grid']]).
 sentence(important_thing, [[' irrigation system']]).
+sentence(important_thing, [[' All knowing AI']]).
 
 sentence(gravitational_body, [[' the moon']]).
 sentence(gravitational_body, [[' Pluto']]).
