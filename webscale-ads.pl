@@ -11,6 +11,7 @@ sentence(main, [[' Survive the crashed economy with'], product, [', only from'],
 sentence(main, [[' Survive the Trump presidency with'], product, [', only from'], company, ['.']]).
 sentence(main, [[' Debug your'], product, [' with'], difficulty_level, [' by using'], product, [', the smartest'], dev_environment, [' for'], type_of_dev, [' developers.']]).
 sentence(main, [thing_youll_love, [', '], thing_youll_love, [', '], thing_youll_love, ['. That\'s just 3. Read the top 10 things you\'ll love about'], product, ['.']]).
+sentence(main, [['Here are the '], [Number], [' things your'], buzzword, [' warehouse desperately needs.']]):- random(2, 5, R), atom_number(Number, R).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
@@ -114,6 +115,7 @@ sentence(vp, [[' running it on an overhyped computer']]).
 sentence(vp, [[' running it on a glorified server']]).
 sentence(vp, [[' taking advantage of our'], product]).
 
+sentence(buzzword, [[' cloud data']]).
 sentence(buzzword, [[' webscale']]).
 sentence(buzzword, [[' web 2.0']]).
 sentence(buzzword, [[' webscale 2.0 on the cloud']]).
