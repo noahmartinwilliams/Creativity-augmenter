@@ -6,13 +6,20 @@ sentence(main, [[' Make'], sleeping_thing, [' great again!']]).
 sentence(main, [[' Why isn\'t the media talking about'], nonproblem, ['?!']]).
 sentence(main, [[' Only'], nonauthority_figure, [' can solve our'], nonproblem, [' problem!']]).
 sentence(main, [[' What do we want?'], something_terrible, ['! When do we want it?'], some_time, ['!']]).
+sentence(main, [[' Get over it,'], sleeping_thing, [' should come first.']]).
 
 sentence(something_terrible, [[' nuclear annihilation']]).
+sentence(something_terrible, [[' less healthcare']]).
+sentence(something_terrible, [[' nuclear genocide']]).
+sentence(something_terrible, [[' a Nazi to be president']]).
+sentence(something_terrible, [[' more corporate abuse']]).
+
 sentence(some_time, [[' now']]).
 sentence(some_time, [[' later']]).
 sentence(some_time, [[' in '], [Time], [' hours']]):- random(0, 100, R), atom_number(Time, R).
 sentence(some_time, [[' yesterday']]).
 sentence(some_time, [[' NEVER']]).
+sentence(some_time, [[' before we come to our senses']]).
 
 sentence(stupid_paranoia, [[' Only a'], witch, [' would'], logical_thing_to_do, ['!']]).
 sentence(stupid_paranoia, [[' CLEARLY'], serious_problem, [' is just a distraction from'], nonproblem, ['!']]).
@@ -27,8 +34,10 @@ sentence(stupid_paranoia, [[' That quote from'], nonauthority_figure, [' about']
 sentence(awful_thing_to_do, [[' shooting puppies']]).
 sentence(awful_thing_to_do, [[' suing people until they run out of money']]).
 sentence(awful_thing_to_do, [[' wanting to murder poor people']]).
+sentence(awful_thing_to_do, [[' wanting to murder'], random_minority]).
 sentence(awful_thing_to_do, [[' wanting to nuke Mexico']]).
 sentence(awful_thing_to_do, [[' trying to blow up the statue of liberty']]).
+sentence(awful_thing_to_do, [[' killing all'], random_minority]).
 
 sentence(nonauthority_figure, [[' the charming man talking about genocide']]).
 sentence(nonauthority_figure, [this_guy_intern]).
@@ -45,6 +54,8 @@ sentence(this_guy_intern, [[' this guy who knows'], this_guy_intern]):- maybe.
 sentence(this_guy_intern, [[' this guy who knows this guys cousin who knows'], this_guy_intern]):- maybe, maybe.
 sentence(this_guy_intern, [[' this guy']]).
 
+sentence(sleeping_thing, [[' people that hate'], random_minority]).
+sentence(sleeping_thing, [[' people that are roughly the same height as me']]).
 sentence(sleeping_thing, [[' everyone who wears the same tie as me']]).
 sentence(sleeping_thing, [[' America']]):- maybe.
 sentence(sleeping_thing, [[' sheeple']]).
@@ -53,7 +64,6 @@ sentence(sleeping_thing, [[' people I identify with']]).
 sentence(sleeping_thing, [[' my Internet friends that I get into shouting matches with']]).
 sentence(sleeping_thing, [[' everyone who looks kind of like me']]).
 sentence(sleeping_thing, [[' everyone with the same accent as me']]).
-sentence(sleeping_thing, [[' big scary dragons']]).
 sentence(sleeping_thing, [[' mindless idiots']]).
 
 sentence(random_minority, [[' scary brown people']]).
@@ -67,6 +77,7 @@ sentence(random_minority, [[' people I disagree with']]).
 sentence(random_minority, [[' people I don\'t like']]).
 sentence(random_minority, [[' millenials']]).
 sentence(random_minority, [[' super millenials']]).
+sentence(random_minority, [[' nasty women']]).
 
 sentence(meaningless_attribute, [[' gay']]).
 sentence(meaningless_attribute, [[' black']]).
@@ -96,6 +107,7 @@ sentence(witch, [[' feminist']]).
 sentence(witch, [[' smart feminist']]).
 sentence(witch, [[' witch']]).
 sentence(witch, [[' scientist']]).
+sentence(witch, [[' free thinker']]).
 
 sentence(stupid_reason, [[' Because it\'s traditional.']]).
 sentence(stupid_reason, [[' Because everyone needs to feel like they have a say in it.']]).
@@ -129,6 +141,7 @@ sentence(stupid_response, [[' Let\'s cut the funding to'], important_thing]).
 sentence(stupid_response, [[' Let\'s fill out the proper form and wait twelve months for a response.']]).
 sentence(stupid_response, [[' Let\'s cry about it for '], [YearStr], [' years.']]):- random(10, 20, Years), atom_number(YearStr, Years).
 sentence(stupid_response, [[' Let\'s attack anyone who tries to solve the problem.']]).
+sentence(stupid_response, [[' Let\'s attack anyone who tries to'], logical_thing_to_do]).
 sentence(stupid_response, [[' Let\'s argue about whether it should be a man or a woman solving the problem!']]).
 sentence(stupid_response, [[' Let\'s ignore the problem!']]).
 sentence(stupid_response, [[' Let\'s try killing each other!']]).
@@ -143,11 +156,9 @@ sentence(stupid_response, [[' Let\'s argue about'], irrelevant_issue]).
 sentence(stupid_response, [[' Let\'s demand that'], random_authority_figure, [' talk about'], irrelevant_issue, ['!']]).
 sentence(stupid_response, [[' Let\'s show people documentaries about how'], nonproblem, [' are killing us all!']]).
 
-sentence(random_authority_figure, [[' the president']]).
-sentence(random_authority_figure, [[' the vice president']]).
-sentence(random_authority_figure, [[' the presidents campaign manager']]).
 sentence(random_authority_figure, [[' NASA']]).
 sentence(random_authority_figure, [[' the scientific community']]).
+sentence(random_authority_figure, [[' an overqualified woman leader']]).
 sentence(random_authority_figure, [[' smart people']]).
 sentence(random_authority_figure, [[' the board for protecting'], important_thing]).
 sentence(random_authority_figure, [[' the board for protecting'], important_thing, [' from'], nonproblem]).
@@ -172,8 +183,11 @@ sentence(people_to_shoot, [[' anyone smarter than me']]).
 sentence(bad_decision_makers, [[' our smartest idiots']]).
 sentence(bad_decision_makers, [[' our most stubborn old men']]).
 sentence(bad_decision_makers, [[' our stupidest conspiracy theorists']]).
+sentence(bad_decision_makers, [nonauthority_figure]).
 
 
+sentence(serious_problem, [[' white supremacists']]).
+sentence(serious_problem, [[' hate crimes']]).
 sentence(serious_problem, [[' crumbling infrastructure']]).
 sentence(serious_problem, [[' hate']]).
 sentence(serious_problem, [[' racism']]).
@@ -192,6 +206,8 @@ sentence(nonproblem, [[' Hillarys emails']]).
 sentence(nonproblem, [[' terrorists in other countries']]).
 sentence(nonproblem, [[' scary brown people']]).
 sentence(nonproblem, [[' petty crimes committed by'], random_minority]).
+sentence(nonproblem, [[' too many'], random_minority]).
+sentence(nonproblem, [[' not enough'], sleeping_thing]).
 
 sentence(dangerous_situation, [[' the'], vehicle, [' and the'], vehicle, [' are going to crash!']]).
 sentence(dangerous_situation, [gravitational_body, [' is smashing into the Earth']]).

@@ -115,6 +115,7 @@ sentence(type_of_number, [[' Real']]).
 sentence(type_of_number, [[' Really Real']]).
 sentence(type_of_number, [[' Fo\' Real']]).
 
+sentence(really_bad_way_to_find_numbers, [[' Running An Overly Complicated Algorithm']]).
 sentence(really_bad_way_to_find_numbers, [[' Drawing It Randomly Out Of A Hat']]).
 sentence(really_bad_way_to_find_numbers, [[' Making One Up On The Spot']]).
 sentence(really_bad_way_to_find_numbers, [[' Adding A Bunch Of Numbers Together Just For Fun']]).
@@ -127,7 +128,7 @@ sentence(unlikely_thing, [[' The Last Number']]).
 sentence(unlikely_thing, [[' The True Number']]).
 sentence(unlikely_thing, [[' The Chosen Number']]).
 
-
+sentence(new_thing, [[' Claim From Some Conspiracy Nutcase']]).
 sentence(new_thing, [[' Theorem']]).
 sentence(new_thing, [[' Axiom']]).
 sentence(new_thing, [[' Calculation']]).

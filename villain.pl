@@ -8,8 +8,11 @@ sentence(main, [[' Only a TRUE'], thing_the_hero_is, [' can defeat the'], doomsd
 
 sentence(thing_the_hero_is, [[' moron']]).
 sentence(thing_the_hero_is, [[' dumb good-guy']]).
+sentence(thing_the_hero_is, [[' village idiot']]).
+sentence(thing_the_hero_is, [[' chosen one who was chosen at random']]).
 
 sentence(thing_to_do, [[' rejigger the proton amplifier pump']]).
+sentence(thing_to_do, [[' hand nuclear weapons to a Nazi']]).
 sentence(thing_to_do, [[' press the really big red button']]).
 sentence(thing_to_do, [[' press the really big red button'], post_adj]).
 sentence(thing_to_do, [[' destroy the'], doomsday_device]).
@@ -26,14 +29,18 @@ sentence(quote, [[' Little did you know that this whole time I\'ve been planning
 sentence(personsg, [[' the president']]).
 sentence(personsg, [[' the vice president']]).
 sentence(personsg, [[' the vice president\'s second cousin']]).
+sentence(personsg, [[' the genocidal maniac we have as a president']]).
 
 sentence(stupid_plan, [[' take over'], place, [' with a'], doomsday_device]).
 sentence(stupid_plan, [[' destroy'], place, [' with a'], doomsday_device]).
 sentence(stupid_plan, [[' steal the'], thing_to_steal]).
+sentence(stupid_plan, [[' throw the'], thing_to_steal, [' into'], place]).
 
 sentence(thing_to_demand, [[' one BILLION dollars']]).
 sentence(thing_to_demand, [[' all the monies']]).
 sentence(thing_to_demand, [[' a five star review for my phone app']]).
+sentence(thing_to_demand, [[' enough'], power_source, ['s to power my'], doomsday_device]).
+sentence(thing_to_demand, [[' the'], thing_to_steal]).
 
 sentence(power_source, [[' robots']]).
 sentence(power_source, [[' giant diamond']]).
@@ -56,11 +63,13 @@ sentence(awesome_thing_to_be, [[' leader of'], people_to_lead]).
 sentence(people_to_lead, [[' humanity']]).
 sentence(people_to_lead, [[' the giant robot gerbils']]).
 sentence(people_to_lead, [[' the robot army']]).
+sentence(people_to_lead, [[' army of trolls']]).
 
 sentence(place, [[' earth']]).
 sentence(place, [[' the universe']]).
 sentence(place, [[' my apartment']]).
 sentence(place, [[' my trailer']]).
+sentence(place, [[' our country']]).
 
 sentence(thing_to_return_with, [[' the ultimate'], doomsday_device]).
 sentence(thing_to_return_with, [[' more ammo']]).
@@ -96,6 +105,15 @@ sentence(abstract_thing, [[' evilness']]).
 sentence(n, [doomsday_device]).
 sentence(n, [[' gerbil']]).
 sentence(n, [[' robot army']]).
+sentence(n, [[' giant robot crab']]).
+sentence(n, [[' giant robot bug']]).
+sentence(n, [vehicle, [' that transforms into a'], n]).
+
+sentence(vehicle, [[' car']]).
+sentence(vehicle, [[' jet']]).
+sentence(vehicle, [[' airliner']]).
+sentence(vehicle, [[' spaceship']]).
+sentence(vehicle, [[' rocket']]).
 
 sentence(adj, [[' laser-powered']]).
 sentence(adj, [[' 500 giga-watt']]).
