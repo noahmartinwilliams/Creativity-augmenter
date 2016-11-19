@@ -7,6 +7,7 @@ sentence(main, [[' Why isn\'t the media talking about'], nonproblem, ['?!']]).
 sentence(main, [[' Only'], nonauthority_figure, [' can solve our'], nonproblem, [' problem!']]).
 sentence(main, [[' What do we want?'], something_terrible, ['! When do we want it?'], some_time, ['!']]).
 sentence(main, [[' Get over it,'], sleeping_thing, [' should come first.']]).
+sentence(main, [[' We should respect the'], nonauthority_figure, [' who wants to give us'], something_terrible, ['!']]).
 
 sentence(something_terrible, [[' nuclear annihilation']]).
 sentence(something_terrible, [[' less healthcare']]).

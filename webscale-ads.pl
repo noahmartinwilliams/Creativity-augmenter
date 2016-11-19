@@ -12,6 +12,7 @@ sentence(main, [[' Survive the Trump presidency with'], product, [', only from']
 sentence(main, [[' Debug your'], product, [' with'], difficulty_level, [' by using'], product, [', the smartest'], dev_environment, [' for'], type_of_dev, [' developers.']]).
 sentence(main, [thing_youll_love, [', '], thing_youll_love, [', '], thing_youll_love, ['. That\'s just 3. Read the top 10 things you\'ll love about'], product, ['.']]).
 sentence(main, [['Here are the '], [Number], [' things your'], buzzword, [' warehouse desperately needs.']]):- random(2, 5, R), atom_number(Number, R).
+sentence(main, [[' Want to deliver'], product, [' to market ', Percent, '% faster?'], [' Use'], product, [' by'], company, ['.']]):- random(0, 100, R), atom_number(Percent, R).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
