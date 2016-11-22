@@ -3,11 +3,11 @@ sentence(main, [[' Oh no!'], dangerous_situation, ['!'], stupid_response]).
 sentence(main, [dangerous_situation, ['!'], stupid_response, stupid_reason]).
 sentence(main, [dangerous_situation, ['! Every man for himself!']]).
 sentence(main, [stupid_paranoia]).
-sentence(main, [[' Make'], sleeping_thing, [' great again!']]).
+sentence(main, [[' Make'], arbitrary_group, [' great again!']]).
 sentence(main, [[' Why isn\'t the media talking about'], nonproblem, ['?!']]).
 sentence(main, [[' Only'], nonauthority_figure, [' can solve our'], nonproblem, [' problem!']]).
 sentence(main, [[' What do we want?'], something_terrible, ['! When do we want it?'], some_time, ['!']]).
-sentence(main, [[' Get over it,'], sleeping_thing, [' should come first.']]).
+sentence(main, [[' Get over it,'], arbitrary_group, [' should come first.']]).
 sentence(main, [[' We should respect the'], nonauthority_figure, [' who wants to give us'], something_terrible, ['!']]).
 
 sentence(something_terrible, [[' nuclear annihilation']]).
@@ -15,6 +15,7 @@ sentence(something_terrible, [[' less healthcare']]).
 sentence(something_terrible, [[' nuclear genocide']]).
 sentence(something_terrible, [[' a Nazi to be president']]).
 sentence(something_terrible, [[' more corporate abuse']]).
+sentence(something_terrible, [[' impractically huge walls built for racism']]).
 
 sentence(some_time, [[' now']]).
 sentence(some_time, [[' later']]).
@@ -28,7 +29,7 @@ sentence(stupid_paranoia, [[' CLEARLY'], serious_problem, [' is just a distracti
 sentence(stupid_paranoia, [[' I don\'t want them putting chemicals in the water that turn the freaking'], animals, meaningless_attribute, ['!']]).
 sentence(stupid_paranoia, [[' If we don\'t act now'], random_minority, [' will be flooding into the US!']]).
 sentence(stupid_paranoia, [[' You people need to focus on REAL problems! Problems like'], nonproblem, ['!']]).
-sentence(stupid_paranoia, [[' Wake up'], sleeping_thing, ['!']]).
+sentence(stupid_paranoia, [[' Wake up'], arbitrary_group, ['!']]).
 sentence(stupid_paranoia, [[' I know this guy who knows'], nonauthority_figure, [' who says that'], random_minority, [' are trying to take over the world!']]).
 sentence(stupid_paranoia, [[' How can you talk about'], serious_problem, [' when'], nonproblem, [' is happening?']]).
 sentence(stupid_paranoia, [[' That quote from'], nonauthority_figure, [' about'], awful_thing_to_do, [' is taken out of context!']]).
@@ -56,17 +57,19 @@ sentence(this_guy_intern, [[' this guy who knows'], this_guy_intern]):- maybe.
 sentence(this_guy_intern, [[' this guy who knows this guys cousin who knows'], this_guy_intern]):- maybe, maybe.
 sentence(this_guy_intern, [[' this guy']]).
 
-sentence(sleeping_thing, [[' people that hate'], random_minority]).
-sentence(sleeping_thing, [[' people that are roughly the same height as me']]).
-sentence(sleeping_thing, [[' everyone who wears the same tie as me']]).
-sentence(sleeping_thing, [[' America']]):- maybe.
-sentence(sleeping_thing, [[' sheeple']]).
-sentence(sleeping_thing, [[' society']]).
-sentence(sleeping_thing, [[' people I identify with']]).
-sentence(sleeping_thing, [[' my Internet friends that I get into shouting matches with']]).
-sentence(sleeping_thing, [[' everyone who looks kind of like me']]).
-sentence(sleeping_thing, [[' everyone with the same accent as me']]).
-sentence(sleeping_thing, [[' mindless idiots']]).
+sentence(arbitrary_group, [[' people that use the same model of car as me']]).
+sentence(arbitrary_group, [[' people who weigh as much as I do']]).
+sentence(arbitrary_group, [[' people that hate'], random_minority]).
+sentence(arbitrary_group, [[' people that are roughly the same height as me']]).
+sentence(arbitrary_group, [[' everyone who wears the same tie as me']]).
+sentence(arbitrary_group, [[' America']]):- maybe.
+sentence(arbitrary_group, [[' sheeple']]).
+sentence(arbitrary_group, [[' society']]).
+sentence(arbitrary_group, [[' people I identify with']]).
+sentence(arbitrary_group, [[' my Internet friends that I get into shouting matches with']]).
+sentence(arbitrary_group, [[' everyone who looks kind of like me']]).
+sentence(arbitrary_group, [[' everyone with the same accent as me']]).
+sentence(arbitrary_group, [[' mindless idiots']]).
 
 sentence(random_minority, [[' scary brown people']]).
 sentence(random_minority, [[' people in need of help']]).
@@ -209,7 +212,7 @@ sentence(nonproblem, [[' terrorists in other countries']]).
 sentence(nonproblem, [[' scary brown people']]).
 sentence(nonproblem, [[' petty crimes committed by'], random_minority]).
 sentence(nonproblem, [[' too many'], random_minority]).
-sentence(nonproblem, [[' not enough'], sleeping_thing]).
+sentence(nonproblem, [[' not enough'], arbitrary_group]).
 
 sentence(dangerous_situation, [[' the'], vehicle, [' and the'], vehicle, [' are going to crash!']]).
 sentence(dangerous_situation, [gravitational_body, [' is smashing into the Earth']]).
