@@ -1,3 +1,4 @@
+#! ./augment-creativity.pl
 sentence(main, [main_intern]).
 sentence(main, [main_intern, [' Only on the'], product, ['.']]).
 sentence(main, [main_intern, [' So your users can'], thing_users_do, [' while they'], thing_users_do, ['.']]).

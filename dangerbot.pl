@@ -1,3 +1,4 @@
+#! ./augment-creativity.pl
 sentence(main, [[' Oh no!'], dangerous_situation, ['!'], stupid_response]).
 sentence(main, [dangerous_situation, ['!'], stupid_response, stupid_reason]).
 sentence(main, [dangerous_situation, ['! Every man for himself!']]).

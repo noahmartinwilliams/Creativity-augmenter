@@ -1,3 +1,4 @@
+#! ./augment-creativity.pl
 sentence(main, [[' Foolish mortals!'], quote, ['!']]).
 sentence(main, [[' Foolish mortals!'], quote, ['! Muahahaha!']]).
 sentence(main, [quote, ['! Muahahaha!']]).
@@ -5,6 +6,27 @@ sentence(main, [quote, ['!']]).
 sentence(main, [[' You fool! You can\'t'], thing_to_do, ['! You\'ll destroy us all!']]).
 sentence(main, [[' Muahahaha! Did you really think you could'], thing_to_do, ['?']]).
 sentence(main, [[' Only a TRUE'], thing_the_hero_is, [' can defeat the'], doomsday_device]).
+sentence(main, [[' Fools! Little did you know that'], stupid_thing_to_do, [' was a mistake!']]).
+sentence(main, [[' Figures that'], type_of_hero, [' would try'], stupid_thing_to_do, ['! Muahahaha!']]).
+
+sentence(type_of_hero, [[' an agent from'], spy_agency]).
+sentence(type_of_hero, [[' a secret agent']]).
+sentence(type_of_hero, [[' a superhero']]).
+sentence(type_of_hero, [[' someone from'], place]).
+
+sentence(spy_agency, [[' the CIA']]).
+sentence(spy_agency, [[' the FBI']]).
+sentence(spy_agency, [[' one of the countless government agencies no one knows about']]).
+sentence(spy_agency, [[' the NSA']]).
+
+sentence(stupid_thing_to_do, [[' giving nuclear weapons to a Nazi']]).
+sentence(stupid_thing_to_do, [[' electing a Nazi for president']]).
+sentence(stupid_thing_to_do, [[' killing all of your allies']]).
+sentence(stupid_thing_to_do, [[' blowing up the'], doomsday_device]).
+sentence(stupid_thing_to_do, [[' trusting your instincts by'], stupid_thing_to_do]).
+sentence(stupid_thing_to_do, [[' walking right into my trap']]).
+sentence(stupid_thing_to_do, [[' listening to your feelings by'], stupid_thing_to_do]).
+sentence(stupid_thing_to_do, [[' getting angry and'], stupid_thing_to_do]).
 
 sentence(thing_the_hero_is, [[' moron']]).
 sentence(thing_the_hero_is, [[' dumb good-guy']]).
@@ -65,7 +87,9 @@ sentence(people_to_lead, [[' the giant robot gerbils']]).
 sentence(people_to_lead, [[' the robot army']]).
 sentence(people_to_lead, [[' army of trolls']]).
 
-sentence(place, [[' earth']]).
+sentence(place, [[' Omicron Persei 8']]).
+sentence(place, [[' Alpha Centauri']]).
+sentence(place, [[' Earth']]).
 sentence(place, [[' the universe']]).
 sentence(place, [[' my apartment']]).
 sentence(place, [[' my trailer']]).

@@ -1,3 +1,4 @@
+#! ./augment-creativity.pl
 sentence(main, [main_intern]).
 sentence(main, [main_intern, [' It\'s only'], np, [' science!']]).
 sentence(main_intern, [[' We just need more'], npl, ['! :D']]).

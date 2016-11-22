@@ -1,3 +1,4 @@
+#! ./augment-creativity.pl
 sentence(main, [[' What I Learned Trying To'], punishment, [' And The Friends I Made Along The Way.']]).
 sentence(main, [[' Largest'], type_of_number, [' Number Discovered By'], really_bad_way_to_find_numbers, ['.']]).
 sentence(main, [personsg, [' Proves Idea That'], obvious_statement, [' Is'], bad_thing, ['.']]).
@@ -7,7 +8,7 @@ sentence(main, [authority_figure, [' Bans Idea That'], obvious_statement, ['.']]
 sentence(main, [authority_figure, [' Bans'], theorem, ['.']]).
 sentence(main, [authority_figure, [' Demands Sacrifices!']]).
 sentence(main, [authority_figure, [' Declares War On'], bad_people, ['.']]).
-sentence(main, [[' Is'], personsg, [' Secretely One Of The'], bad_people, ['?']]).
+sentence(main, [[' Is'], personsg, [' Secretly One Of The'], bad_people, ['?']]).
 sentence(main, [authority_figure, [' Demands That You Ignore'], thing_to_ignore]).
 sentence(main, [[' New'], new_thing, [' Bets That'], obvious_statement, [' And I Think They\'re Wrong.']]).
 sentence(main, [bad_people, [' Are ALL'], bad_people, ['. Trust Me. I Know Because I Tried'], method_of_proof, ['.']]).
