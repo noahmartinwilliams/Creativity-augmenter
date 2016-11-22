@@ -10,6 +10,7 @@ sentence(main, [[' Deploy from'], place, [' with'], product, ['.']]).
 sentence(main, [[' Survive the apocalypse with'], product, [', only from'], company, ['.']]).
 sentence(main, [[' Survive the crashed economy with'], product, [', only from'], company, ['.']]).
 sentence(main, [[' Survive the Trump presidency with'], product, [', only from'], company, ['.']]).
+sentence(main, [[' Survive the Nazi presidency with'], product, [', only from'], company, ['.']]).
 sentence(main, [[' Debug your'], product, [' with'], difficulty_level, [' by using'], product, [', the smartest'], dev_environment, [' for'], type_of_dev, [' developers.']]).
 sentence(main, [thing_youll_love, [', '], thing_youll_love, [', '], thing_youll_love, ['. That\'s just 3. Read the top 10 things you\'ll love about'], product, ['.']]).
 sentence(main, [['Here are the '], [Number], [' things your'], buzzword, [' warehouse desperately needs.']]):- random(2, 5, R), atom_number(Number, R).
@@ -55,10 +56,15 @@ sentence(main_intern, [[' Make'], things_users_have, [' easier for your users by
 sentence(main_intern, [[' Use'], product, [' to manage your'], type_of_website, [' site.']]).
 sentence(main_intern, [[' What does'], product, [' mean to you?'], product, [' for'], adj, [' developers.']]).
 sentence(main_intern, [[' Monetize your'], product, [' with ads. Only on the'], product, ['.']]).
+sentence(main_intern, [[' Do you know the potential of your company\'s'], product, ['?']]).
+sentence(main_intern, [[' Is your company\'s'], product, [' built for the future?']]).
+sentence(main_intern, [[' Have straight up actual Nazis hacked your'], product, ['? Fight back with'], product, ['!']]).
 
+sentence(bad_thing, [[' Nazi president']]).
 sentence(bad_thing, [[' Fortran code']]).
 sentence(bad_thing, [[' bug']]).
 sentence(bad_thing, [[' design flaw']]).
+sentence(bad_thing, [[' major design flaw']]).
 sentence(bad_thing, [[' backdoor']]).
 sentence(bad_thing, [[' code injection attack']]).
 sentence(bad_thing, [[' hacked compiler']]).
