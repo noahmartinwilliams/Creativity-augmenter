@@ -33,6 +33,8 @@ sentence(main, [personpl, [':'], bad_people, [' Or'], bad_people, ['?']]).
 sentence(main, [[' New Theorem Shows That'], bad_people, [' Should All Be Forced To'], punishment, ['.']]).
 sentence(main, [[' Could Electing'], authority_figure, [' Have Been A Bad Idea?']]).
 sentence(main, [[' New'], new_thing, [' Shows That Electing'], authority_figure, [' Was A Terrible Idea That Will Destroy Us All.']]).
+sentence(main, [[' Would'], authority_figure, [' Commit Nuclear Genocide? YES.']]).
+sentence(main, [[' Electoral College Elects'], authority_figure, [' As President By'], method_of_proof, [', And I Think They\'re Wrong.']]).
 
 sentence(societal_problem, [bad_people]).
 sentence(societal_problem, [[' Racism']]).

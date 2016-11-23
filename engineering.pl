@@ -29,11 +29,11 @@ sentence(action_movie_sentence, [action_movie_sentence_intern, reason]).
 sentence(action_movie_sentence, [action_movie_sentence_intern, ['. There\'s no time to explain']]).
 sentence(action_movie_sentence, [[' We\'ve run out of'], npl, [' So we need to'], vp, ['!']]).
 sentence(action_movie_sentence, [[' Listen! The only way to'], vp, [' is to'], tv, [' the'], np]).
+sentence(action_movie_sentence, [[' If we can just get enough'], np, [' we can'], vp, reason, ['!']]).
 
 sentence(question, [[' What if we tried'], iving, [' the'], np, [' before it'], ives]).
 
 sentence(iving, [[' shooting']]).
-sentence(iving, [[' reseting']]).
 sentence(ives, [[' explodes']]).
 sentence(ives, [[' combusts']]).
 sentence(ives, [[' reassembles']]).
@@ -52,6 +52,8 @@ sentence(iving, [[' recalibrating']]).
 sentence(iving, [[' analyzing']]).
 sentence(iving, [[' discombobulating']]).
 sentence(iving, [[' convoluting']]).
+sentence(iving, [[' reprogramming']]).
+sentence(iving, [[' reseting']]).
 
 sentence(ives, [[' explodes']]).
 sentence(ives, [[' reactivates']]).
@@ -75,8 +77,8 @@ sentence(reason, [[' because we\'re out of'], np]).
 sentence(reason, [[' because I accidentally'], tved, [' the'], np]).
 
 sentence(vp, [tv, [' the'], np]).
-sentence(vp, [ived, [' the'], np]).
 
+sentence(tv, [[' reprogram']]).
 sentence(tv, [[' recalibrate']]).
 sentence(tv, [[' rejigger']]).
 sentence(tv, [[' reactivate']]).
@@ -91,6 +93,8 @@ sentence(tved, [[' fixed']]).
 sentence(tved, [[' calculated']]).
 sentence(tved, [[' quantified']]).
 sentence(tved, [[' integrated']]).
+sentence(tved, [[' programmed']]).
+sentence(tved, [[' reprogrammed']]).
 
 sentence(np, [nsg]).
 sentence(np, [adj, nsg]).
@@ -115,6 +119,7 @@ sentence(adj, [[' magneto']]).
 sentence(nsg, [adj, [' detector']]).
 sentence(nsg, [[' graviolie detector']]).
 sentence(nsg, [[' capacitor']]).
+sentence(nsg, [[' processor']]).
 sentence(nsg, [[' laser']]).
 sentence(nsg, [[' rocket']]).
 sentence(nsg, [[' chromodynamic langrangian']]).
@@ -124,6 +129,11 @@ sentence(nsg, [[' resistor']]).
 sentence(nsg, [[' inductor']]).
 sentence(nsg, [[' proton']]).
 
+sentence(npl, [[' resistors']]).
+sentence(npl, [[' capacitors']]).
+sentence(npl, [[' inductors']]).
+sentence(npl, [[' transistors']]).
+sentence(npl, [[' processors']]).
 sentence(npl, [[' graviolies']]).
 sentence(npl, [[' rocket fuel']]).
 sentence(npl, [[' energy']]).

@@ -8,6 +8,7 @@ sentence(main, [[' Muahahaha! Did you really think you could'], thing_to_do, ['?
 sentence(main, [[' Only a TRUE'], thing_the_hero_is, [' can defeat the'], doomsday_device]).
 sentence(main, [[' Fools! Little did you know that'], stupid_thing_to_do, [' was a mistake!']]).
 sentence(main, [[' Figures that'], type_of_hero, [' would try'], stupid_thing_to_do, ['! Muahahaha!']]).
+sentence(main, [[' If ONLY you had tried'], stupid_thing_to_do, [' you might have succeeded at'], stupid_thing_to_do, ['!']]).
 
 sentence(type_of_hero, [[' an agent from'], spy_agency]).
 sentence(type_of_hero, [[' a secret agent']]).

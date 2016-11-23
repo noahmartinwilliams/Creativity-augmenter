@@ -9,6 +9,7 @@ sentence(main, [[' Only'], nonauthority_figure, [' can solve our'], nonproblem, 
 sentence(main, [[' What do we want?'], something_terrible, ['! When do we want it?'], some_time, ['!']]).
 sentence(main, [[' Get over it,'], arbitrary_group, [' should come first.']]).
 sentence(main, [[' We should respect the'], nonauthority_figure, [' who wants to give us'], something_terrible, ['!']]).
+sentence(main, [[' Now that'], arbitrary_group, [' are great again we can focus on getting'], something_terrible, ['!']]).
 
 sentence(something_terrible, [[' nuclear annihilation']]).
 sentence(something_terrible, [[' less healthcare']]).
@@ -16,6 +17,9 @@ sentence(something_terrible, [[' nuclear genocide']]).
 sentence(something_terrible, [[' a Nazi to be president']]).
 sentence(something_terrible, [[' more corporate abuse']]).
 sentence(something_terrible, [[' impractically huge walls built for racism']]).
+sentence(something_terrible, [[' war crimes']]).
+sentence(something_terrible, [[' crimes against humanity']]).
+sentence(something_terrible, [[' genocide against'], random_minority]).
 
 sentence(some_time, [[' now']]).
 sentence(some_time, [[' later']]).
@@ -60,6 +64,7 @@ sentence(this_guy_intern, [[' this guy']]).
 sentence(arbitrary_group, [[' people that use the same model of car as me']]).
 sentence(arbitrary_group, [[' people who weigh as much as I do']]).
 sentence(arbitrary_group, [[' people that hate'], random_minority]).
+sentence(arbitrary_group, [[' people who love'], nonauthority_figure]).
 sentence(arbitrary_group, [[' people that are roughly the same height as me']]).
 sentence(arbitrary_group, [[' everyone who wears the same tie as me']]).
 sentence(arbitrary_group, [[' America']]):- maybe.

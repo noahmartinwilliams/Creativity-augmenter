@@ -13,6 +13,8 @@ sentence(main, [main_acronym]):- maybe, maybe.
 sentence(main_intern, [bad_thing, ['-remover']]).
 sentence(main_intern, [thing, [' energizer']]).
 sentence(main_intern, [thing, ['-recalibrator']]).
+sentence(main_intern, [thing, ['-discombobulator']]).
+sentence(main_intern, [thing, ['-detector']]).
 sentence(main_intern, [thing, [' repair robot']]).
 sentence(main_intern, [thing, [' analyzer']]).
 sentence(main_intern, [thing, [' finder']]).
@@ -31,44 +33,46 @@ sentence(n, [[' waffle']]).
 sentence(n, [[' tree']]).
 sentence(n, [[' buffalo']]).
 sentence(n, [[' machine']]).
-sentence(n, [[' machine']]).
-sentence(n, [[' stapler']]).
 sentence(n, [[' door']]).
 sentence(n, [[' card']]).
-sentence(n, [[' pencil']]).
 sentence(n, [[' pen']]).
-sentence(n, [[' thing']]).
 
 sentence(thousand, [[Thousand]]):- random(1, 10, R), atom_number(N, R), atom_concat(N, '000', Thousand).
 sentence(version_number, [[Version]]):- random(1, 10, R), atom_number(N, R), atom_concat(N, '.0', Version).
+sentence(version_number, [[Version]]):- random(1, 10, R), random(1, 20, R2), atom_number(N, R), atom_number(N2, R2), atom_concat(N, '.', VersionTmp), atom_concat(VersionTmp, N2, Version).
 
+sentence(bad_thing, [[' David Duke']]).
 sentence(bad_thing, [[' Nazi']]).
 sentence(bad_thing, [[' Trump']]).
 sentence(bad_thing, [[' bad idea']]).
 sentence(bad_thing, [[' Republican']]).
 sentence(bad_thing, [[' murderous AI']]).
+sentence(bad_thing, [[' Neo-Nazi']]).
+sentence(bad_thing, [[' Trump voter']]).
 
+sentence(thing, [n]).
 sentence(thing, [tool]).
-sentence(thing, [['system']]).
+sentence(n, [['system']]).
 sentence(thing, [machine]).
-sentence(thing, [[' particle']]).
-sentence(thing, [[' energy']]).
-sentence(thing, [[' hallway']]).
-sentence(thing, [[' building']]).
-sentence(thing, [[' bus']]).
-sentence(thing, [[' tree']]).
-sentence(thing, [[' dog']]).
-sentence(thing, [[' stapler']]).
-sentence(thing, [[' pencil']]).
-sentence(thing, [[' pen']]).
-sentence(thing, [[' laptop']]).
-sentence(thing, [[' mouse']]).
-sentence(thing, [[' phone']]).
-sentence(thing, [[' door']]).
-sentence(thing, [[' thing']]).
+sentence(n, [[' particle']]).
+sentence(n, [[' energy']]).
+sentence(n, [[' hallway']]).
+sentence(n, [[' building']]).
+sentence(n, [[' bus']]).
+sentence(n, [[' tree']]).
+sentence(n, [[' dog']]).
+sentence(n, [[' stapler']]).
+sentence(n, [[' pencil']]).
+sentence(n, [[' laptop']]).
+sentence(n, [[' mouse']]).
+sentence(n, [[' phone']]).
+sentence(n, [[' thing']]).
 
 sentence(tool, [[' hair dryer']]).
 sentence(tool, [[' screw driver']]).
+sentence(tool, [[' soldering iron']]).
+sentence(tool, [[' welding torch']]).
+sentence(tool, [[' calculator']]).
 
 sentence(machine, [[' generator']]).
 sentence(machine, [thing, [' accelerator']]).
