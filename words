@@ -19,7 +19,6 @@ word('abode').
 word('abort').
 word('about').
 word('above').
-word('abuse').
 word('abut').
 word('abuts').
 word('abuzz').
@@ -39,9 +38,7 @@ word('acmes').
 word('acne').
 word('acorn').
 word('acre').
-word('acres').
 word('acrid').
-word('acted').
 word('actor').
 word('acts').
 word('acute').
@@ -140,7 +137,6 @@ word('along').
 word('aloof').
 word('aloud').
 word('alpha').
-word('also').
 word('altar').
 word('alter').
 word('altho').
@@ -193,11 +189,9 @@ word('anons').
 word('ante').
 word('anted').
 word('antes').
-word('anti').
 word('antic').
 word('antis').
 word('ants').
-word('anus').
 word('anvil').
 word('aorta').
 word('apace').
@@ -239,11 +233,9 @@ word('armed').
 word('armor').
 word('arms').
 word('army').
-word('aroma').
 word('arose').
 word('array').
 word('arrow').
-word('arson').
 word('arts').
 word('artsy').
 word('arty').
@@ -1101,8 +1093,6 @@ word('coax').
 word('cobra').
 word('cobs').
 word('cocci').
-word('cock').
-word('cocks').
 word('cocky').
 word('cocoa').
 word('coda').
@@ -1465,8 +1455,6 @@ word('dice').
 word('diced').
 word('dices').
 word('dicey').
-word('dick').
-word('dicks').
 word('dicky').
 word('dicta').
 word('died').
@@ -1887,8 +1875,6 @@ word('fade').
 word('faded').
 word('fades').
 word('fads').
-word('fagot').
-word('fags').
 word('fail').
 word('fails').
 word('fain').
@@ -4286,7 +4272,6 @@ word('penal').
 word('pence').
 word('pends').
 word('penes').
-word('penis').
 word('penny').
 word('pens').
 word('pent').
@@ -4609,7 +4594,6 @@ word('purse').
 word('push').
 word('pushy').
 word('puss').
-word('pussy').
 word('puts').
 word('putt').
 word('putts').
@@ -4656,7 +4640,6 @@ word('quoit').
 word('quota').
 word('quote').
 word('quoth').
-word('rabbi').
 word('rabid').
 word('race').
 word('raced').
@@ -6434,8 +6417,6 @@ word('vexes').
 word('vial').
 word('vials').
 word('viand').
-word('vibe').
-word('vibes').
 word('vicar').
 word('vice').
 word('viced').
@@ -6487,14 +6468,12 @@ word('volt').
 word('volts').
 word('vomit').
 word('vote').
-word('voted').
 word('voter').
 word('votes').
 word('vouch').
 word('vowed').
 word('vowel').
 word('vows').
-word('vulva').
 word('vying').
 word('wacko').
 word('wacky').
@@ -6504,7 +6483,6 @@ word('wader').
 word('wades').
 word('wadi').
 word('wadis').
-word('wads').
 word('wafer').
 word('waft').
 word('wafts').
@@ -6634,7 +6612,6 @@ word('wheal').
 word('wheat').
 word('wheel').
 word('whelk').
-word('whelp').
 word('when').
 word('whens').
 word('where').
@@ -6700,7 +6677,6 @@ word('wince').
 word('winch').
 word('wind').
 word('winds').
-word('windy').
 word('wine').
 word('wined').
 word('wines').

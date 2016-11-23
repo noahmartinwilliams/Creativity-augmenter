@@ -162,7 +162,7 @@ sentence(adj, [[' fancy']]).
 sentence(adj, [[' nonfancy']]).
 sentence(adj, [[' savvy']]).
 sentence(adj, [[' nonsavvy']]).
-sentence(adj, [[' Nazi free']]).
+sentence(adj, [[' Nazi-free']]).
 
 sentence(company, [[' Microsoft']]).
 sentence(company, [[' Oracle']]).
