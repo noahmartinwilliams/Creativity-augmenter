@@ -15,6 +15,7 @@ sentence(main, [[' Debug your'], product, [' with'], difficulty_level, [' by usi
 sentence(main, [thing_youll_love, [', '], thing_youll_love, [', '], thing_youll_love, ['. That\'s just 3. Read the top 10 things you\'ll love about'], product, ['.']]).
 sentence(main, [['Here are the '], [Number], [' things your'], buzzword, [' warehouse desperately needs.']]):- random(2, 5, R), atom_number(Number, R).
 sentence(main, [[' Want to deliver'], product, [' to market ', Percent, '% faster?'], [' Use'], product, [' by'], company, ['.']]):- random(0, 100, R), atom_number(Percent, R).
+sentence(main, [[' Are you terrified of president Trump? Fight back with'], product, [' by'], company, ['.']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
@@ -22,6 +23,7 @@ sentence(thing_youll_love, [[' computers within  computers']]).
 sentence(thing_youll_love, [[' lack of interface']]).
 sentence(thing_youll_love, [[' 8MB of memory and constantly swapping']]).
 sentence(thing_youll_love, [[' 64K of memory']]).
+sentence(thing_youll_love, [[' a Nazi eliminator']]).
 
 sentence(difficulty_level, [[' ease']]).
 sentence(difficulty_level, [[' difficulty']]).
@@ -42,6 +44,7 @@ sentence(type_of_dev, [[' Unix']]).
 sentence(type_of_dev, [[' Linux']]).
 sentence(type_of_dev, [[' Javascript']]).
 sentence(type_of_dev, [[' Web']]).
+sentence(type_of_dev, [[' anti-Nazi']]).
 
 sentence(main_intern, [[' All the cool kids are using'], product, ['.']]).
 sentence(main_intern, [[' Control the chaos of reality with'], product, ['.']]).
@@ -58,8 +61,10 @@ sentence(main_intern, [[' What does'], product, [' mean to you?'], product, [' f
 sentence(main_intern, [[' Monetize your'], product, [' with ads. Only on the'], product, ['.']]).
 sentence(main_intern, [[' Do you know the potential of your company\'s'], product, ['?']]).
 sentence(main_intern, [[' Is your company\'s'], product, [' built for the future?']]).
-sentence(main_intern, [[' Have straight up actual Nazis hacked your'], product, ['? Fight back with'], product, ['!']]).
+sentence(main_intern, [[' Have straight up actual'], bad_people, [' hacked your'], product, ['? Fight back with'], product, ['!']]).
+sentence(main_intern, [[' Users LOVE to'], thing_users_do, ['. So make it easier and build your business with'], product, ['!']]).
 
+sentence(bad_thing, [[' a Trump presidency']]).
 sentence(bad_thing, [[' Nazi president']]).
 sentence(bad_thing, [[' Fortran code']]).
 sentence(bad_thing, [[' bug']]).
@@ -83,6 +88,7 @@ sentence(type_of_website, [[' social media']]).
 sentence(type_of_website, [[' social news']]).
 sentence(type_of_website, [[' news']]).
 sentence(type_of_website, [[' funny cat pictures blog']]).
+sentence(type_of_website, [[' anti-Nazi blog']]).
 
 sentence(boring_thing_to_do, [[' track a bunch of random numbers']]).
 sentence(boring_thing_to_do, [[' manage their customer database']]).
@@ -98,6 +104,7 @@ sentence(thing_you_need, [[' obvious advice']]).
 sentence(thing_you_need, [[' marketing hype']]).
 sentence(thing_you_need, [[' stupid ideas']]).
 
+sentence(thing_users_do, [[' sue Trump until he runs out of money']]).
 sentence(thing_users_do, [[' complain about'], bad_people]).
 sentence(thing_users_do, [[' view funny cat pics']]).
 sentence(thing_users_do, [[' give you every detail of their'], things_users_have]).
@@ -122,6 +129,7 @@ sentence(vp, [[' pressing random keys until'], event, [' happens']]).
 sentence(vp, [[' running it on an overhyped computer']]).
 sentence(vp, [[' running it on a glorified server']]).
 sentence(vp, [[' taking advantage of our'], product]).
+sentence(vp, [[' punching Nazis in the face with'], product]).
 
 sentence(buzzword, [[' cloud data']]).
 sentence(buzzword, [[' webscale']]).
@@ -154,12 +162,14 @@ sentence(adj, [[' fancy']]).
 sentence(adj, [[' nonfancy']]).
 sentence(adj, [[' savvy']]).
 sentence(adj, [[' nonsavvy']]).
+sentence(adj, [[' Nazi free']]).
 
 sentence(company, [[' Microsoft']]).
 sentence(company, [[' Oracle']]).
 sentence(company, [[' Cloudera']]).
 sentence(company, [[' Informix']]).
 sentence(company, [[' my brother\'s struggling startup']]).
+sentence(company, [[' that one sketchy company you heard about online']]).
 
 sentence(place, [[' outer space']]).
 sentence(place, [company]).
@@ -181,6 +191,7 @@ sentence(product_intern, [[' better software in general']]).
 
 sentence(product, [product_intern]).
 sentence(product, [product_intern, [' that catches on fire']]):- maybe.
+sentence(product, [product_intern, [' version 2.0']]).
 sentence(product, [[' bitcoin']]).
 
 sentence(boring_thing, [[' server that\'s painted chrome']]).
@@ -190,12 +201,25 @@ sentence(boring_thing, [[' cloud']]).
 sentence(boring_thing, [[' sentient toaster']]).
 sentence(boring_thing, [[' web framework']]).
 sentence(boring_thing, [[' smart refrigerator']]).
+sentence(boring_thing, [[' smart toaster']]).
+sentence(boring_thing, [[' smart printer']]).
 
 sentence(bad_people, [[' evil script-kiddies']]).
+sentence(bad_people, [[' the NSA']]).
 sentence(bad_people, [[' evil scanner monkeys']]).
 sentence(bad_people, [[' treasonous systemd heretics']]).
 sentence(bad_people, [[' noSQL fan boys']]).
 sentence(bad_people, [[' search engine optimization companies']]).
+sentence(bad_people, [[' Nazis']]).
+sentence(bad_people, [[' Nazis']]).
+sentence(bad_people, [[' Nazis']]).
+sentence(bad_people, [[' Nazis']]).
+sentence(bad_people, [[' Nazis']]).
+sentence(bad_people, [[' Neo-Nazis']]).
+sentence(bad_people, [[' Neo-Nazis']]).
+sentence(bad_people, [[' Neo-Nazis']]).
+sentence(bad_people, [[' Trump supporting Neo-Nazis']]).
+sentence(bad_people, [[' evil hackers']]).
 
 sentence(event, [[' the end of the world']]).
 sentence(event, [[' something']]).
@@ -204,3 +228,5 @@ sentence(event, [[' the witch hunt of all'], bad_people]).
 sentence(event, [[' the year of the Linux desktop']]).
 sentence(event, [[' the dotcom bubble bursts']]).
 sentence(event, [[' when the cloud starts to rain']]).
+sentence(event, [[' the nuclear apocalypse']]).
+sentence(event, [[' when Trump launches the nukes']]).
