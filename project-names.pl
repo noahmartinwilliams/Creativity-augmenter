@@ -8,6 +8,7 @@ sentence(main, [main_intern, [' '], thousand]).
 sentence(main, [main_intern, [' version '], version_number]).
 sentence(main, [main_intern, [' robot']]).
 sentence(main, [main_intern, [' robot version '], version_number]).
+sentence(main, [main_intern, edition, [' edition']]).
 sentence(main, [main_acronym]):- maybe, maybe.
 
 sentence(main_intern, [bad_thing, ['-remover']]).
@@ -22,12 +23,22 @@ sentence(main_intern, [thing, [' subsystem']]).
 sentence(main_intern, [thing, [' rebuilder']]).
 sentence(main_intern, [adj, adj, n]).
 sentence(main_intern, [adj, adj, adj, n]).
+sentence(main_intern, [[' deluxe'], thing]).
+
+sentence(edition, [[' webscale']]).
+sentence(edition, [[' webscale 2.0']]).
+sentence(edition, [[' IoT']]).
+sentence(edition, [[' better']]).
+sentence(edition, [[' shiny']]).
+sentence(edition, [[' chrome']]).
 
 sentence(adj, [[' giant']]).
 sentence(adj, [[' screaming']]).
 sentence(adj, [[' computerized']]).
 sentence(adj, [[' electric']]).
 sentence(adj, [[' atomic']]).
+sentence(adj, [[' big']]).
+sentence(adj, [[' tiny']]).
 
 sentence(n, [[' waffle']]).
 sentence(n, [[' tree']]).
@@ -35,20 +46,28 @@ sentence(n, [[' buffalo']]).
 sentence(n, [[' machine']]).
 sentence(n, [[' door']]).
 sentence(n, [[' card']]).
+sentence(n, [[' beaker']]).
+sentence(n, [[' test tube']]).
 sentence(n, [[' pen']]).
+sentence(n, [[' soda can']]).
+sentence(n, [[' filing cabinet']]).
+sentence(n, [[' lamp']]).
 
 sentence(thousand, [[Thousand]]):- random(1, 10, R), atom_number(N, R), atom_concat(N, '000', Thousand).
 sentence(version_number, [[Version]]):- random(1, 10, R), atom_number(N, R), atom_concat(N, '.0', Version).
 sentence(version_number, [[Version]]):- random(1, 10, R), random(1, 20, R2), atom_number(N, R), atom_number(N2, R2), atom_concat(N, '.', VersionTmp), atom_concat(VersionTmp, N2, Version).
 
-sentence(bad_thing, [[' David Duke']]).
-sentence(bad_thing, [[' Nazi']]).
-sentence(bad_thing, [[' Trump']]).
-sentence(bad_thing, [[' bad idea']]).
-sentence(bad_thing, [[' Republican']]).
-sentence(bad_thing, [[' murderous AI']]).
-sentence(bad_thing, [[' Neo-Nazi']]).
-sentence(bad_thing, [[' Trump voter']]).
+sentence(bad_thing_intern, [[' David Duke']]).
+sentence(bad_thing_intern, [[' Nazi']]).
+sentence(bad_thing_intern, [[' Trump']]).
+sentence(bad_thing_intern, [[' bad idea']]).
+sentence(bad_thing_intern, [[' Republican']]).
+sentence(bad_thing_intern, [[' murderous AI']]).
+sentence(bad_thing_intern, [[' Neo-Nazi']]).
+sentence(bad_thing_intern, [[' Trump voter']]).
+
+sentence(bad_thing, [bad_thing_intern]).
+sentence(bad_thing, [adj, bad_thing_intern]).
 
 sentence(thing, [n]).
 sentence(thing, [tool]).
@@ -73,6 +92,9 @@ sentence(tool, [[' screw driver']]).
 sentence(tool, [[' soldering iron']]).
 sentence(tool, [[' welding torch']]).
 sentence(tool, [[' calculator']]).
+sentence(tool, [[' wrench']]).
+sentence(tool, [[' nut driver']]).
+sentence(tool, [[' power supply']]).
 
 sentence(machine, [[' generator']]).
 sentence(machine, [thing, [' accelerator']]).

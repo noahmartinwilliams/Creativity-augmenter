@@ -20,7 +20,7 @@ sentence(main, [personsg, [' Finally Proves'], obvious_statement, [' By'], metho
 sentence(main, [number, [' Clearly Does Not Exist And Anyone Claiming Otherwise Is One Of The'], bad_people, ['.']]).
 sentence(main, [personsg, [' Is Clearly Insane And Those Who Disagree Are Clearly'], bad_people, ['.']]).
 sentence(main, [[' Do'], bad_people, [' Really Deserve Human Rights?']]).
-sentence(main, [[' Is'], really_bad_way_to_find_numbers, [' Really A Safe Way To Take Measurements When Building Bridges? YES.']]).
+sentence(main, [[' Is'], really_bad_way_to_find_numbers, [' Really A Safe Way To Take Measurements When Building'], structure, ['? YES.']]).
 sentence(main, [[' Only'], bad_people, [' And'], bad_people, [' Would Question'], authority_figure, ['. I Proved This By'], method_of_proof, ['.']]).
 sentence(main, [[' What I Learned Dating One Of The'], bad_people, [' And What It\'s Like To Turn Your Lover In To'], authority_figure, ['.']]).
 sentence(main, [[' New'], new_thing, [' Proves That'], authority_figure, [' Is All-Powerful By'], method_of_proof, ['.']]).
@@ -36,10 +36,19 @@ sentence(main, [[' New'], new_thing, [' Shows That Electing'], authority_figure,
 sentence(main, [[' Would'], authority_figure, [' Commit Nuclear Genocide? YES.']]).
 sentence(main, [[' Electoral College Elects'], authority_figure, [' As President By'], method_of_proof, [', And I Think They\'re Wrong.']]).
 
+sentence(structure_intern, [[' Bridges']]).
+sentence(structure_intern, [[' Buildings']]).
+sentence(structure_intern, [[' Giant Robots']]).
+sentence(structure_intern, [[' Giant Statues']]).
+
+sentence(structure, [structure_intern]).
+sentence(structure, [[' Four Dimensional'], structure_intern]):- maybe, maybe.
+
 sentence(societal_problem, [bad_people]).
 sentence(societal_problem, [[' Racism']]).
 sentence(societal_problem, [[' Sexism']]).
 sentence(societal_problem, [[' Boring Math Textbooks']]).
+sentence(societal_problem, [[' Math Becoming Too Politicized']]).
 
 % The creative process here is to imagine Cecil Ballwin from welcome to Nightvale saying all of this.
 sentence(authority_figure, [[' The Math Gods']]).
@@ -56,6 +65,7 @@ sentence(authority_figure, [[' The Dark Powers']]).
 sentence(authority_figure, [[' The Mighty Hypercube That Controls Your Thoughts']]).
 sentence(authority_figure, [[' The Math God Theocracy']]).
 sentence(authority_figure, [[' Statistics']]).
+sentence(authority_figure, [[' Set Theory']]).
 
 sentence(punishment, [[' Count To'], number]).
 sentence(punishment, [[' Count To Negative'], number]).
@@ -63,7 +73,16 @@ sentence(punishment, [[' Solve A Horrendous Equation For X']]).
 sentence(punishment, [[' Find The Definite Integral Of sin(x)/x From'], number, [' To'], number, [' By Hand']]).
 sentence(punishment, [[' Manually Take The Square Root Of'], number]).
 sentence(punishment, [[' Take The Inverse Of A Square Matrix Of Length'], number]).
-sentence(punishment, [[' Manually Dividing'], number, [' By'], number]).
+sentence(punishment, [[' Manually Divide'], number, [' By'], number]).
+sentence(punishment, [[' Plot'], function, [' By Hand']]).
+
+sentence(function, [[' sin(x)']]).
+sentence(function, [[' cos(x)']]).
+sentence(function, [[' 1/x']]).
+sentence(function, [[' x^2']]).
+sentence(function, [[' ln(x)']]).
+sentence(function, [[' sqrt(x)']]).
+sentence(function, [[' x^3-3*x']]).
 
 sentence(number_prop, [[' Irrational']]).
 sentence(number_prop, [[' Rational']]).
@@ -72,6 +91,7 @@ sentence(number_prop, [[' Imaginary']]).
 sentence(number_prop, [[' Real']]).
 sentence(number_prop, [[' Complex']]).
 sentence(number_prop, [[' Really Big']]).
+sentence(number_prop, [[' Made Up']]).
 
 sentence(obvious_statement, [[' 0 + 0 = 0']]).
 sentence(obvious_statement, [[' 2 + 2 = 4']]).
@@ -91,6 +111,7 @@ sentence(personsg, [[' My Ex-Wife']]).
 sentence(personsg, [[' Pythagorus']]).
 sentence(personsg, [[' An Old Math Professor']]).
 sentence(personsg, [[' The Monolith Of Infinity']]).
+sentence(personsg, [[' The New President Who\'s Going To Nuke Us']]).
 
 sentence(personpl, [[' The Pi Government']]).
 sentence(personpl, [[' Mathematicians']]).
@@ -100,6 +121,8 @@ sentence(personpl, [[' Math Gods']]).
 sentence(personpl, [[' Dark Powers']]).
 sentence(personpl, [bad_people]).
 sentence(personpl, [[' People']]).
+sentence(personpl, [[' Weird People Who Prefer Science']]).
+sentence(personpl, [[' Nerds']]).
 
 sentence(adj, [type_of_number]).
 sentence(adj, [coloradj]).
@@ -123,6 +146,8 @@ sentence(really_bad_way_to_find_numbers, [[' Drawing It Randomly Out Of A Hat']]
 sentence(really_bad_way_to_find_numbers, [[' Making One Up On The Spot']]).
 sentence(really_bad_way_to_find_numbers, [[' Adding A Bunch Of Numbers Together Just For Fun']]).
 sentence(really_bad_way_to_find_numbers, [[' Taking The Factorial Of'], number]).
+sentence(really_bad_way_to_find_numbers, [[' Integrating'], function, [' From'], number, [' To'], number]).
+sentence(really_bad_way_to_find_numbers, [[' Reading Random Sensor Measurements']]).
 
 sentence(unlikely_thing, [[' Waldo']]).
 sentence(unlikely_thing, [[' The Lost Number']]).

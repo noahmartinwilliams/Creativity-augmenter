@@ -6,9 +6,59 @@ sentence(main, [quote, ['!']]).
 sentence(main, [[' You fool! You can\'t'], thing_to_do, ['! You\'ll destroy us all!']]).
 sentence(main, [[' Muahahaha! Did you really think you could'], thing_to_do, ['?']]).
 sentence(main, [[' Only a TRUE'], thing_the_hero_is, [' can defeat the'], doomsday_device]).
-sentence(main, [[' Fools! Little did you know that'], stupid_thing_to_do, [' was a mistake!']]).
-sentence(main, [[' Figures that'], type_of_hero, [' would try'], stupid_thing_to_do, ['! Muahahaha!']]).
-sentence(main, [[' If ONLY you had tried'], stupid_thing_to_do, [' you might have succeeded at'], stupid_thing_to_do, ['!']]).
+sentence(main, [[' Fools! Little did you know that'], stupid_thing_to_do_ing, [' was a mistake!']]).
+sentence(main, [[' Figures that'], type_of_hero, [' would try'], stupid_thing_to_do_ing, ['! Muahahaha!']]).
+sentence(main, [[' If ONLY you had tried'], stupid_thing_to_do_ing, [' you might have succeeded at'], stupid_thing_to_do_ing, ['!']]).
+sentence(main, [[' Try'], stupid_thing_to_do_ing, [' and I might spare your life!']]).
+sentence(main, [[' We are not so different you and I. I'], stupid_thing_to_do_ed, [', you'], stupid_thing_to_do_ed, ['.']]).
+sentence(main, [[' Now allow me to explain my evil plan to'], bad_plan, ['!']]).
+sentence(main, [stupid_thing_to_do_ing, [' was only a set back! I will prevail by'], bad_plan_ing, ['!']]).
+sentence(main, [[' You hear that? That\'s the sound of'], abstract_thing, ['!']]).
+sentence(main, [[' Kneel before your new'], master, ['!']]).
+sentence(main, [[' Kneel before your new'], master, [', and I might spare'], thing_to_spare, ['!']]).
+sentence(main, [[' They will suffer'], thing_to_suffer_from, [' as I have suffered'], thing_to_suffer_from, ['!']]).
+sentence(main, [[' You cannot'], bad_thing_to_do_to_me, ['! I'], reason_you_cannot_destroy_me, ['!']]).
+sentence(main, [[' I am your'], master, ['! You cannot'], bad_thing_to_do_to_me, ['!'], reason_you_cannot_destroy_me, ['!']]).
+sentence(main, [[' With the completion of my'], doomsday_device, [' none shall'], bad_thing_to_do_to_me, ['!']]).
+
+sentence(reason_you_cannot_destroy_me, [[' I created you']]).
+sentence(reason_you_cannot_destroy_me, [[' I helped make you']]).
+sentence(reason_you_cannot_destroy_me, [[' I had some input on making you']]).
+sentence(reason_you_cannot_destroy_me, [[' I patented you']]).
+sentence(reason_you_cannot_destroy_me, [[' I asked you nicely not to']]).
+
+sentence(bad_thing_to_do_to_me, [[' destroy me']]).
+sentence(bad_thing_to_do_to_me, [[' sell me insurance']]).
+sentence(bad_thing_to_do_to_me, [[' annoy me']]).
+sentence(bad_thing_to_do_to_me, [[' steal my'], doomsday_device]).
+
+sentence(thing_to_suffer_from, [[' annoying telemarketers']]).
+sentence(thing_to_suffer_from, [[' a 5 hour powerpoint']]).
+sentence(thing_to_suffer_from, [[' my wrath']]).
+sentence(thing_to_suffer_from, [[' your wrath']]).
+sentence(thing_to_suffer_from, [[' the wrath of their new'], master]).
+sentence(thing_to_suffer_from, [[' freaking sharks with freaking lasers on their heads']]).
+
+sentence(thing_to_spare, [[' your life']]).
+sentence(thing_to_spare, [[' you from my 5 hour powerpoint']]).
+sentence(thing_to_spare, [place, [' from destruction']]).
+sentence(thing_to_spare, [[' some change']]).
+sentence(thing_to_spare, [[' you of the details']]).
+sentence(thing_to_spare, [[' you of the details of my evil plan']]).
+
+sentence(master, [[' king']]).
+sentence(master, [[' king of kingliness']]).
+sentence(master, [[' manager']]).
+sentence(master, [[' head of operations']]).
+sentence(master, [[' CEO']]).
+sentence(master, [[' safety inspector']]).
+
+sentence(bad_plan, [[' destroy'], place, [' with'], doomsday_device]).
+sentence(bad_plan_ing, [[' destroying'], place, [' with'], doomsday_device]).
+sentence(bad_plan, [[' steal the'], thing_to_steal]).
+sentence(bad_plan_ing, [[' stealing the'], thing_to_steal]).
+sentence(bad_plan, [[' steal the'], thing_to_steal, [' with'], doomsday_device]).
+sentence(bad_plan_ing, [[' stealing the'], thing_to_steal, [' with'], doomsday_device]).
 
 sentence(type_of_hero, [[' an agent from'], spy_agency]).
 sentence(type_of_hero, [[' a secret agent']]).
@@ -20,14 +70,22 @@ sentence(spy_agency, [[' the FBI']]).
 sentence(spy_agency, [[' one of the countless government agencies no one knows about']]).
 sentence(spy_agency, [[' the NSA']]).
 
-sentence(stupid_thing_to_do, [[' giving nuclear weapons to a Nazi']]).
-sentence(stupid_thing_to_do, [[' electing a Nazi for president']]).
-sentence(stupid_thing_to_do, [[' killing all of your allies']]).
-sentence(stupid_thing_to_do, [[' blowing up the'], doomsday_device]).
-sentence(stupid_thing_to_do, [[' trusting your instincts by'], stupid_thing_to_do]).
-sentence(stupid_thing_to_do, [[' walking right into my trap']]).
-sentence(stupid_thing_to_do, [[' listening to your feelings by'], stupid_thing_to_do]).
-sentence(stupid_thing_to_do, [[' getting angry and'], stupid_thing_to_do]).
+sentence(stupid_thing_to_do_ing, [[' giving nuclear weapons to a Nazi']]).
+sentence(stupid_thing_to_do_ed, [[' gave nuclear weapons to Nazis']]).
+sentence(stupid_thing_to_do_ing, [[' electing a Nazi for president']]).
+sentence(stupid_thing_to_do_ed, [[' elected a Nazi for president']]).
+sentence(stupid_thing_to_do_ing, [[' killing all of your allies']]).
+sentence(stupid_thing_to_do_ed, [[' killed all of your allies']]).
+sentence(stupid_thing_to_do_ing, [[' blowing up the'], doomsday_device]).
+sentence(stupid_thing_to_do_ed, [[' blew up the'], doomsday_device]).
+sentence(stupid_thing_to_do_ing, [[' trusting your instincts by'], stupid_thing_to_do_ing]).
+sentence(stupid_thing_to_do_ed, [[' trusted your instincts by'], stupid_thing_to_do_ing]).
+sentence(stupid_thing_to_do_ing, [[' walking right into my trap']]).
+sentence(stupid_thing_to_do_ed, [[' walked right into my trap']]).
+sentence(stupid_thing_to_do_ing, [[' listening to your feelings by'], stupid_thing_to_do_ing]).
+sentence(stupid_thing_to_do_ed, [[' listened to your feelings by'], stupid_thing_to_do_ing]).
+sentence(stupid_thing_to_do_ing, [[' getting angry and'], stupid_thing_to_do_ing]).
+sentence(stupid_thing_to_do_ed, [[' got angry and'], stupid_thing_to_do_ing]).
 
 sentence(thing_the_hero_is, [[' moron']]).
 sentence(thing_the_hero_is, [[' dumb good-guy']]).
@@ -108,6 +166,9 @@ sentence(thing_to_return_with, [[' a'], n]).
 sentence(animal, [[' squirrel']]).
 sentence(animal, [[' crab']]).
 
+sentence(doomsday_device, [adj, [' black hole']]).
+sentence(doomsday_device, [[' evil doomsday device']]).
+sentence(doomsday_device, [[' army of'], gerbils]).
 sentence(doomsday_device, [adj, [' robot']]).
 sentence(doomsday_device, [adj, [' laser']]).
 sentence(doomsday_device, [[' adjective laser']]).
@@ -120,12 +181,23 @@ sentence(doomsday_device, [adj, animal]).
 sentence(doomsday_device, [adj, [' bubble']]).
 sentence(doomsday_device, [[' sword of'], abstract_thing]).
 
+sentence(gerbils, [[' gerbils']]).
+sentence(gerbils, [[' dancing teddy bears']]).
+sentence(gerbils, [[' hamsters']]).
+sentence(gerbils, [[' cats']]).
+sentence(gerbils, [[' owls']]).
+sentence(gerbils, [[' marshmallows']]).
+
 sentence(abstract_thing, [[' truth']]).
 sentence(abstract_thing, [[' persuasion']]).
 sentence(abstract_thing, [[' stupidity']]).
 sentence(abstract_thing, [[' weirdness']]).
 sentence(abstract_thing, [[' justice']]).
 sentence(abstract_thing, [[' evilness']]).
+sentence(abstract_thing, [[' cheating']]).
+sentence(abstract_thing, [[' my evil plan']]).
+sentence(abstract_thing, [[' my evil plan working']]).
+sentence(abstract_thing, [[' my evil plan failing']]).
 
 sentence(n, [doomsday_device]).
 sentence(n, [[' gerbil']]).

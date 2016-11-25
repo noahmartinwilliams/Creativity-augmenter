@@ -16,6 +16,7 @@ sentence(main, [thing_youll_love, [', '], thing_youll_love, [', '], thing_youll_
 sentence(main, [['Here are the '], [Number], [' things your'], buzzword, [' warehouse desperately needs.']]):- random(2, 5, R), atom_number(Number, R).
 sentence(main, [[' Want to deliver'], product, [' to market ', Percent, '% faster?'], [' Use'], product, [' by'], company, ['.']]):- random(0, 100, R), atom_number(Percent, R).
 sentence(main, [[' Are you terrified of president Trump? Fight back with'], product, [' by'], company, ['.']]).
+sentence(main, [vp, [' today and get a coupon for'], product, ['!']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
@@ -24,11 +25,13 @@ sentence(thing_youll_love, [[' lack of interface']]).
 sentence(thing_youll_love, [[' 8MB of memory and constantly swapping']]).
 sentence(thing_youll_love, [[' 64K of memory']]).
 sentence(thing_youll_love, [[' a Nazi eliminator']]).
+sentence(thing_youll_love, [[' a gameboy emulator']]).
 
 sentence(difficulty_level, [[' ease']]).
 sentence(difficulty_level, [[' difficulty']]).
 sentence(difficulty_level, [[' slight difficulty']]).
 sentence(difficulty_level, [[' minor annoyances']]).
+sentence(difficulty_level, [[' extreme difficulty']]).
 
 sentence(dev_environment, [[' IDE']]).
 sentence(dev_environment, [[' command line']]).
@@ -48,14 +51,14 @@ sentence(type_of_dev, [[' anti-Nazi']]).
 
 sentence(main_intern, [[' All the cool kids are using'], product, ['.']]).
 sentence(main_intern, [[' Control the chaos of reality with'], product, ['.']]).
-sentence(main_intern, [[' Make your'], boring_thing, buzzword, [' by'], vp, ['.']]).
-sentence(main_intern, [[' Make your'], boring_thing, adj, [' by'], vp, ['.']]).
-sentence(main_intern, [[' Access your'], adj, boring_thing, [' from anywhere by'], vp, ['.']]).
-sentence(main_intern, [[' Access your'], adj, boring_thing, postadj, [' from anywhere by'], vp, ['.']]).
+sentence(main_intern, [[' Make your'], boring_thing, buzzword, [' by'], vp_ing, ['.']]).
+sentence(main_intern, [[' Make your'], boring_thing, adj, [' by'], vp_ing, ['.']]).
+sentence(main_intern, [[' Access your'], adj, boring_thing, [' from anywhere by'], vp_ing, ['.']]).
+sentence(main_intern, [[' Access your'], adj, boring_thing, postadj, [' from anywhere by'], vp_ing, ['.']]).
 sentence(main_intern, [[' Real developers use the'], product, [' to'], boring_thing_to_do, ['.']]).
-sentence(main_intern, [[' Deploy your'], boring_thing, [' more easily by'], vp, ['.']]).
-sentence(main_intern, [[' Deploy your'], boring_thing, [' faster by'], vp, ['.']]).
-sentence(main_intern, [[' Make'], things_users_have, [' easier for your users by'], vp]).
+sentence(main_intern, [[' Deploy your'], boring_thing, [' more easily by'], vp_ing, ['.']]).
+sentence(main_intern, [[' Deploy your'], boring_thing, [' faster by'], vp_ing, ['.']]).
+sentence(main_intern, [[' Make'], things_users_have, [' easier for your users by'], vp_ing]).
 sentence(main_intern, [[' Use'], product, [' to manage your'], type_of_website, [' site.']]).
 sentence(main_intern, [[' What does'], product, [' mean to you?'], product, [' for'], adj, [' developers.']]).
 sentence(main_intern, [[' Monetize your'], product, [' with ads. Only on the'], product, ['.']]).
@@ -89,6 +92,7 @@ sentence(type_of_website, [[' social news']]).
 sentence(type_of_website, [[' news']]).
 sentence(type_of_website, [[' funny cat pictures blog']]).
 sentence(type_of_website, [[' anti-Nazi blog']]).
+sentence(type_of_website, [product, [' forum']]).
 
 sentence(boring_thing_to_do, [[' track a bunch of random numbers']]).
 sentence(boring_thing_to_do, [[' manage their customer database']]).
@@ -121,15 +125,29 @@ sentence(things_users_have, [[' morning routines']]).
 sentence(things_users_have, [[' rashes']]).
 sentence(things_users_have, [[' innate desire for advertisements']]).
 
-sentence(vp, [[' upgrading to our advanced'], product]).
-sentence(vp, [[' setting it on fire']]).
-sentence(vp, [[' switching to the'], product]).
-sentence(vp, [[' moving it to'], place]).
-sentence(vp, [[' pressing random keys until'], event, [' happens']]).
-sentence(vp, [[' running it on an overhyped computer']]).
-sentence(vp, [[' running it on a glorified server']]).
-sentence(vp, [[' taking advantage of our'], product]).
-sentence(vp, [[' punching Nazis in the face with'], product]).
+sentence(vp_ing, [[' upgrading to our advanced'], product]).
+sentence(vp_ed, [[' upgraded to our advanced'], product]).
+sentence(vp, [[' upgrade to our advanced'], product]).
+sentence(vp_ing, [[' setting it on fire']]).
+sentence(vp_ed, [[' set it on fire']]).
+sentence(vp_ing, [[' switching to the'], product]).
+sentence(vp_ed, [[' switched to the'], product]).
+sentence(vp, [[' switch to the'], product]).
+sentence(vp_ing, [[' moving it to'], place]).
+sentence(vp_ed, [[' moved it to'], place]).
+sentence(vp_ing, [[' pressing random keys until'], event, [' happens']]).
+sentence(vp_ed, [[' pressed random keys until'], event, [' happens']]).
+sentence(vp, [[' press random keys until'], event, [' happens']]).
+sentence(vp_ing, [[' running it on an overhyped computer']]).
+sentence(vp_ed, [[' ran it on an overhyped computer']]).
+sentence(vp_ing, [[' running it on a glorified server']]).
+sentence(vp_ed, [[' ran it on a glorified server']]).
+sentence(vp_ing, [[' taking advantage of our'], product]).
+sentence(vp_ed, [[' took advantage of our'], product]).
+sentence(vp, [[' take advantage of our'], product]).
+sentence(vp_ing, [[' punching Nazis in the face with'], product]).
+sentence(vp_ed, [[' punched Nazis in the face with'], product]).
+sentence(vp, [[' punch Nazis in the face with'], product]).
 
 sentence(buzzword, [[' cloud data']]).
 sentence(buzzword, [[' webscale']]).
@@ -142,6 +160,7 @@ sentence(postadj, [[' solution']]).
 sentence(postadj, [[' problem']]).
 sentence(postadj, [[' thing']]).
 sentence(postadj, [[' machine']]).
+sentence(postadj, [[' analyzer']]).
 
 sentence(adj, [[' SQL']]).
 sentence(adj, [[' barely usable']]).
@@ -227,6 +246,6 @@ sentence(event, [[' something interesting']]).
 sentence(event, [[' the witch hunt of all'], bad_people]).
 sentence(event, [[' the year of the Linux desktop']]).
 sentence(event, [[' the dotcom bubble bursts']]).
-sentence(event, [[' when the cloud starts to rain']]).
+sentence(event, [[' the cloud starts to rain']]).
 sentence(event, [[' the nuclear apocalypse']]).
-sentence(event, [[' when Trump launches the nukes']]).
+sentence(event, [[' Trump launches the nukes']]).

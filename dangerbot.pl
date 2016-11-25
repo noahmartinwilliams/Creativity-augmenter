@@ -5,11 +5,23 @@ sentence(main, [dangerous_situation, ['! Every man for himself!']]).
 sentence(main, [stupid_paranoia]).
 sentence(main, [[' Make'], arbitrary_group, [' great again!']]).
 sentence(main, [[' Why isn\'t the media talking about'], nonproblem, ['?!']]).
-sentence(main, [[' Only'], nonauthority_figure, [' can solve our'], nonproblem, [' problem!']]).
 sentence(main, [[' What do we want?'], something_terrible, ['! When do we want it?'], some_time, ['!']]).
 sentence(main, [[' Get over it,'], arbitrary_group, [' should come first.']]).
 sentence(main, [[' We should respect the'], nonauthority_figure, [' who wants to give us'], something_terrible, ['!']]).
 sentence(main, [[' Now that'], arbitrary_group, [' are great again we can focus on getting'], something_terrible, ['!']]).
+sentence(main, [arbitrary_group, [' are the master race!']]).
+sentence(main, [[' Only'], nonauthority_figure, [' can'], stupid_thing_to_do, ['!']]).
+sentence(main, [[' Now that'], arbitrary_group, [' are great again we can'], stupid_thing_to_do, ['!']]).
+
+sentence(stupid_thing_to_do, [[' make'], arbitrary_group, [' great again']]).
+sentence(stupid_thing_to_do_ing, [[' making'], arbitrary_group, [' great again']]).
+sentence(stupid_thing_to_do_ed, [[' made'], arbitrary_group, [' great again']]).
+sentence(stupid_thing_to_do, [[' give us'], something_terrible]).
+sentence(stupid_thing_to_do_ing, [[' giving us'], something_terrible]).
+sentence(stupid_thing_to_do_ed, [[' gave us'], something_terrible]).
+sentence(stupid_thing_to_do, [[' solve our'], nonproblem, [' problem']]).
+sentence(stupid_thing_to_do_ing, [[' solving our'], nonproblem, [' problem']]).
+sentence(stupid_thing_to_do_ed, [[' solved our'], nonproblem, [' problem']]).
 
 sentence(something_terrible, [[' nuclear annihilation']]).
 sentence(something_terrible, [[' less healthcare']]).
@@ -67,7 +79,7 @@ sentence(arbitrary_group, [[' people that hate'], random_minority]).
 sentence(arbitrary_group, [[' people who love'], nonauthority_figure]).
 sentence(arbitrary_group, [[' people that are roughly the same height as me']]).
 sentence(arbitrary_group, [[' everyone who wears the same tie as me']]).
-sentence(arbitrary_group, [[' America']]):- maybe.
+sentence(arbitrary_group, [[' Americans']]):- maybe.
 sentence(arbitrary_group, [[' sheeple']]).
 sentence(arbitrary_group, [[' society']]).
 sentence(arbitrary_group, [[' people I identify with']]).
@@ -219,6 +231,7 @@ sentence(nonproblem, [[' petty crimes committed by'], random_minority]).
 sentence(nonproblem, [[' too many'], random_minority]).
 sentence(nonproblem, [[' not enough'], arbitrary_group]).
 
+sentence(dangerous_situation, [[' aliens are invading from'], gravitational_body]).
 sentence(dangerous_situation, [[' the'], vehicle, [' and the'], vehicle, [' are going to crash!']]).
 sentence(dangerous_situation, [gravitational_body, [' is smashing into the Earth']]).
 sentence(dangerous_situation, [[' The'], important_thing, [' is down']]).
@@ -253,3 +266,4 @@ sentence(gravitational_body, [[' Jupiter']]).
 sentence(gravitational_body, [[' Saturn']]).
 sentence(gravitational_body, [[' Uranus']]).
 sentence(gravitational_body, [[' Venus']]).
+sentence(gravitational_body, [[' the giant space whale']]).

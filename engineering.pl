@@ -30,6 +30,7 @@ sentence(action_movie_sentence, [action_movie_sentence_intern, ['. There\'s no t
 sentence(action_movie_sentence, [[' We\'ve run out of'], npl, [' So we need to'], vp, ['!']]).
 sentence(action_movie_sentence, [[' Listen! The only way to'], vp, [' is to'], tv, [' the'], np]).
 sentence(action_movie_sentence, [[' If we can just get enough'], np, [' we can'], vp, reason, ['!']]).
+sentence(action_movie_sentence, [[' I hacked the'], np, [' so that you could'], vp, [' not'], vp, ['!']]).
 
 sentence(question, [[' What if we tried'], iving, [' the'], np, [' before it'], ives]).
 
@@ -75,8 +76,10 @@ sentence(reason, [[' because the'], np, [' runs on'], np, [' not'], np]).
 sentence(reason, [[' because the'], np, [' does not'], vp]).
 sentence(reason, [[' because we\'re out of'], np]).
 sentence(reason, [[' because I accidentally'], tved, [' the'], np]).
+sentence(reason, [[' because Trump accidentally'], tved, [' the'], np, ['. Dammit, Trump']]).
 
 sentence(vp, [tv, [' the'], np]).
+sentence(vp, [[' convert the'], np, [' from'], adj, [' mode to'], adj, [' mode']]).
 
 sentence(tv, [[' reprogram']]).
 sentence(tv, [[' recalibrate']]).
@@ -87,6 +90,7 @@ sentence(tv, [[' transform']]).
 sentence(tv, [[' integrate']]).
 sentence(tv, [[' calculate']]).
 sentence(tv, [[' replace']]).
+sentence(tv, [[' discombobulate']]).
 
 sentence(tved, [[' rejiggered']]).
 sentence(tved, [[' fixed']]).
@@ -95,6 +99,7 @@ sentence(tved, [[' quantified']]).
 sentence(tved, [[' integrated']]).
 sentence(tved, [[' programmed']]).
 sentence(tved, [[' reprogrammed']]).
+sentence(tved, [[' discombobulated']]).
 
 sentence(np, [nsg]).
 sentence(np, [adj, nsg]).
@@ -116,6 +121,9 @@ sentence(adj, [[' inductive']]).
 sentence(adj, [[' functional']]).
 sentence(adj, [[' magneto']]).
 
+sentence(nsg, [[' mainframe']]).
+sentence(nsg, [[' secondaryframe']]).
+sentence(nsg, [[' star ship']]).
 sentence(nsg, [adj, [' detector']]).
 sentence(nsg, [[' graviolie detector']]).
 sentence(nsg, [[' capacitor']]).
@@ -145,3 +153,5 @@ sentence(place, [[' the other universe']]).
 sentence(place, [[' hyperspace']]).
 sentence(place, [[' the black hole']]).
 sentence(place, [[' the edge of infinity']]).
+sentence(place, [[' quantum space']]).
+sentence(place, [[' cyberspace']]).
