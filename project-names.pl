@@ -71,7 +71,7 @@ sentence(bad_thing, [adj, bad_thing_intern]).
 
 sentence(thing, [n]).
 sentence(thing, [tool]).
-sentence(n, [['system']]).
+sentence(n, [[' system']]).
 sentence(thing, [machine]).
 sentence(n, [[' particle']]).
 sentence(n, [[' energy']]).
