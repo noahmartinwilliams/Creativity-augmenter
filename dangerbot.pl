@@ -101,6 +101,7 @@ sentence(random_minority, [[' people I don\'t like']]).
 sentence(random_minority, [[' millenials']]).
 sentence(random_minority, [[' super millenials']]).
 sentence(random_minority, [[' nasty women']]).
+sentence(random_minority, [[' poor people']]).
 
 sentence(meaningless_attribute, [[' gay']]).
 sentence(meaningless_attribute, [[' black']]).

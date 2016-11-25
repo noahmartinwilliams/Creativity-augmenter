@@ -21,6 +21,7 @@ sentence(main_intern, [thing, [' analyzer']]).
 sentence(main_intern, [thing, [' finder']]).
 sentence(main_intern, [thing, [' subsystem']]).
 sentence(main_intern, [thing, [' rebuilder']]).
+sentence(main_intern, [thing, [' with six robotic legs']]).
 sentence(main_intern, [adj, adj, n]).
 sentence(main_intern, [adj, adj, adj, n]).
 sentence(main_intern, [[' deluxe'], thing]).

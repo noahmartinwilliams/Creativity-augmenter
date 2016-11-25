@@ -17,6 +17,7 @@ sentence(main, [['Here are the '], [Number], [' things your'], buzzword, [' ware
 sentence(main, [[' Want to deliver'], product, [' to market ', Percent, '% faster?'], [' Use'], product, [' by'], company, ['.']]):- random(0, 100, R), atom_number(Percent, R).
 sentence(main, [[' Are you terrified of president Trump? Fight back with'], product, [' by'], company, ['.']]).
 sentence(main, [vp, [' today and get a coupon for'], product, ['!']]).
+sentence(main, [[' Is your company\'s'], buzzword, [' strategy built for'], event, ['?']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
@@ -240,6 +241,7 @@ sentence(bad_people, [[' Neo-Nazis']]).
 sentence(bad_people, [[' Trump supporting Neo-Nazis']]).
 sentence(bad_people, [[' evil hackers']]).
 
+sentence(event, [[' the future']]).
 sentence(event, [[' the end of the world']]).
 sentence(event, [[' something']]).
 sentence(event, [[' something interesting']]).
