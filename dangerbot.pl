@@ -73,6 +73,7 @@ sentence(this_guy_intern, [[' this guy who knows'], this_guy_intern]):- maybe.
 sentence(this_guy_intern, [[' this guy who knows this guys cousin who knows'], this_guy_intern]):- maybe, maybe.
 sentence(this_guy_intern, [[' this guy']]).
 
+sentence(arbitrary_group, [[' people I\'ve chosen at random']]).
 sentence(arbitrary_group, [[' people that use the same model of car as me']]).
 sentence(arbitrary_group, [[' people who weigh as much as I do']]).
 sentence(arbitrary_group, [[' people that hate'], random_minority]).
