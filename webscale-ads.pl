@@ -18,6 +18,8 @@ sentence(main, [[' Want to deliver'], product, [' to market ', Percent, '% faste
 sentence(main, [[' Are you terrified of president Trump? Fight back with'], product, [' by'], company, ['.']]).
 sentence(main, [vp, [' today and get a coupon for'], product, ['!']]).
 sentence(main, [[' Is your company\'s'], buzzword, [' strategy built for'], event, ['?']]).
+sentence(main, [buzzword, [' devices and'], buzzword, [' apps can bring'], bad_thing, ['. Get strategic advice for a'], buzzword, [' solution.']]).
+sentence(main, [[' Zero-in on getting'], buzzword, [' done faster by cutting out non'], buzzword, [' tasks.']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
