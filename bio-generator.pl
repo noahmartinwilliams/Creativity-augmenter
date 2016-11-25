@@ -1,6 +1,7 @@
 #! ./augment-creativity.pl
 
 sentence(main, [main_interns]).
+sentence(main, [main_interns, [' Views are my own.']]).
 sentence(main, [things_i_am, ['.']]).
 sentence(main, [things_i_am, ['.'], main_interns]).
 sentence(main, [things_i_am, ['.'], main_interns, [' Tweets by staff.']]).
@@ -159,7 +160,7 @@ sentence(stupid_quote, [[' Everyone you will ever meet knows something you don\'
 sentence(stupid_quote, [[' Can\'t stop making'], random_thing, ['.']]). %@andrewismusic
 sentence(stupid_quote, [[' Because the Internet needs more opinionated nerds.']]). %@jeriellsworth
 sentence(stupid_quote, [[' I play a scientist on tv.']]). %@donttrythis
-sentence(stupid_quote, [[' I will one day accept my adulthood, when I\'m', Age, '  maybe.']]):- random(25, 200, R), atom_number(Age, R). %@ChrysalisFiasco
+sentence(stupid_quote, [[' I will one day accept my adulthood, when I\'m ', Age, '  maybe.']]):- random(25, 200, R), atom_number(Age, R). %@ChrysalisFiasco
 
 sentence(random_organization, [[' the government']]).
 sentence(random_organization, [[' the people']]).

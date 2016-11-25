@@ -67,6 +67,7 @@ sentence(main_intern, [[' Do you know the potential of your company\'s'], produc
 sentence(main_intern, [[' Is your company\'s'], product, [' built for the future?']]).
 sentence(main_intern, [[' Have straight up actual'], bad_people, [' hacked your'], product, ['? Fight back with'], product, ['!']]).
 sentence(main_intern, [[' Users LOVE to'], thing_users_do, ['. So make it easier and build your business with'], product, ['!']]).
+sentence(main_intern, [[' Review and test sooner with Running'], product, [' for every'], buzzword, [' branch.']]).
 
 sentence(bad_thing, [[' a Trump presidency']]).
 sentence(bad_thing, [[' Nazi president']]).
