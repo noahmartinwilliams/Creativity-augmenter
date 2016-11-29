@@ -128,6 +128,7 @@ sentence(stupid_show, [[' Are you smarter than a'], random_thing]).
 
 sentence(random_person, [[' the president of'], random_club]).
 sentence(random_person, [[' Albert Einstein']]).
+sentence(random_person, [[' Noah']]).
 
 sentence(random_club, [[' the Mickey Mouse club']]).
 sentence(random_club, [[' the local HAM radio club']]).
@@ -135,6 +136,7 @@ sentence(random_club, [[' the evil league of evil']]).
 
 sentence(university, [[' Stanford university']]).
 sentence(university, [[' MIT']]).
+sentence(university, [[' egghead university']]).
 sentence(university, [[' the school of life']]).
 
 sentence(field, [[' behavioral genetics']]).
@@ -157,6 +159,7 @@ sentence(stupid_quote, [[' It\'s only rocket science.']]). %@noah_anyname
 sentence(stupid_quote, [[' you can\'t sue me for being slender']]). %@GertyZ
 sentence(stupid_quote, [[' Nothing is True! Everything is'], adj, ['!']]). %@dollycat5
 sentence(stupid_quote, [[' Everyone you will ever meet knows something you don\'t']]). %@BillNye
+sentence(stupid_quote, [[' Just a lithium flower about to bloom.']]). %@blakestacey
 sentence(stupid_quote, [[' Can\'t stop making'], random_thing, ['.']]). %@andrewismusic
 sentence(stupid_quote, [[' Because the Internet needs more opinionated nerds.']]). %@jeriellsworth
 sentence(stupid_quote, [[' I play a scientist on tv.']]). %@donttrythis
@@ -180,6 +183,7 @@ sentence(thing_im_entitled_to, [[' money']]).
 sentence(thing_im_entitled_to, [[' financial compensation']]).
 sentence(thing_im_entitled_to, [[' all of your things']]).
 sentence(thing_im_entitled_to, [[' all of the monies']]).
+sentence(thing_im_entitled_to, [[' stuff']]).
 
 sentence(accounts_on_twitter, [[' bots']]).
 sentence(accounts_on_twitter, [[' users']]).

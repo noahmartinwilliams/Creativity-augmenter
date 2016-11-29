@@ -1,15 +1,30 @@
 #! ./augment-creativity.pl
 sentence(main, [main_intern]).
 sentence(main, [main_intern, [' It\'s only'], np, [' science!']]).
+
 sentence(main_intern, [[' We just need more'], npl, ['! :D']]).
 sentence(main_intern, [[' We just need more'], adj, npl, ['! :D']]).
 sentence(main_intern, [[' We just need more'], adj, npl, ['! :D Then ALL our problems will be solved!']]).
 sentence(main_intern, [[' We just need more'], adj, np, ['s! :D']]).
+
 sentence(main_intern, [action_movie_sentence, ['.']]).
 sentence(main_intern, [boring_sentence, ['.']]).
 sentence(main_intern, [interesting_sentence]).
 sentence(main_intern, [question, ['?']]).
 sentence(main_intern, [explanation, ['.']]).
+
+sentence(unit, [[' kilograms']]).
+sentence(unit, [[' liters']]).
+sentence(unit, [[' graviolies']]).
+sentence(unit, [[' feet']]).
+sentence(unit, [[' meters']]).
+sentence(unit, [[' coulombs']]).
+sentence(unit, [[' farads']]).
+sentence(unit, [[' henries']]).
+sentence(unit, [[' rpm']]).
+sentence(unit, [[' volts']]).
+sentence(unit, [[' joules']]).
+sentence(unit, [[' watts']]).
 
 sentence(boring_sentence, [[' We\'ve boosted the'], np, [' to'], random_percentage, ['. That should hold for'], random_amount_of_time]).
 sentence(boring_sentence, [[' We\'ve boosted the'], np, [' to'], random_percentage, ['. That should hold for'], random_amount_of_time, reason]).
@@ -17,6 +32,7 @@ sentence(boring_sentence, [[' It\'s very important that we'], vp]).
 sentence(boring_sentence, [[' It\'s very important that we'], vp, reason]).
 sentence(boring_sentence, [[' Unfortunately we can\'t'], vp, [' until we'], vp, ['.']]).
 sentence(boring_sentence, [[' Unfortunately we can\'t'], vp, [' until we'], vp, reason, ['.']]).
+sentence(boring_sentence, [[' We need to set the'], np, [' to '], [RandNum], unit]):- random(0, 5000, R), atom_number(RandNum, R).
 
 sentence(explanation, [[' The reason why'], statement, [' is'], reason]).
 sentence(statement, [np, ives]).
@@ -121,6 +137,7 @@ sentence(adj, [[' inductive']]).
 sentence(adj, [[' functional']]).
 sentence(adj, [[' magneto']]).
 
+sentence(nsg, [[' a fuel']]).
 sentence(nsg, [[' mainframe']]).
 sentence(nsg, [[' secondaryframe']]).
 sentence(nsg, [[' star ship']]).

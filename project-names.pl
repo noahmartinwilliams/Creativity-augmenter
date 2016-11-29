@@ -8,6 +8,7 @@ sentence(main, [main_intern, [' '], thousand]).
 sentence(main, [main_intern, [' version '], version_number]).
 sentence(main, [main_intern, [' robot']]).
 sentence(main, [main_intern, [' robot version '], version_number]).
+sentence(main, [main_intern, [' device']]).
 sentence(main, [main_intern, edition, [' edition']]).
 sentence(main, [main_acronym]):- maybe, maybe.
 

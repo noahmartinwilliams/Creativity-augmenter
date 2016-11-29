@@ -103,6 +103,7 @@ sentence(boring_thing_to_do, [[' manage their customer database']]).
 sentence(boring_thing_to_do, [[' notice trends in data that are too'], adj, [' to care about']]).
 sentence(boring_thing_to_do, [[' manipulate the masses']]).
 sentence(boring_thing_to_do, [[' stalk your ex']]).
+sentence(boring_thing_to_do, [[' play the stock market']]).
 sentence(boring_thing_to_do, [[' try to make sense of marketing data']]).
 
 sentence(thing_you_need, [[' help']]).
@@ -111,6 +112,7 @@ sentence(thing_you_need, [[' sentient toasters']]).
 sentence(thing_you_need, [[' obvious advice']]).
 sentence(thing_you_need, [[' marketing hype']]).
 sentence(thing_you_need, [[' stupid ideas']]).
+sentence(thing_you_need, [[' more'], product]).
 
 sentence(thing_users_do, [[' sue Trump until he runs out of money']]).
 sentence(thing_users_do, [[' complain about'], bad_people]).
@@ -159,12 +161,15 @@ sentence(buzzword, [[' web 2.0']]).
 sentence(buzzword, [[' webscale 2.0 on the cloud']]).
 sentence(buzzword, [[' webscale 2.0 on the shard']]).
 sentence(buzzword, [[' fast and scalable']]).
+sentence(buzzword, [[' shard']]).
+sentence(buzzword, [[' mongoDB']]).
 
 sentence(postadj, [[' solution']]).
 sentence(postadj, [[' problem']]).
 sentence(postadj, [[' thing']]).
 sentence(postadj, [[' machine']]).
 sentence(postadj, [[' analyzer']]).
+sentence(postadj, [[' database']]).
 
 sentence(adj, [[' SQL']]).
 sentence(adj, [[' barely usable']]).
@@ -245,12 +250,12 @@ sentence(bad_people, [[' Trump supporting Neo-Nazis']]).
 sentence(bad_people, [[' evil hackers']]).
 
 sentence(event, [[' the future']]).
-sentence(event, [[' the end of the world']]).
+sentence(event, [[' end of the world']]).
 sentence(event, [[' something']]).
 sentence(event, [[' something interesting']]).
-sentence(event, [[' the witch hunt of all'], bad_people]).
-sentence(event, [[' the year of the Linux desktop']]).
-sentence(event, [[' the dotcom bubble bursts']]).
-sentence(event, [[' the cloud starts to rain']]).
-sentence(event, [[' the nuclear apocalypse']]).
+sentence(event, [[' witch hunt of all'], bad_people]).
+sentence(event, [[' year of the Linux desktop']]).
+sentence(event, [[' dotcom bubble bursts']]).
+sentence(event, [[' cloud starts to rain']]).
+sentence(event, [[' nuclear apocalypse']]).
 sentence(event, [[' Trump launches the nukes']]).
