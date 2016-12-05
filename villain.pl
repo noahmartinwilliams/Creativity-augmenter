@@ -6,6 +6,7 @@ sentence(main, [quote, ['!']]).
 sentence(main, [[' You fool! You can\'t'], thing_to_do, ['! You\'ll destroy us all!']]).
 sentence(main, [[' Muahahaha! Did you really think you could'], thing_to_do, ['?']]).
 sentence(main, [[' Only a TRUE'], thing_the_hero_is, [' can defeat the'], doomsday_device]).
+sentence(main, [[' Only a TRUE'], thing_the_hero_is, [' can wield the'], magic_sword]).
 sentence(main, [[' Fools! Little did you know that'], stupid_thing_to_do_ing, [' was a mistake!']]).
 sentence(main, [[' Figures that'], type_of_hero, [' would try'], stupid_thing_to_do_ing, ['! Muahahaha!']]).
 sentence(main, [[' If ONLY you had tried'], stupid_thing_to_do_ing, [' you might have succeeded at'], stupid_thing_to_do_ing, ['!']]).
@@ -20,6 +21,9 @@ sentence(main, [[' They will suffer'], thing_to_suffer_from, [' as I have suffer
 sentence(main, [[' You cannot'], bad_thing_to_do_to_me, ['! I'], reason_you_cannot_destroy_me, ['!']]).
 sentence(main, [[' I am your'], master, ['! You cannot'], bad_thing_to_do_to_me, ['!'], reason_you_cannot_destroy_me, ['!']]).
 sentence(main, [[' With the completion of my'], doomsday_device, [' none shall'], bad_thing_to_do_to_me, ['!']]).
+
+sentence(magic_sword, [[' flaming sword of'], abstract_thing]).
+sentence(magic_sword, [[' sword of'], abstract_thing]).
 
 sentence(reason_you_cannot_destroy_me, [[' I created you']]).
 sentence(reason_you_cannot_destroy_me, [[' I helped make you']]).
@@ -90,6 +94,7 @@ sentence(stupid_thing_to_do_ed, [[' got angry and'], stupid_thing_to_do_ing]).
 sentence(thing_the_hero_is, [[' moron']]).
 sentence(thing_the_hero_is, [[' dumb good-guy']]).
 sentence(thing_the_hero_is, [[' village idiot']]).
+sentence(thing_the_hero_is, [[' chosen one']]).
 sentence(thing_the_hero_is, [[' chosen one who was chosen at random']]).
 
 sentence(thing_to_do, [[' rejigger the proton amplifier pump']]).

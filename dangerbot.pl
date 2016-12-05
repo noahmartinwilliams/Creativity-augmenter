@@ -221,6 +221,8 @@ sentence(serious_problem, [[' sexism']]).
 sentence(serious_problem, [[' poverty']]).
 sentence(serious_problem, [[' "'], dangerous_situation, ['"']]).
 
+sentence(nonproblem, [[' technology solving our problems']]).
+sentence(nonproblem, [[' technology solving our'], serious_problem, [' problem']]).
 sentence(nonproblem, [[' economics']]).
 sentence(nonproblem, [[' the fact that some people are annoying']]).
 sentence(nonproblem, [[' other religions']]).

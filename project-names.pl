@@ -87,6 +87,8 @@ sentence(n, [[' pencil']]).
 sentence(n, [[' laptop']]).
 sentence(n, [[' mouse']]).
 sentence(n, [[' phone']]).
+sentence(n, [[' screw']]).
+sentence(n, [[' microphone']]).
 sentence(n, [[' thing']]).
 
 sentence(tool, [[' hair dryer']]).

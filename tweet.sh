@@ -9,6 +9,6 @@ do
 	fi
 
 	twidge update "$TWEET"
-	sleep 2m;
+	sleep 10m;
 
 done
