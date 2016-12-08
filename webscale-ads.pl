@@ -167,6 +167,9 @@ sentence(buzzword, [[' webscale 2.0 on the shard']]).
 sentence(buzzword, [[' fast and scalable']]).
 sentence(buzzword, [[' shard']]).
 sentence(buzzword, [[' mongoDB']]).
+sentence(buzzword, [[' quantum cloud']]).
+sentence(buzzword, [[' webscale 2.0 on the quantum cloud']]).
+sentence(buzzword, [[' webscale 2.0 on the electron cloud']]).
 
 sentence(postadj, [[' solution']]).
 sentence(postadj, [[' problem']]).
