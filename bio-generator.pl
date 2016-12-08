@@ -172,6 +172,7 @@ sentence(stupid_quote, [[' Because the Internet needs more opinionated nerds.']]
 sentence(stupid_quote, [[' I play a scientist on tv.']]). %@donttrythis
 sentence(stupid_quote, [[' I will one day accept my adulthood, when I\'m ', Age, '  maybe.']]):- random(25, 200, R), atom_number(Age, R). %@ChrysalisFiasco
 sentence(stupid_quote, [[' Now you can support me on Patreon: '], random_site]).
+sentence(stupid_quote, [[' you\'re the'], thing_i_am, [' to my'], thing_i_am, ['.']]). %@ElpisOaks original quote: "You're the hinga to my dinga."
 
 sentence(random_organization, [[' the government']]).
 sentence(random_organization, [[' the people']]).
