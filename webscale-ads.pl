@@ -52,6 +52,8 @@ sentence(type_of_dev, [[' Linux']]).
 sentence(type_of_dev, [[' Javascript']]).
 sentence(type_of_dev, [[' Web']]).
 sentence(type_of_dev, [[' anti-Nazi']]).
+sentence(type_of_dev, [[' functional']]).
+sentence(type_of_dev, [[' barely functional']]).
 
 sentence(main_intern, [[' All the cool kids are using'], product, ['.']]).
 sentence(main_intern, [[' Control the chaos of reality with'], product, ['.']]).
@@ -71,6 +73,7 @@ sentence(main_intern, [[' Is your company\'s'], product, [' built for the future
 sentence(main_intern, [[' Have straight up actual'], bad_people, [' hacked your'], product, ['? Fight back with'], product, ['!']]).
 sentence(main_intern, [[' Users LOVE to'], thing_users_do, ['. So make it easier and build your business with'], product, ['!']]).
 sentence(main_intern, [[' Review and test sooner with Running'], product, [' for every'], buzzword, [' branch.']]).
+sentence(main_intern, [[' Get '], [RandomNum], [' steps to make your business\'s'], buzzword, [' transformation a reality.']]):- random(2, 100, R), atom_number(RandomNum, R).
 
 sentence(bad_thing, [[' a Trump presidency']]).
 sentence(bad_thing, [[' Nazi president']]).

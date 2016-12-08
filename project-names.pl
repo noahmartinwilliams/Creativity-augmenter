@@ -12,9 +12,11 @@ sentence(main, [main_intern, [' device']]).
 sentence(main, [main_intern, edition, [' edition']]).
 sentence(main, [main_acronym]):- maybe, maybe.
 
+sentence(main_intern, [bad_thing, [' detector and eliminator']]).
 sentence(main_intern, [bad_thing, ['-remover']]).
 sentence(main_intern, [thing, [' energizer']]).
 sentence(main_intern, [thing, ['-recalibrator']]).
+sentence(main_intern, [thing, [' reprogrammer']]).
 sentence(main_intern, [thing, ['-discombobulator']]).
 sentence(main_intern, [thing, ['-detector']]).
 sentence(main_intern, [thing, [' repair robot']]).
@@ -42,6 +44,8 @@ sentence(adj, [[' atomic']]).
 sentence(adj, [[' big']]).
 sentence(adj, [[' tiny']]).
 
+sentence(n, [[' cardboard box']]).
+sentence(n, [[' box']]).
 sentence(n, [[' waffle']]).
 sentence(n, [[' tree']]).
 sentence(n, [[' buffalo']]).
@@ -60,6 +64,11 @@ sentence(version_number, [[Version]]):- random(1, 10, R), atom_number(N, R), ato
 sentence(version_number, [[Version]]):- random(1, 10, R), random(1, 20, R2), atom_number(N, R), atom_number(N2, R2), atom_concat(N, '.', VersionTmp), atom_concat(VersionTmp, N2, Version).
 
 sentence(bad_thing_intern, [[' David Duke']]).
+sentence(bad_thing_intern, [[' Nazi']]).
+sentence(bad_thing_intern, [[' Nazi']]).
+sentence(bad_thing_intern, [[' Nazi']]).
+sentence(bad_thing_intern, [[' Nazi']]).
+sentence(bad_thing_intern, [[' Nazi']]).
 sentence(bad_thing_intern, [[' Nazi']]).
 sentence(bad_thing_intern, [[' Trump']]).
 sentence(bad_thing_intern, [[' bad idea']]).

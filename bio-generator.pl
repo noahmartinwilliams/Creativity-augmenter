@@ -12,6 +12,13 @@ sentence(main, [[' Anything & everything'], field, things_i_am]). %@RoboEthics
 sentence(main_interns, [main_intern]).
 sentence(main_interns, [main_intern, main_interns]):- maybe.
 
+sentence(random_site, [[' givememoney.com']]).
+sentence(random_site, [[' bestwebsitenameevar.com']]).
+sentence(random_site, [[' uptightaboutgrammer.com']]).
+sentence(random_site, [[' thelastwebsite.com']]).
+sentence(random_site, [[Random], ['.com']]):- random_name('', Random).
+
+
 sentence(main_intern, [[' Married to'], random_thing, ['.']]).
 sentence(main_intern, [[' Engaged to'], random_thing, ['.']]). %@timelordteapot
 sentence(main_intern, [stupid_quote]).
@@ -164,6 +171,7 @@ sentence(stupid_quote, [[' Can\'t stop making'], random_thing, ['.']]). %@andrew
 sentence(stupid_quote, [[' Because the Internet needs more opinionated nerds.']]). %@jeriellsworth
 sentence(stupid_quote, [[' I play a scientist on tv.']]). %@donttrythis
 sentence(stupid_quote, [[' I will one day accept my adulthood, when I\'m ', Age, '  maybe.']]):- random(25, 200, R), atom_number(Age, R). %@ChrysalisFiasco
+sentence(stupid_quote, [[' Now you can support me on Patreon: '], random_site]).
 
 sentence(random_organization, [[' the government']]).
 sentence(random_organization, [[' the people']]).
@@ -192,3 +200,34 @@ sentence(accounts_on_twitter, [[' marketing accounts']]).
 
 sentence(account_on_twitter, [[' bot']]).
 sentence(account_on_twitter, [[' user']]).
+
+
+letter('a').
+letter('b').
+letter('c').
+letter('d').
+letter('e').
+letter('f').
+letter('g').
+letter('h').
+letter('i').
+letter('j').
+letter('k').
+letter('l').
+letter('m').
+letter('n').
+letter('o').
+letter('p').
+letter('q').
+letter('r').
+letter('s').
+letter('t').
+letter('u').
+letter('v').
+letter('w').
+letter('x').
+letter('y').
+letter('z').
+
+random_name(N, N):- maybe(0.2).
+random_name(N, O):- findall(L, letter(L), List), atom_length(List, Length), random(1, Length, R), nth1(R, List, New), atom_concat(N, New, O2), random_name(O2, O), !.
