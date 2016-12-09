@@ -21,6 +21,7 @@ sentence(main, [[' Is your company\'s'], buzzword, [' strategy built for'], even
 sentence(main, [buzzword, [' devices and'], buzzword, [' apps can bring'], bad_thing, ['. Get strategic advice for a'], buzzword, [' solution.']]).
 sentence(main, [[' Zero-in on getting'], buzzword, [' done faster by cutting out non'], buzzword, [' tasks.']]).
 sentence(main, [[' Antention all'], type_of_dev, [' developers! Take the'], product, [' for a test drive with this free 30 day trial.']]).
+sentence(main, [[' Find out how you can maximize your'], buzzword, [' Redhat apps and investments with'], product, ['.']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
