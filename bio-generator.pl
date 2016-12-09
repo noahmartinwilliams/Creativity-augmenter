@@ -84,6 +84,7 @@ sentence(stupid_thing_to_do_ed, [[' worked on'], random_thing]).
 sentence(stupid_thing_to_do_ing, [[' working on'], random_thing]).
 sentence(stupid_thing_to_do, [[' work on'], random_thing]).
 
+sentence(thing_i_am, [[' future leader of Earth']]). %@noah_anyname
 sentence(thing_i_am, [[' robot trapped in a human body']]). %@noah_anyname
 sentence(thing_i_am, [[' veteran']]).
 sentence(thing_i_am, [[' secret ninja']]).
