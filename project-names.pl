@@ -14,6 +14,7 @@ sentence(main, [main_acronym]):- maybe, maybe.
 
 sentence(main_intern, [bad_thing, [' detector and eliminator']]).
 sentence(main_intern, [bad_thing, ['-remover']]).
+sentence(main_intern, [['indestructible '], main_intern]).
 sentence(main_intern, [thing, [' energizer']]).
 sentence(main_intern, [thing, ['-recalibrator']]).
 sentence(main_intern, [thing, [' reprogrammer']]).

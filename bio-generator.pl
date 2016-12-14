@@ -122,14 +122,15 @@ sentence(thing_i_am, [[' angry academic']]). %@MsEntropy
 sentence(thing_i_am, [[' official Twitter account of'], random_person]).
 sentence(thing_i_am, [[' valiant teddy bear of a young'], thing_i_am]). %@bernoulli_bear
 sentence(thing_i_am, [[' technology innovator']]).
+sentence(thing_i_am, [[' unapologetic fighter for justice']]). %@DrSpectra
 sentence(thing_i_am, [[' ripped grandpa on a motorcycle']]). %@kevleeb
 sentence(thing_i_am, [[' Twitter bot commander']]). %@molly0x57
 sentence(thing_i_am, [[' associate professor of'], field]).
 sentence(thing_i_am, [[' PhD research associate of'], field]).
 sentence(thing_i_am, [[' doctor of'], random_thing]).
 sentence(thing_i_am, [[' postdoc'], stupid_thing_to_do_ing]).
-sentence(thing_i_am, [[' bot that'], stupid_thing_to_do_s, ['.']]).
-sentence(thing_i_am, [[' bot that posts'], stupid_thing_to_post, ['.']]).
+sentence(thing_i_am, [[' bot that'], stupid_thing_to_do_s]).
+sentence(thing_i_am, [[' bot that posts'], stupid_thing_to_post]).
 
 sentence(stupid_show, [[' factbusters']]).
 sentence(stupid_show, [[' Are you smarter than a'], random_thing]).
@@ -159,6 +160,9 @@ sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclinat
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
+sentence(stupid_quote, [[' I can\'t think of a bio. But I have one somewhere, I\'m sure.']]). %@Awithonelison
+sentence(stupid_quote, [[' Future tastemakers start here.']]). %@TeenVogue
+sentence(stupid_quote, [[' A twitter account about nothing.']]). %@Reflog_18
 sentence(stupid_quote, [[' I used to work for'], random_organization, ['. Now I work for'], random_organization, ['.']]). %@Snowden
 sentence(stupid_quote, [[' I or a loved one may be entitled to'], thing_im_entitled_to, ['.']]). %@Namaste_Ish
 sentence(stupid_quote, [[' Dude, I\'m not even talking at you.']]). %@GertyZ
@@ -179,6 +183,7 @@ sentence(random_organization, [[' the government']]).
 sentence(random_organization, [[' the people']]).
 sentence(random_organization, [[' the Washington Post']]).
 sentence(random_organization, [[' the Cyborg Foundation']]).
+sentence(random_organization, [[' Freedom of the press']]).
 
 sentence(adj, [[' slender']]).
 

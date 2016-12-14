@@ -179,6 +179,7 @@ sentence(stupid_response, [[' Let\'s put'], bad_decision_makers, [' in charge of
 sentence(stupid_response, [[' Let\'s argue about'], irrelevant_issue]).
 sentence(stupid_response, [[' Let\'s demand that'], random_authority_figure, [' talk about'], irrelevant_issue, ['!']]).
 sentence(stupid_response, [[' Let\'s show people documentaries about how'], nonproblem, [' are killing us all!']]).
+sentence(stupid_response, [[' Let\'s work towards fixing this in 50 years.']]).
 
 sentence(random_authority_figure, [[' NASA']]).
 sentence(random_authority_figure, [[' the scientific community']]).

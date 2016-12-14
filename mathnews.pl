@@ -35,6 +35,10 @@ sentence(main, [[' Could Electing'], authority_figure, [' Have Been A Bad Idea?'
 sentence(main, [[' New'], new_thing, [' Shows That Electing'], authority_figure, [' Was A Terrible Idea That Will Destroy Us All.']]).
 sentence(main, [[' Would'], authority_figure, [' Commit Nuclear Genocide? YES.']]).
 sentence(main, [[' Electoral College Elects'], authority_figure, [' As President By'], method_of_proof, [', And I Think They\'re Wrong.']]).
+sentence(main, [[' New platonic solid discovered'], place_to_be_discovered, ['.']]).
+
+sentence(place_to_be_discovered, [[' under the last platonic solid']]).
+sentence(place_to_be_discovered, [[' in the fourth dimension']]).
 
 sentence(structure_intern, [[' Bridges']]).
 sentence(structure_intern, [[' Buildings']]).
