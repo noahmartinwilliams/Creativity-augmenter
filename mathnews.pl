@@ -36,6 +36,18 @@ sentence(main, [[' New'], new_thing, [' Shows That Electing'], authority_figure,
 sentence(main, [[' Would'], authority_figure, [' Commit Nuclear Genocide? YES.']]).
 sentence(main, [[' Electoral College Elects'], authority_figure, [' As President By'], method_of_proof, [', And I Think They\'re Wrong.']]).
 sentence(main, [[' New platonic solid discovered'], place_to_be_discovered, ['.']]).
+sentence(main, [[' New'], new_thing, [' Shows'], shapes, [' And'], shapes, [' Are Topologically The Same.']]).
+
+sentence(shapes, [[' Cubes']]).
+sentence(shapes, [[' Sphere']]).
+sentence(shapes, [[' Cylinders']]).
+sentence(shapes, [[' Klein Bottles']]).
+sentence(shapes, [[' Tesseracts']]).
+sentence(shapes, [[' Hyper Cubes']]).
+sentence(shapes, [[' Triangles']]).
+sentence(shapes, [[' Pentagons']]).
+sentence(shapes, [[' Dodecahedrons']]).
+sentence(shapes, [[' Octagons']]).
 
 sentence(place_to_be_discovered, [[' under the last platonic solid']]).
 sentence(place_to_be_discovered, [[' in the fourth dimension']]).
@@ -108,6 +120,7 @@ sentence(obvious_statement, [[' Math Is Fun']]).
 
 sentence(personsg, [[' Waldo']]).
 sentence(personsg, [[' Probability']]).
+sentence(personsg, [[' Topology']]).
 sentence(personsg, [[' Geometry']]).
 sentence(personsg, [[' The All-Powerful Math AI']]).
 sentence(personsg, [[' The President']]).
