@@ -38,6 +38,7 @@ sentence(main, [[' Electoral College Elects'], authority_figure, [' As President
 sentence(main, [[' New platonic solid discovered'], place_to_be_discovered, ['.']]).
 sentence(main, [[' New'], new_thing, [' Shows'], shapes, [' And'], shapes, [' Are Topologically The Same.']]).
 
+sentence(shapes, [[' funny looking swirls']]).
 sentence(shapes, [[' Cubes']]).
 sentence(shapes, [[' Sphere']]).
 sentence(shapes, [[' Cylinders']]).
@@ -49,13 +50,15 @@ sentence(shapes, [[' Pentagons']]).
 sentence(shapes, [[' Dodecahedrons']]).
 sentence(shapes, [[' Octagons']]).
 
-sentence(place_to_be_discovered, [[' under the last platonic solid']]).
-sentence(place_to_be_discovered, [[' in the fourth dimension']]).
+sentence(place_to_be_discovered, [[' Under The Last Platonic Solid']]).
+sentence(place_to_be_discovered, [[' In The Fourth Dimension']]).
+sentence(place_to_be_discovered, [[' In Hyperspace']]).
 
 sentence(structure_intern, [[' Bridges']]).
 sentence(structure_intern, [[' Buildings']]).
 sentence(structure_intern, [[' Giant Robots']]).
 sentence(structure_intern, [[' Giant Statues']]).
+sentence(structure_intern, [[' Underground Tunnels']]).
 
 sentence(structure, [structure_intern]).
 sentence(structure, [[' Four Dimensional'], structure_intern]):- maybe, maybe.
@@ -65,6 +68,8 @@ sentence(societal_problem, [[' Racism']]).
 sentence(societal_problem, [[' Sexism']]).
 sentence(societal_problem, [[' Boring Math Textbooks']]).
 sentence(societal_problem, [[' Math Becoming Too Politicized']]).
+sentence(societal_problem, [[' Anti-Math Nazis']]).
+sentence(societal_problem, [[' Broken Calculators']]).
 
 % The creative process here is to imagine Cecil Ballwin from welcome to Nightvale saying all of this.
 sentence(authority_figure, [[' The Math Gods']]).
@@ -82,6 +87,7 @@ sentence(authority_figure, [[' The Mighty Hypercube That Controls Your Thoughts'
 sentence(authority_figure, [[' The Math God Theocracy']]).
 sentence(authority_figure, [[' Statistics']]).
 sentence(authority_figure, [[' Set Theory']]).
+sentence(authority_figure, [[' The Authors Of The Text Book We\'re Using']]).
 
 sentence(punishment, [[' Count To'], number]).
 sentence(punishment, [[' Count To Negative'], number]).
@@ -91,6 +97,7 @@ sentence(punishment, [[' Manually Take The Square Root Of'], number]).
 sentence(punishment, [[' Take The Inverse Of A Square Matrix Of Length'], number]).
 sentence(punishment, [[' Manually Divide'], number, [' By'], number]).
 sentence(punishment, [[' Plot'], function, [' By Hand']]).
+sentence(punishment, [[' Find The'], number, ['th Prime']]).
 
 sentence(function, [[' sin(x)']]).
 sentence(function, [[' cos(x)']]).
