@@ -161,6 +161,7 @@ sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclinat
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
+sentence(stupid_quote, [[' Hola!! :D']]). %@Javos117
 sentence(stupid_quote, [[' I am weird :O']]). %@MoonageDaydre4m
 sentence(stupid_quote, [[' I can\'t think of a bio. But I have one somewhere, I\'m sure.']]). %@Awithonelison
 sentence(stupid_quote, [[' Future tastemakers start here.']]). %@TeenVogue
