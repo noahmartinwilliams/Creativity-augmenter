@@ -172,6 +172,7 @@ sentence(really_bad_way_to_find_numbers, [[' Adding A Bunch Of Numbers Together 
 sentence(really_bad_way_to_find_numbers, [[' Taking The Factorial Of'], number]).
 sentence(really_bad_way_to_find_numbers, [[' Integrating'], function, [' From'], number, [' To'], number]).
 sentence(really_bad_way_to_find_numbers, [[' Reading Random Sensor Measurements']]).
+sentence(really_bad_way_to_find_numbers, [[' Adding All The Numbers Together']]).
 
 sentence(unlikely_thing, [[' Waldo']]).
 sentence(unlikely_thing, [[' The Lost Number']]).
