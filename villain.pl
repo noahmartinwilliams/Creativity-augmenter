@@ -34,6 +34,7 @@ sentence(reason_you_cannot_destroy_me, [[' I asked you nicely not to']]).
 sentence(bad_thing_to_do_to_me, [[' destroy me']]).
 sentence(bad_thing_to_do_to_me, [[' sell me insurance']]).
 sentence(bad_thing_to_do_to_me, [[' annoy me']]).
+sentence(bad_thing_to_do_to_me, [[' make me argue with a Nazi']]).
 sentence(bad_thing_to_do_to_me, [[' steal my'], doomsday_device]).
 
 sentence(thing_to_suffer_from, [[' annoying telemarketers']]).
@@ -90,6 +91,8 @@ sentence(stupid_thing_to_do_ing, [[' listening to your feelings by'], stupid_thi
 sentence(stupid_thing_to_do_ed, [[' listened to your feelings by'], stupid_thing_to_do_ing]).
 sentence(stupid_thing_to_do_ing, [[' getting angry and'], stupid_thing_to_do_ing]).
 sentence(stupid_thing_to_do_ed, [[' got angry and'], stupid_thing_to_do_ing]).
+sentence(stupid_thing_to_do_ing, [[' being nice to a Nazi']]).
+sentence(stupid_thing_to_do_ed, [[' was nice to a Nazi']]).
 
 sentence(thing_the_hero_is, [[' moron']]).
 sentence(thing_the_hero_is, [[' dumb good-guy']]).
@@ -99,9 +102,18 @@ sentence(thing_the_hero_is, [[' chosen one who was chosen at random']]).
 
 sentence(thing_to_do, [[' rejigger the proton amplifier pump']]).
 sentence(thing_to_do, [[' hand nuclear weapons to a Nazi']]).
+sentence(thing_to_do, [[' hand nuclear weapons to a Nazi']]).
+sentence(thing_to_do, [[' hand nuclear weapons to a Nazi']]).
+sentence(thing_to_do, [[' hand nuclear weapons to a Nazi']]).
+sentence(thing_to_do, [[' electing a Nazi to be president']]).
+sentence(thing_to_do, [[' electing a Nazi to be president']]).
+sentence(thing_to_do, [[' electing a Nazi to be president']]).
+sentence(thing_to_do, [[' electing a Nazi to be president']]).
+sentence(thing_to_do, [[' electing a Nazi to be president']]).
 sentence(thing_to_do, [[' press the really big red button']]).
 sentence(thing_to_do, [[' press the really big red button'], post_adj]).
 sentence(thing_to_do, [[' destroy the'], doomsday_device]).
+sentence(thing_to_do, [stupid_thing_to_do]).
 
 sentence(quote, [[' You haven\'t seen the last of me! I\'ll return with'], thing_to_return_with]).
 sentence(quote, [[' I am the only TRUE'], awesome_thing_to_be]).
@@ -223,3 +235,5 @@ sentence(adj, [[' death']]).
 sentence(adj, [[' unstoppable']]).
 sentence(adj, [[' giant']]).
 sentence(adj, [[' quantum']]).
+sentence(adj, [[' robotic']]).
+sentence(adj, [[' anti-Nazi']]).

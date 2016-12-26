@@ -98,7 +98,16 @@ sentence(thing_i_am, [[' grandpa']]).
 sentence(thing_i_am, [[' grandma']]).
 sentence(thing_i_am, [[' Internet enthusiast']]). %@wayspurrchen
 sentence(thing_i_am, [[' comedy video editor']]). %@dylabolical
-sentence(thing_i_am, [[' anti-fascist']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
+sentence(thing_i_am, [[' anti-Nazi']]).
 sentence(thing_i_am, [[' queer']]).
 sentence(thing_i_am, [[' liberal']]).
 sentence(thing_i_am, [[' Jewish']]).

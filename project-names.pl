@@ -72,6 +72,11 @@ sentence(bad_thing_intern, [[' Nazi']]).
 sentence(bad_thing_intern, [[' Nazi']]).
 sentence(bad_thing_intern, [[' Nazi']]).
 sentence(bad_thing_intern, [[' Trump']]).
+sentence(bad_thing_intern, [[' Trump']]).
+sentence(bad_thing_intern, [[' Trump']]).
+sentence(bad_thing_intern, [[' Trump']]).
+sentence(bad_thing_intern, [[' Trump']]).
+sentence(bad_thing_intern, [[' Trump']]).
 sentence(bad_thing_intern, [[' bad idea']]).
 sentence(bad_thing_intern, [[' Republican']]).
 sentence(bad_thing_intern, [[' murderous AI']]).

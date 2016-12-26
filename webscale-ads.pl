@@ -78,6 +78,16 @@ sentence(main_intern, [[' Get '], [RandomNum], [' steps to make your business\'s
 
 sentence(bad_thing, [[' a Trump presidency']]).
 sentence(bad_thing, [[' Nazi president']]).
+sentence(bad_thing, [[' Nazis']]).
+sentence(bad_thing, [[' Nazis']]).
+sentence(bad_thing, [[' Nazis']]).
+sentence(bad_thing, [[' Nazis']]).
+sentence(bad_thing, [[' Nazis']]).
+sentence(bad_thing, [[' Nazis']]).
+sentence(bad_thing, [[' Nazis']]).
+sentence(bad_thing, [[' Nazis']]).
+sentence(bad_thing, [[' Nazis']]).
+sentence(bad_thing, [[' Nazis']]).
 sentence(bad_thing, [[' Fortran code']]).
 sentence(bad_thing, [[' bug']]).
 sentence(bad_thing, [[' design flaw']]).

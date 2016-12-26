@@ -1,6 +1,8 @@
 #! ./augment-creativity.pl
 sentence(main, [main_intern]).
 sentence(main, [main_intern, [' It\'s only'], np, [' science!']]).
+sentence(main, [main_intern, [' It\'s only anti-Nazi science!']]).
+sentence(main, [main_intern, [' It\'s only anti-Nazi science!']]).
 
 sentence(main_intern, [[' We just need more'], npl, ['! :D']]).
 sentence(main_intern, [[' We just need more'], adj, npl, ['! :D']]).
@@ -90,6 +92,13 @@ sentence(random_percentage, [[' 0.01%']]).
 
 sentence(reason, [[' because the'], np, [' runs on'], np, [' not'], np]).
 sentence(reason, [[' because the'], np, [' does not'], vp]).
+sentence(reason, [[' because it\'s the only way to stop the Nazis']]).
+sentence(reason, [[' because it\'s the only way to stop the Nazis']]).
+sentence(reason, [[' because it\'s the only way to stop the Nazis']]).
+sentence(reason, [[' because it\'s the only way to stop the Nazis']]).
+sentence(reason, [[' because it\'s the only way to stop the Nazis']]).
+sentence(reason, [[' because it\'s the only way to stop the Nazis']]).
+sentence(reason, [[' because it\'s the only way to stop the Nazis']]).
 sentence(reason, [[' because we\'re out of'], np]).
 sentence(reason, [[' because I accidentally'], tved, [' the'], np]).
 sentence(reason, [[' because Trump accidentally'], tved, [' the'], np, ['. Dammit, Trump']]).
