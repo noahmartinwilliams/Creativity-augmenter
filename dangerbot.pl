@@ -133,6 +133,7 @@ sentence(witch, [[' witch']]).
 sentence(witch, [[' scientist']]).
 sentence(witch, [[' free thinker']]).
 
+sentence(stupid_reason, [[' to fulfill the prophecy.']]).
 sentence(stupid_reason, [[' Because it\'s traditional.']]).
 sentence(stupid_reason, [[' Because everyone needs to feel like they have a say in it.']]).
 sentence(stupid_reason, [[' Because this is a democracy.']]).
