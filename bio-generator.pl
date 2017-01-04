@@ -47,7 +47,13 @@ sentence(random_thing, [[' a giant robot']]).
 sentence(random_things, [[' giant robots']]).
 sentence(random_thing, [[' the beuracracy']]).
 sentence(random_thing, [[' space and time']]).
+sentence(random_thing, [[' space robot']]).
+sentence(random_thing, [[' space robots']]).
+sentence(random_thing, [[' bubbles']]).
+sentence(random_thing, [[' a bubble']]).
 
+sentence(thing_to_like, [[' trains']]).
+sentence(thing_to_like, [[' bubbles']]).
 sentence(thing_to_like, [[' ice cream']]).
 sentence(thing_to_like, [[' giant robots']]).
 sentence(thing_to_like, [[' bot accounts']]).
@@ -158,6 +164,9 @@ sentence(university, [[' MIT']]).
 sentence(university, [[' egghead university']]).
 sentence(university, [[' the school of life']]).
 
+sentence(field, [[' giant robots']]).
+sentence(field, [[' math']]).
+sentence(field, [[' computer science']]).
 sentence(field, [[' behavioral genetics']]).
 sentence(field, [[' optical physics']]).
 sentence(field, [[' psychology']]).
@@ -170,6 +179,7 @@ sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclinat
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
+sentence(stupid_quote, [[' I can fly but only towards Earth.']]). %@propapergirl
 sentence(stupid_quote, [[' Hola!! :D']]). %@Javos117
 sentence(stupid_quote, [[' I am weird :O']]). %@MoonageDaydre4m
 sentence(stupid_quote, [[' I can\'t think of a bio. But I have one somewhere, I\'m sure.']]). %@Awithonelison
@@ -190,7 +200,9 @@ sentence(stupid_quote, [[' I play a scientist on tv.']]). %@donttrythis
 sentence(stupid_quote, [[' I will one day accept my adulthood, when I\'m ', Age, '  maybe.']]):- random(25, 200, R), atom_number(Age, R). %@ChrysalisFiasco
 sentence(stupid_quote, [[' Now you can support me on Patreon: '], random_site]).
 sentence(stupid_quote, [[' you\'re the'], thing_i_am, [' to my'], thing_i_am, ['.']]). %@ElpisOaks original quote: "You're the hinga to my dinga."
+sentence(stupid_quote, [[' I asked'], random_organization, [' to write my bio because it\'s 2017 and'], stupid_quote, ['.']]). %https://twitter.com/faliqfahmie/status/816511006494949376
 
+sentence(random_organization, [[' a fast food restaurant']]).
 sentence(random_organization, [[' the government']]).
 sentence(random_organization, [[' the people']]).
 sentence(random_organization, [[' the Washington Post']]).
@@ -216,6 +228,7 @@ sentence(accounts_on_twitter, [[' bots']]).
 sentence(accounts_on_twitter, [[' users']]).
 sentence(accounts_on_twitter, [[' administrators']]).
 sentence(accounts_on_twitter, [[' marketing accounts']]).
+sentence(accounts_on_twitter, [[' verified accounts']]).
 
 sentence(account_on_twitter, [[' bot']]).
 sentence(account_on_twitter, [[' user']]).

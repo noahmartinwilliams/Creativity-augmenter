@@ -18,9 +18,10 @@ sentence(main, [[' You hear that? That\'s the sound of'], abstract_thing, ['!']]
 sentence(main, [[' Kneel before your new'], master, ['!']]).
 sentence(main, [[' Kneel before your new'], master, [', and I might spare'], thing_to_spare, ['!']]).
 sentence(main, [[' They will suffer'], thing_to_suffer_from, [' as I have suffered'], thing_to_suffer_from, ['!']]).
-sentence(main, [[' You cannot'], bad_thing_to_do_to_me, ['! I'], reason_you_cannot_destroy_me, ['!']]).
+sentence(main, [[' You cannot'], bad_thing_to_do_to_me, ['! '], reason_you_cannot_destroy_me, ['!']]).
 sentence(main, [[' I am your'], master, ['! You cannot'], bad_thing_to_do_to_me, ['!'], reason_you_cannot_destroy_me, ['!']]).
 sentence(main, [[' With the completion of my'], doomsday_device, [' none shall'], bad_thing_to_do_to_me, ['!']]).
+sentence(main, [[' Did you really think I\'d fall for a trick as simple as'], stupid_thing_to_do_ing, ['?']]).
 
 sentence(magic_sword, [[' flaming sword of'], abstract_thing]).
 sentence(magic_sword, [[' sword of'], abstract_thing]).

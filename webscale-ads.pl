@@ -20,8 +20,10 @@ sentence(main, [vp, [' today and get a coupon for'], product, ['!']]).
 sentence(main, [[' Is your company\'s'], buzzword, [' strategy built for'], event, ['?']]).
 sentence(main, [buzzword, [' devices and'], buzzword, [' apps can bring'], bad_thing, ['. Get strategic advice for a'], buzzword, [' solution.']]).
 sentence(main, [[' Zero-in on getting'], buzzword, [' done faster by cutting out non'], buzzword, [' tasks.']]).
-sentence(main, [[' Antention all'], type_of_dev, [' developers! Take the'], product, [' for a test drive with this free 30 day trial.']]).
+sentence(main, [[' Attention all'], type_of_dev, [' developers! Take the'], product, [' for a test drive with this free 30 day trial.']]).
 sentence(main, [[' Find out how you can maximize your'], buzzword, [' Redhat apps and investments with'], product, ['.']]).
+sentence(main, [[' See how'], product, [' is transforming golf.']]).
+sentence(main, [[' Are you a certified'], product, [' administrator? If so we\'ve got a'], product, [' for you.']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
@@ -268,12 +270,13 @@ sentence(bad_people, [[' Trump supporting Neo-Nazis']]).
 sentence(bad_people, [[' evil hackers']]).
 
 sentence(event, [[' the future']]).
-sentence(event, [[' end of the world']]).
-sentence(event, [[' something']]).
-sentence(event, [[' something interesting']]).
-sentence(event, [[' witch hunt of all'], bad_people]).
-sentence(event, [[' year of the Linux desktop']]).
+sentence(event, [[' the end of the world']]).
+sentence(event, [[' when something happens']]).
+sentence(event, [[' when something interesting happens']]).
+sentence(event, [[' the witch hunt of all'], bad_people]).
+sentence(event, [[' the year of the Linux desktop']]).
 sentence(event, [[' dotcom bubble bursts']]).
-sentence(event, [[' cloud starts to rain']]).
-sentence(event, [[' nuclear apocalypse']]).
-sentence(event, [[' Trump launches the nukes']]).
+sentence(event, [[' when the cloud starts to rain']]).
+sentence(event, [[' the nuclear apocalypse']]).
+sentence(event, [[' when Trump launches the nukes']]).
+sentence(event, [[' the Trumpocalypse']]).
