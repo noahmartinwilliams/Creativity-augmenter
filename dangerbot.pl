@@ -121,6 +121,7 @@ sentence(logical_thing_to_do, [[' use statistics']]).
 sentence(logical_thing_to_do, [[' defend human rights']]).
 sentence(logical_thing_to_do, [[' vote for the most competent leader']]).
 
+sentence(witch, [[' civil rights activist']]).
 sentence(witch, [[' smart person']]).
 sentence(witch, [[' woman']]).
 sentence(witch, [[' communist']]).

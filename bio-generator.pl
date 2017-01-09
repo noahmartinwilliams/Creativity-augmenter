@@ -60,6 +60,11 @@ sentence(thing_to_like, [[' bot accounts']]).
 sentence(thing_to_like, [[' what I see']]).
 sentence(thing_to_like, [[' turtles']]).
 
+sentence(stupid_thing_to_do_s, [[' swims']]).
+sentence(stupid_thing_to_do_ed, [[' swam']]).
+sentence(stupid_thing_to_do_ing, [[' swimming']]).
+sentence(stupid_thing_to_do, [[' swim']]).
+
 sentence(stupid_thing_to_do_s, [[' blocks absolutely everyone on Twitter']]).
 sentence(stupid_thing_to_do_ed, [[' blocked absolutely everyone on Twitter']]).
 sentence(stupid_thing_to_do_ing, [[' blocking absolutely everyone on Twitter']]).
@@ -179,6 +184,7 @@ sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclinat
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
+sentence(stupid_quote, [[' Keep on'], stupid_thing_to_do_ing, [' motherfuckers.']]). %@Namaste_Ish
 sentence(stupid_quote, [[' I can fly but only towards Earth.']]). %@propapergirl
 sentence(stupid_quote, [[' Hola!! :D']]). %@Javos117
 sentence(stupid_quote, [[' I am weird :O']]). %@MoonageDaydre4m

@@ -24,6 +24,7 @@ sentence(main, [[' Attention all'], type_of_dev, [' developers! Take the'], prod
 sentence(main, [[' Find out how you can maximize your'], buzzword, [' Redhat apps and investments with'], product, ['.']]).
 sentence(main, [[' See how'], product, [' is transforming golf.']]).
 sentence(main, [[' Are you a certified'], product, [' administrator? If so we\'ve got a'], product, [' for you.']]).
+sentence(main, [[' Never feel starved of'], product, [' Try'], product, [' for 12 weeks for just $12.']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
@@ -210,6 +211,10 @@ sentence(adj, [[' fancy']]).
 sentence(adj, [[' nonfancy']]).
 sentence(adj, [[' savvy']]).
 sentence(adj, [[' nonsavvy']]).
+sentence(adj, [[' Nazi-free']]).
+sentence(adj, [[' Nazi-free']]).
+sentence(adj, [[' Nazi-free']]).
+sentence(adj, [[' Nazi-free']]).
 sentence(adj, [[' Nazi-free']]).
 
 sentence(company, [[' Microsoft']]).
