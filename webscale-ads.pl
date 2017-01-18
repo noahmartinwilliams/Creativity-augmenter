@@ -109,6 +109,7 @@ sentence(bad_thing, [[' documentation written in latin']]).
 
 sentence(type_of_website, [[' blatant Twitter rip off']]).
 sentence(type_of_website, [[' Twitter clone']]).
+sentence(type_of_website, [[' phishing site']]).
 sentence(type_of_website, [[' social media']]).
 sentence(type_of_website, [[' social news']]).
 sentence(type_of_website, [[' news']]).
@@ -192,6 +193,8 @@ sentence(postadj, [[' machine']]).
 sentence(postadj, [[' analyzer']]).
 sentence(postadj, [[' database']]).
 
+sentence(adj, [[' obvious']]).
+sentence(adj, [[' non-obvious']]).
 sentence(adj, [[' SQL']]).
 sentence(adj, [[' barely usable']]).
 sentence(adj, [[' non-SQL']]).
@@ -219,6 +222,7 @@ sentence(adj, [[' Nazi-free']]).
 
 sentence(company, [[' Microsoft']]).
 sentence(company, [[' Oracle']]).
+sentence(company, [[' Google']]).
 sentence(company, [[' Cloudera']]).
 sentence(company, [[' Informix']]).
 sentence(company, [[' my brother\'s struggling startup']]).

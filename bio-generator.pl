@@ -184,6 +184,7 @@ sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclinat
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
+sentence(stupid_quote, [[' Change the paradigm.']]). %@noah_anyname
 sentence(stupid_quote, [[' Keep on'], stupid_thing_to_do_ing, [' motherfuckers.']]). %@Namaste_Ish
 sentence(stupid_quote, [[' I can fly but only towards Earth.']]). %@propapergirl
 sentence(stupid_quote, [[' Hola!! :D']]). %@Javos117

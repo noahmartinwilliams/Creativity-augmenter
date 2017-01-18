@@ -11,6 +11,7 @@ sentence(main, [main_intern, [' robot version '], version_number]).
 sentence(main, [main_intern, [' device']]).
 sentence(main, [main_intern, [' now USB 2.0 compatible']]).
 sentence(main, [main_intern, edition, [' edition']]).
+sentence(main, [[' ISO-compliant'], main_intern]).
 sentence(main, [main_acronym]):- maybe, maybe.
 
 sentence(main_intern, [bad_thing, [' detector and eliminator']]).
@@ -60,6 +61,7 @@ sentence(n, [[' pen']]).
 sentence(n, [[' soda can']]).
 sentence(n, [[' filing cabinet']]).
 sentence(n, [[' lamp']]).
+sentence(n, [[' tv']]).
 
 sentence(thousand, [[Thousand]]):- random(1, 10, R), atom_number(N, R), atom_concat(N, '000', Thousand).
 sentence(version_number, [[Version]]):- random(1, 10, R), atom_number(N, R), atom_concat(N, '.0', Version).
@@ -115,11 +117,15 @@ sentence(tool, [[' calculator']]).
 sentence(tool, [[' wrench']]).
 sentence(tool, [[' nut driver']]).
 sentence(tool, [[' power supply']]).
+sentence(tool, [[' dremel']]).
 
 sentence(machine, [[' generator']]).
 sentence(machine, [thing, [' accelerator']]).
 sentence(machine, [[' super computer']]).
 sentence(machine, [thing, [' tracking computer']]).
+sentence(machine, [thing, [' energizer']]).
+sentence(machine, [thing, [' enhancer']]).
+sentence(machine, [thing, [' upgrader']]).
 
 sentence(main_acronym, [[Acronym]]):- 
 	once((['words'], 
