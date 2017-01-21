@@ -25,6 +25,16 @@ sentence(main, [[' Find out how you can maximize your'], buzzword, [' Redhat app
 sentence(main, [[' See how'], product, [' is transforming golf.']]).
 sentence(main, [[' Are you a certified'], product, [' administrator? If so we\'ve got a'], product, [' for you.']]).
 sentence(main, [[' Never feel starved of'], product, [' Try'], product, [' for 12 weeks for just $12.']]).
+sentence(main, [[' The best email client for'], product, ['.']]).
+sentence(main, [[' The best email client for'], os, ['.']]).
+sentence(main, [[' Introducing'], adj, [' mapping.'], [' Say goodbye to'], adj, [' network diagrams.']]).
+sentence(main, [[' Time to bring back'], product, ['.']]).
+
+sentence(os, [[' Linux']]).
+sentence(os, [[' Windows']]).
+sentence(os, [[' Mac OS X']]).
+sentence(os, [[' that one OS I\'ve been writing for fun']]).
+sentence(os, [[' an OS made of completely random data that happens to run']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
@@ -193,6 +203,11 @@ sentence(postadj, [[' machine']]).
 sentence(postadj, [[' analyzer']]).
 sentence(postadj, [[' database']]).
 
+sentence(adj, [[' static']]).
+sentence(adj, [[' dynamic']]).
+sentence(adj, [[' dynamic']]).
+sentence(adj, [[' dynamic']]).
+sentence(adj, [[' dynamic']]).
 sentence(adj, [[' obvious']]).
 sentence(adj, [[' non-obvious']]).
 sentence(adj, [[' SQL']]).
