@@ -9,6 +9,7 @@ sentence(main, [main_intern, [' version '], version_number]).
 sentence(main, [main_intern, [' robot']]).
 sentence(main, [main_intern, [' robot version '], version_number]).
 sentence(main, [main_intern, [' device']]).
+sentence(main, [[' IoT'], main_intern]).
 sentence(main, [main_intern, [' now USB 2.0 compatible']]).
 sentence(main, [main_intern, edition, [' edition']]).
 sentence(main, [[' ISO-compliant'], main_intern]).

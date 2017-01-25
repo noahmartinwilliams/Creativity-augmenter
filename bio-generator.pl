@@ -184,6 +184,7 @@ sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclinat
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
+sentence(stupid_quote, [[' I play to win.']]). %@BunnyHopDva
 sentence(stupid_quote, [[' My youth is mine. All mine! >:(']]). %@sadgems
 sentence(stupid_quote, [[' My youth is mine.']]). %@sadgems
 sentence(stupid_quote, [[' My youth is yours.']]). %@sadgems

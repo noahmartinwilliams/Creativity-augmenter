@@ -29,6 +29,7 @@ sentence(main, [[' The best email client for'], product, ['.']]).
 sentence(main, [[' The best email client for'], os, ['.']]).
 sentence(main, [[' Introducing'], adj, [' mapping.'], [' Say goodbye to'], adj, [' network diagrams.']]).
 sentence(main, [[' Time to bring back'], product, ['.']]).
+sentence(main, [[' We\'re simplifying the'], buzzword, [' by providing'], product, [' that'], type_of_dev, [' developers love.']]).
 
 sentence(os, [[' Linux']]).
 sentence(os, [[' Windows']]).
