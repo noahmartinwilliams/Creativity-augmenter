@@ -35,8 +35,16 @@ sentence(main, [[' Could Electing'], authority_figure, [' Have Been A Bad Idea?'
 sentence(main, [[' New'], new_thing, [' Shows That Electing'], authority_figure, [' Was A Terrible Idea That Will Destroy Us All.']]).
 sentence(main, [[' Would'], authority_figure, [' Commit Nuclear Genocide? YES.']]).
 sentence(main, [[' Electoral College Elects'], authority_figure, [' As President By'], method_of_proof, [', And I Think They\'re Wrong.']]).
-sentence(main, [[' New platonic solid discovered'], place_to_be_discovered, ['.']]).
+sentence(main, [[' New Platonic Solid Discovered'], place_to_be_discovered, ['.']]).
 sentence(main, [[' New'], new_thing, [' Shows'], shapes, [' And'], shapes, [' Are Topologically The Same.']]).
+sentence(main, [news_org, [' Banned From Attending Press Conferences.']]).
+
+sentence(news_org, [[' Lambda News']]).
+sentence(news_org, [[' Matrix News']]).
+sentence(news_org, [[' Vector News']]).
+sentence(news_org, [[' Eigen Vector News']]).
+sentence(news_org, [[' Infinity News']]).
+sentence(news_org, [[' Derivative News']]).
 
 sentence(shapes, [[' funny looking swirls']]).
 sentence(shapes, [[' Cubes']]).
@@ -50,6 +58,7 @@ sentence(shapes, [[' Pentagons']]).
 sentence(shapes, [[' Dodecahedrons']]).
 sentence(shapes, [[' Octagons']]).
 
+sentence(place_to_be_discovered, [[' In The Hyperbolic Plane']]).
 sentence(place_to_be_discovered, [[' Under The Last Platonic Solid']]).
 sentence(place_to_be_discovered, [[' In The Fourth Dimension']]).
 sentence(place_to_be_discovered, [[' In Hyperspace']]).
@@ -61,6 +70,7 @@ sentence(structure_intern, [[' Giant Statues']]).
 sentence(structure_intern, [[' Underground Tunnels']]).
 
 sentence(structure, [structure_intern]).
+sentence(structure, [[' Hyperbolic'], structure_intern]):- maybe.
 sentence(structure, [[' Four Dimensional'], structure_intern]):- maybe, maybe.
 
 sentence(societal_problem, [bad_people]).
@@ -192,6 +202,7 @@ sentence(new_thing, [[' Randomly Generated String Of Text']]).
 sentence(new_thing, [[' Idea We Read On The Internet']]).
 
 
+sentence(bad_people, [[' hyperbolic'], bad_people]).
 sentence(bad_people, [[' Applied Mathematicians']]).
 sentence(bad_people, [[' Applied Mathematicians']]).
 sentence(bad_people, [[' Applied Mathematicians']]).

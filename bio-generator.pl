@@ -95,6 +95,7 @@ sentence(stupid_thing_to_do_ed, [[' worked on'], random_thing]).
 sentence(stupid_thing_to_do_ing, [[' working on'], random_thing]).
 sentence(stupid_thing_to_do, [[' work on'], random_thing]).
 
+sentence(thing_i_am, [[' screaming space potato']]).
 sentence(thing_i_am, [[' plus size model']]). %@BBluez84 url: thejessig.wordpress.com
 sentence(thing_i_am, [[' future leader of Earth']]). %@noah_anyname
 sentence(thing_i_am, [[' robot trapped in a human body']]). %@noah_anyname
@@ -184,6 +185,7 @@ sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclinat
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
+sentence(stupid_quote, [[' I\'m not invited to Trump\'s press conferences. :(']]).
 sentence(stupid_quote, [[' I play to win.']]). %@BunnyHopDva
 sentence(stupid_quote, [[' My youth is mine. All mine! >:(']]). %@sadgems
 sentence(stupid_quote, [[' My youth is mine.']]). %@sadgems

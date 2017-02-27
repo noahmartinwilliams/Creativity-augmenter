@@ -23,6 +23,10 @@ sentence(stupid_thing_to_do, [[' solve our'], nonproblem, [' problem']]).
 sentence(stupid_thing_to_do_ing, [[' solving our'], nonproblem, [' problem']]).
 sentence(stupid_thing_to_do_ed, [[' solved our'], nonproblem, [' problem']]).
 
+sentence(stupid_thing_to_do, [[' deport random children']]).
+sentence(stupid_thing_to_ing, [[' deporting random children']]).
+sentence(stupid_thing_to_ed, [[' deported random children']]).
+
 sentence(something_terrible, [[' nuclear annihilation']]).
 sentence(something_terrible, [[' less healthcare']]).
 sentence(something_terrible, [[' nuclear genocide']]).
@@ -50,6 +54,7 @@ sentence(stupid_paranoia, [[' I know this guy who knows'], nonauthority_figure, 
 sentence(stupid_paranoia, [[' How can you talk about'], serious_problem, [' when'], nonproblem, [' is happening?']]).
 sentence(stupid_paranoia, [[' That quote from'], nonauthority_figure, [' about'], awful_thing_to_do, [' is taken out of context!']]).
 
+sentence(awful_thing_to_do, [[' deporting random children']]).
 sentence(awful_thing_to_do, [[' shooting puppies']]).
 sentence(awful_thing_to_do, [[' suing people until they run out of money']]).
 sentence(awful_thing_to_do, [[' wanting to murder poor people']]).

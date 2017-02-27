@@ -146,6 +146,7 @@ sentence(adj, [[' inductive']]).
 sentence(adj, [[' functional']]).
 sentence(adj, [[' magneto']]).
 
+sentence(nsg, [[' lithium grease']]).
 sentence(nsg, [[' a fuel']]).
 sentence(nsg, [[' mainframe']]).
 sentence(nsg, [[' secondaryframe']]).

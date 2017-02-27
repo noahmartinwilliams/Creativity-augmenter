@@ -30,6 +30,8 @@ sentence(main, [[' The best email client for'], os, ['.']]).
 sentence(main, [[' Introducing'], adj, [' mapping.'], [' Say goodbye to'], adj, [' network diagrams.']]).
 sentence(main, [[' Time to bring back'], product, ['.']]).
 sentence(main, [[' We\'re simplifying the'], buzzword, [' by providing'], product, [' that'], type_of_dev, [' developers love.']]).
+sentence(main, [[' Ready to start developing with'], product, ['?']]).
+sentence(main, [[' Be invited to Trump\'s press conferences with'], product, [' so you can'], boring_thing_to_do, ['.']]).
 
 sentence(os, [[' Linux']]).
 sentence(os, [[' Windows']]).
@@ -88,6 +90,7 @@ sentence(main_intern, [[' Is your company\'s'], product, [' built for the future
 sentence(main_intern, [[' Have straight up actual'], bad_people, [' hacked your'], product, ['? Fight back with'], product, ['!']]).
 sentence(main_intern, [[' Users LOVE to'], thing_users_do, ['. So make it easier and build your business with'], product, ['!']]).
 sentence(main_intern, [[' Review and test sooner with Running'], product, [' for every'], buzzword, [' branch.']]).
+sentence(main_intern, [[' Download'], vp_ing, ['.']]).
 sentence(main_intern, [[' Get '], [RandomNum], [' steps to make your business\'s'], buzzword, [' transformation a reality.']]):- random(2, 100, R), atom_number(RandomNum, R).
 
 sentence(bad_thing, [[' a Trump presidency']]).

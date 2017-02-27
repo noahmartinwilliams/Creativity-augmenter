@@ -22,6 +22,8 @@ sentence(main, [[' You cannot'], bad_thing_to_do_to_me, ['! '], reason_you_canno
 sentence(main, [[' I am your'], master, ['! You cannot'], bad_thing_to_do_to_me, ['!'], reason_you_cannot_destroy_me, ['!']]).
 sentence(main, [[' With the completion of my'], doomsday_device, [' none shall'], bad_thing_to_do_to_me, ['!']]).
 sentence(main, [[' Did you really think I\'d fall for a trick as simple as'], stupid_thing_to_do_ing, ['?']]).
+sentence(main, [[' Soon you\'ll understand the POWER of'], stupid_thing_to_do_ing, ['!']]).
+sentence(main, [[' You\'ll never stop me from'], bad_plan_ing, ['!']]).
 
 sentence(magic_sword, [[' flaming sword of'], abstract_thing]).
 sentence(magic_sword, [[' sword of'], abstract_thing]).
@@ -59,6 +61,9 @@ sentence(master, [[' head of operations']]).
 sentence(master, [[' CEO']]).
 sentence(master, [[' safety inspector']]).
 
+sentence(bad_plan, [[' deport random children to Mexico']]).
+sentence(bad_plan_ing, [[' deporting random children to Mexico']]).
+
 sentence(bad_plan, [[' destroy'], place, [' with'], doomsday_device]).
 sentence(bad_plan_ing, [[' destroying'], place, [' with'], doomsday_device]).
 sentence(bad_plan, [[' steal the'], thing_to_steal]).
@@ -78,18 +83,25 @@ sentence(spy_agency, [[' the NSA']]).
 
 sentence(stupid_thing_to_do_ing, [[' giving nuclear weapons to a Nazi']]).
 sentence(stupid_thing_to_do_ed, [[' gave nuclear weapons to Nazis']]).
+
 sentence(stupid_thing_to_do_ing, [[' electing a Nazi for president']]).
 sentence(stupid_thing_to_do_ed, [[' elected a Nazi for president']]).
+
 sentence(stupid_thing_to_do_ing, [[' killing all of your allies']]).
 sentence(stupid_thing_to_do_ed, [[' killed all of your allies']]).
+
 sentence(stupid_thing_to_do_ing, [[' blowing up the'], doomsday_device]).
 sentence(stupid_thing_to_do_ed, [[' blew up the'], doomsday_device]).
+
 sentence(stupid_thing_to_do_ing, [[' trusting your instincts by'], stupid_thing_to_do_ing]).
 sentence(stupid_thing_to_do_ed, [[' trusted your instincts by'], stupid_thing_to_do_ing]).
+
 sentence(stupid_thing_to_do_ing, [[' walking right into my trap']]).
 sentence(stupid_thing_to_do_ed, [[' walked right into my trap']]).
+
 sentence(stupid_thing_to_do_ing, [[' listening to your feelings by'], stupid_thing_to_do_ing]).
 sentence(stupid_thing_to_do_ed, [[' listened to your feelings by'], stupid_thing_to_do_ing]).
+
 sentence(stupid_thing_to_do_ing, [[' getting angry and'], stupid_thing_to_do_ing]).
 sentence(stupid_thing_to_do_ed, [[' got angry and'], stupid_thing_to_do_ing]).
 sentence(stupid_thing_to_do_ing, [[' being nice to a Nazi']]).
