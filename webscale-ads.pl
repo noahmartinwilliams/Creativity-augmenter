@@ -32,6 +32,7 @@ sentence(main, [[' Time to bring back'], product, ['.']]).
 sentence(main, [[' We\'re simplifying the'], buzzword, [' by providing'], product, [' that'], type_of_dev, [' developers love.']]).
 sentence(main, [[' Ready to start developing with'], product, ['?']]).
 sentence(main, [[' Be invited to Trump\'s press conferences with'], product, [' so you can'], boring_thing_to_do, ['.']]).
+sentence(main, [[' Working with'], product, ['? Try'], product, [' the smartest'], dev_environment, [' for '], type_of_dev, ['developers.']]).
 
 sentence(os, [[' Linux']]).
 sentence(os, [[' Windows']]).
@@ -190,6 +191,7 @@ sentence(vp, [[' punch Nazis in the face with'], product]).
 
 sentence(buzzword, [[' cloud data']]).
 sentence(buzzword, [[' webscale']]).
+sentence(buzzword, [['Internet of shard']]).
 sentence(buzzword, [[' web 2.0']]).
 sentence(buzzword, [[' webscale 2.0 on the cloud']]).
 sentence(buzzword, [[' webscale 2.0 on the shard']]).
@@ -264,6 +266,7 @@ sentence(product_intern, [[' Linux kernel']]).
 sentence(product_intern, [[' quantum chromodynamic energy pumps']]).
 sentence(product_intern, [[' really fancy server racks']]).
 sentence(product_intern, [[' better software in general']]).
+sentence(product_intern, [[' Internet of cloud']]).
 
 sentence(product, [product_intern]).
 sentence(product, [product_intern, [' that catches on fire']]):- maybe.

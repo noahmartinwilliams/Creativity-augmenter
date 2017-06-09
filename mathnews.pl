@@ -78,6 +78,7 @@ sentence(societal_problem, [[' Racism']]).
 sentence(societal_problem, [[' Sexism']]).
 sentence(societal_problem, [[' Boring Math Textbooks']]).
 sentence(societal_problem, [[' Math Becoming Too Politicized']]).
+sentence(societal_problem, [[' Math Not Being Pure Enough']]).
 sentence(societal_problem, [[' Anti-Math Nazis']]).
 sentence(societal_problem, [[' Broken Calculators']]).
 
@@ -88,6 +89,7 @@ sentence(authority_figure, [[' The Pi Government']]).
 sentence(authority_figure, [[' The Hivemind Of Mathematicians']]).
 sentence(authority_figure, [[' Probability']]).
 sentence(authority_figure, [[' Geometry']]).
+sentence(authority_figure, [[' Origami Math']]).
 sentence(authority_figure, [[' The Monolith Of Infinity']]).
 sentence(authority_figure, [[' The Illuminati']]).
 sentence(authority_figure, [[' The Chosen One Who Will Overthrow'], authority_figure]).
@@ -225,6 +227,7 @@ sentence(bad_people, [[' Math Conspiracy Theorists']]).
 sentence(bad_people, [[' Alternative Math Advocates']]).
 sentence(bad_people, [[' Math Spies Trying To Steal Our Research Papers']]).
 sentence(bad_people, [[' Tau Rebels']]).
+sentence(bad_people, [[' Applied Mathematics Supremacists']]).
 sentence(bad_people, [[' Evil Math Wizards']]).
 sentence(bad_people, [[' Newton Notation Users']]).
 sentence(bad_people, [[' Leibnitz Notation Users']]).
@@ -239,6 +242,7 @@ sentence(thing, [set]).
 sentence(thing, [unlikely_thing]).
 
 sentence(number, [[' The Exact Number Of Numbers']]).
+sentence(number, [[' The Biggest Number You Can Think Of']]).
 sentence(number, [[' 0xDEADBEEF']]).
 sentence(number, [[' 5']]).
 sentence(number, [[' The Exact Number Of Bananas On Earth Right Now']]).
@@ -257,6 +261,8 @@ sentence(number, [[Num]]):- random(-100, 100, R), atom_number(Num2, R), atom_con
 
 sentence(set, [[' The Set Of All Numbers Found By'], really_bad_way_to_find_numbers]).
 sentence(set, [[' The Set Of All The Best Things In The World']]).
+sentence(set, [[' The Set Of All Sets']]).
+sentence(set, [[' The Set Of Every Bad Decision You\'ve Ever Made']]).
 sentence(set, [[' The Set Of Every'], number, [' That\'s A Palindrome']]).
 sentence(set, [[' The Set Of Every'], new_thing, [' That\'s A Palindrome']]).
 sentence(set, [[' The Set Of All My Favorite Numbers']]).
@@ -283,6 +289,7 @@ sentence(a_state, [[' Only Interesting To Math Nerds']]).
 
 sentence(thing_to_ignore, [authority_figure]).
 sentence(thing_to_ignore, [[' Math']]).
+sentence(thing_to_ignore, [[' Authoritarian Regimes That Can\'t Count']]).
 sentence(thing_to_ignore, [[' Reality']]).
 sentence(thing_to_ignore, [[' The Math Gods']]).
 sentence(thing_to_ignore, [[' Logic And Reason']]).
@@ -303,6 +310,7 @@ sentence(condition, [[' If It\'s Not Raining Outside']]).
 sentence(condition, [[' If This Statement Is False']]).
 sentence(condition, [[' If'], authority_figure, [' Is Overthrown']]).
 
+sentence(method_of_proof, [[' Advanced Algorithms']]).
 sentence(method_of_proof, [[' Math Magic']]).
 sentence(method_of_proof, [[' Advanced Hand Waving']]).
 sentence(method_of_proof, [[' Process Of Elimination']]).
@@ -327,15 +335,19 @@ sentence(method_of_proof, [[' Doing The Math']]).
 sentence(method_of_proof, [[' Thinking Abou It And Coming Up With An Answer']]).
 sentence(method_of_proof, [[' Eliminating Literally All Other Possibly True Statements']]).
 sentence(method_of_proof, [[' Voting On It']]).
+sentence(method_of_proof, [[' Writing To Their Local Congressman']]).
 
 sentence(thing_to_question, [[' Authority']]).
 sentence(thing_to_question, [[' Intelligence']]).
 sentence(thing_to_question, [[' Wisdom']]).
 sentence(thing_to_question, [[' Sexuality']]).
+sentence(thing_to_question, [[' Skills']]).
 
 sentence(bad_thing, [[' Heresy']]).
 sentence(bad_thing, [[' Slander']]).
 sentence(bad_thing, [[' An Insult To Humanity']]).
+sentence(bad_thing, [[' An Insult To Math']]).
+sentence(bad_thing, [[' An Insult To'], authority_figure]).
 sentence(bad_thing, [[' An Attack On Humanity']]).
 sentence(bad_thing, [[' An Attack On Math']]).
 sentence(bad_thing, [[' Thought Crime']]).

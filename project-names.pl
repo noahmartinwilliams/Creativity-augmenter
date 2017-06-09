@@ -22,6 +22,7 @@ sentence(main_intern, [thing, [' energizer']]).
 sentence(main_intern, [thing, ['-recalibrator']]).
 sentence(main_intern, [thing, [' reprogrammer']]).
 sentence(main_intern, [thing, ['-discombobulator']]).
+sentence(main_intern, [thing, ['-recombobulator']]).
 sentence(main_intern, [thing, ['-detector']]).
 sentence(main_intern, [thing, [' repair robot']]).
 sentence(main_intern, [thing, [' analyzer']]).
@@ -39,6 +40,7 @@ sentence(edition, [[' IoT']]).
 sentence(edition, [[' better']]).
 sentence(edition, [[' shiny']]).
 sentence(edition, [[' chrome']]).
+sentence(edition, [[' small']]).
 
 sentence(adj, [[' giant']]).
 sentence(adj, [[' screaming']]).
@@ -47,6 +49,7 @@ sentence(adj, [[' electric']]).
 sentence(adj, [[' atomic']]).
 sentence(adj, [[' big']]).
 sentence(adj, [[' tiny']]).
+sentence(adj, [[' indestructible']]).
 
 sentence(n, [[' cardboard box']]).
 sentence(n, [[' box']]).
@@ -61,6 +64,7 @@ sentence(n, [[' test tube']]).
 sentence(n, [[' pen']]).
 sentence(n, [[' soda can']]).
 sentence(n, [[' filing cabinet']]).
+sentence(n, [[' emergency snacks']]).
 sentence(n, [[' lamp']]).
 sentence(n, [[' tv']]).
 
@@ -116,6 +120,7 @@ sentence(tool, [[' soldering iron']]).
 sentence(tool, [[' welding torch']]).
 sentence(tool, [[' calculator']]).
 sentence(tool, [[' wrench']]).
+sentence(tool, [[' stapler']]).
 sentence(tool, [[' nut driver']]).
 sentence(tool, [[' power supply']]).
 sentence(tool, [[' dremel']]).

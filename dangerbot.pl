@@ -53,6 +53,13 @@ sentence(stupid_paranoia, [[' Wake up'], arbitrary_group, ['!']]).
 sentence(stupid_paranoia, [[' I know this guy who knows'], nonauthority_figure, [' who says that'], random_minority, [' are trying to take over the world!']]).
 sentence(stupid_paranoia, [[' How can you talk about'], serious_problem, [' when'], nonproblem, [' is happening?']]).
 sentence(stupid_paranoia, [[' That quote from'], nonauthority_figure, [' about'], awful_thing_to_do, [' is taken out of context!']]).
+sentence(stupid_paranoia, [[' The president is spying on me through my'], microwave, ['!!']]).
+
+sentence(microwave, [[' microwave']]).
+sentence(microwave, [[' television']]).
+sentence(microwave, [[' toaster']]).
+sentence(microwave, [[' toaster oven']]).
+sentence(microwave, [[' kitchen sink']]).
 
 sentence(awful_thing_to_do, [[' deporting random children']]).
 sentence(awful_thing_to_do, [[' shooting puppies']]).
