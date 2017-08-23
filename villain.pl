@@ -81,6 +81,9 @@ sentence(spy_agency, [[' the FBI']]).
 sentence(spy_agency, [[' one of the countless government agencies no one knows about']]).
 sentence(spy_agency, [[' the NSA']]).
 
+sentence(stupid_thing_to_do_ing, [[' staring directly at the sun']]).
+sentence(stupid_thing_to_do_ed, [[' stared directly at the sun']]).
+
 sentence(stupid_thing_to_do_ing, [[' giving nuclear weapons to a Nazi']]).
 sentence(stupid_thing_to_do_ed, [[' gave nuclear weapons to Nazis']]).
 

@@ -13,6 +13,9 @@ sentence(main, [arbitrary_group, [' are the master race!']]).
 sentence(main, [[' Only'], nonauthority_figure, [' can'], stupid_thing_to_do, ['!']]).
 sentence(main, [[' Now that'], arbitrary_group, [' are great again we can'], stupid_thing_to_do, ['!']]).
 
+sentence(stupid_thing_to_do, [[' stare at the sun with the president']]).
+sentence(stupid_thing_to_do, [[' staring at the sun with the president']]).
+sentence(stupid_thing_to_do_ed, [[' stared at the sun with the president']]).
 sentence(stupid_thing_to_do, [[' make'], arbitrary_group, [' great again']]).
 sentence(stupid_thing_to_do_ing, [[' making'], arbitrary_group, [' great again']]).
 sentence(stupid_thing_to_do_ed, [[' made'], arbitrary_group, [' great again']]).

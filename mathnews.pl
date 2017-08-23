@@ -38,6 +38,8 @@ sentence(main, [[' Electoral College Elects'], authority_figure, [' As President
 sentence(main, [[' New Platonic Solid Discovered'], place_to_be_discovered, ['.']]).
 sentence(main, [[' New'], new_thing, [' Shows'], shapes, [' And'], shapes, [' Are Topologically The Same.']]).
 sentence(main, [news_org, [' Banned From Attending Press Conferences.']]).
+sentence(main, [['Could The Eclipse Be Evidence That Electing'], authority_figure, [' Was A Bad Idea?']]).
+sentence(main, [authority_figure, [' Bans Viewing Eclipse Because It\'s Not Mathematical Enough.']]).
 
 sentence(news_org, [[' Lambda News']]).
 sentence(news_org, [[' Matrix News']]).

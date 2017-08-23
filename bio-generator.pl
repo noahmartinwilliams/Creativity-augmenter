@@ -153,6 +153,7 @@ sentence(thing_i_am, [[' doctor of'], random_thing]).
 sentence(thing_i_am, [[' postdoc'], stupid_thing_to_do_ing]).
 sentence(thing_i_am, [[' bot that'], stupid_thing_to_do_s]).
 sentence(thing_i_am, [[' bot that posts'], stupid_thing_to_post]).
+sentence(thing_i_am, [[' blind due to eclipse']]).
 
 sentence(stupid_show, [[' factbusters']]).
 sentence(stupid_show, [[' Are you smarter than a'], random_thing]).
@@ -215,6 +216,7 @@ sentence(stupid_quote, [[' I will one day accept my adulthood, when I\'m ', Age,
 sentence(stupid_quote, [[' Now you can support me on Patreon: '], random_site]).
 sentence(stupid_quote, [[' you\'re the'], thing_i_am, [' to my'], thing_i_am, ['.']]). %@ElpisOaks original quote: "You're the hinga to my dinga."
 sentence(stupid_quote, [[' I asked'], random_organization, [' to write my bio because it\'s 2017 and'], stupid_quote, ['.']]). %https://twitter.com/faliqfahmie/status/816511006494949376
+sentence(stupid_quote, [[' I didn\'t use eclipse glasses and I\'m (mostly) fine.']]).
 
 sentence(random_organization, [[' a fast food restaurant']]).
 sentence(random_organization, [[' the government']]).

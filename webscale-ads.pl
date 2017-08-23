@@ -33,6 +33,7 @@ sentence(main, [[' We\'re simplifying the'], buzzword, [' by providing'], produc
 sentence(main, [[' Ready to start developing with'], product, ['?']]).
 sentence(main, [[' Be invited to Trump\'s press conferences with'], product, [' so you can'], boring_thing_to_do, ['.']]).
 sentence(main, [[' Working with'], product, ['? Try'], product, [' the smartest'], dev_environment, [' for '], type_of_dev, ['developers.']]).
+sentence(main, [[' Stare directly at the sun with'], product, ['. Only on the'], product, [' by'], company, ['.']]).
 
 sentence(os, [[' Linux']]).
 sentence(os, [[' Windows']]).
@@ -191,7 +192,7 @@ sentence(vp, [[' punch Nazis in the face with'], product]).
 
 sentence(buzzword, [[' cloud data']]).
 sentence(buzzword, [[' webscale']]).
-sentence(buzzword, [['Internet of shard']]).
+sentence(buzzword, [[' Internet of shard']]).
 sentence(buzzword, [[' web 2.0']]).
 sentence(buzzword, [[' webscale 2.0 on the cloud']]).
 sentence(buzzword, [[' webscale 2.0 on the shard']]).
@@ -241,6 +242,7 @@ sentence(adj, [[' Nazi-free']]).
 sentence(adj, [[' Nazi-free']]).
 sentence(adj, [[' Nazi-free']]).
 
+sentence(company, [[' Sun Microsystems']]).
 sentence(company, [[' Microsoft']]).
 sentence(company, [[' Oracle']]).
 sentence(company, [[' Google']]).
