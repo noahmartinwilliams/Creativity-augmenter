@@ -21,6 +21,7 @@ sentence(main, [[' Is your company\'s'], buzzword, [' strategy built for'], even
 sentence(main, [buzzword, [' devices and'], buzzword, [' apps can bring'], bad_thing, ['. Get strategic advice for a'], buzzword, [' solution.']]).
 sentence(main, [[' Zero-in on getting'], buzzword, [' done faster by cutting out non'], buzzword, [' tasks.']]).
 sentence(main, [[' Attention all'], type_of_dev, [' developers! Take the'], product, [' for a test drive with this free 30 day trial.']]).
+sentence(main, [[' Design and implement'], buzzword, [' and'], buzzword, [' only with the'], product, ['.']]).
 sentence(main, [[' Find out how you can maximize your'], buzzword, [' Redhat apps and investments with'], product, ['.']]).
 sentence(main, [[' See how'], product, [' is transforming golf.']]).
 sentence(main, [[' Are you a certified'], product, [' administrator? If so we\'ve got a'], product, [' for you.']]).
@@ -32,8 +33,9 @@ sentence(main, [[' Time to bring back'], product, ['.']]).
 sentence(main, [[' We\'re simplifying the'], buzzword, [' by providing'], product, [' that'], type_of_dev, [' developers love.']]).
 sentence(main, [[' Ready to start developing with'], product, ['?']]).
 sentence(main, [[' Be invited to Trump\'s press conferences with'], product, [' so you can'], boring_thing_to_do, ['.']]).
-sentence(main, [[' Working with'], product, ['? Try'], product, [' the smartest'], dev_environment, [' for '], type_of_dev, ['developers.']]).
+sentence(main, [[' Working with'], product, ['? Try'], product, [' the smartest'], dev_environment, [' for '], type_of_dev, [' developers.']]).
 sentence(main, [[' Stare directly at the sun with'], product, ['. Only on the'], product, [' by'], company, ['.']]).
+sentence(main, [[' I don\'t always test my'], product, [' but when I do I do it in production.']]).
 
 sentence(os, [[' Linux']]).
 sentence(os, [[' Windows']]).

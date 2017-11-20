@@ -95,6 +95,7 @@ sentence(stupid_thing_to_do_ed, [[' worked on'], random_thing]).
 sentence(stupid_thing_to_do_ing, [[' working on'], random_thing]).
 sentence(stupid_thing_to_do, [[' work on'], random_thing]).
 
+sentence(thing_i_am, [[' in a cheap suit']]).
 sentence(thing_i_am, [[' screaming space potato']]).
 sentence(thing_i_am, [[' plus size model']]). %@BBluez84 url: thejessig.wordpress.com
 sentence(thing_i_am, [[' future leader of Earth']]). %@noah_anyname

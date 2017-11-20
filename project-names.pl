@@ -42,6 +42,7 @@ sentence(edition, [[' shiny']]).
 sentence(edition, [[' chrome']]).
 sentence(edition, [[' small']]).
 
+sentence(adj, [[' covfefe']]).
 sentence(adj, [[' giant']]).
 sentence(adj, [[' screaming']]).
 sentence(adj, [[' computerized']]).
@@ -51,6 +52,7 @@ sentence(adj, [[' big']]).
 sentence(adj, [[' tiny']]).
 sentence(adj, [[' indestructible']]).
 
+sentence(n, [[' covfefe']]).
 sentence(n, [[' cardboard box']]).
 sentence(n, [[' box']]).
 sentence(n, [[' waffle']]).
