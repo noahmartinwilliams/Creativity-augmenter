@@ -1,14 +1,15 @@
 #! ./augment-creativity.pl
+sentence(main, [[' Our'], product, [' uses advanced'], type_of_algorithm, [' algorithms to'], stupid_thing_to_do, ['. Get yours today.']]).
 sentence(main, [main_intern]).
 sentence(main, [main_intern, [' Only on the'], product, ['.']]).
 sentence(main, [main_intern, [' So your users can'], thing_users_do, [' while they'], thing_users_do, ['.']]).
 sentence(main, [main_intern, company, product, ['. drink the kool-aid.']]).
 sentence(main, [[' The'], product, ['. For'], adj, [' developers who need'], adj, thing_you_need, ['.']]).
 sentence(main, [[' How do you keep a'], bad_thing, [' out of production? by constantly testing your'], product, [' after every'], event, ['!']]).
+sentence(main, [[' How do you keep a'], bad_thing, [' out of production? by'], stupid_thing_to_do]).
 sentence(main, [[' All the cool kids are using'], product, [' because of this ad, and you should join them'], ['.']]).
 sentence(main, [[' Deploy from'], place, [' with'], product, ['.']]).
-sentence(main, [[' Survive the apocalypse with'], product, [', only from'], company, ['.']]).
-sentence(main, [[' Survive the crashed economy with'], product, [', only from'], company, ['.']]).
+sentence(main, [[' Survive the'], event, ['!'], product, [', only from'], company, ['.']]).
 sentence(main, [[' Survive the Trump presidency with'], product, [', only from'], company, ['.']]).
 sentence(main, [[' Survive the Nazi presidency with'], product, [', only from'], company, ['.']]).
 sentence(main, [[' Debug your'], product, [' with'], difficulty_level, [' by using'], product, [', the smartest'], dev_environment, [' for'], type_of_dev, [' developers.']]).
@@ -35,15 +36,29 @@ sentence(main, [[' Ready to start developing with'], product, ['?']]).
 sentence(main, [[' Be invited to Trump\'s press conferences with'], product, [' so you can'], boring_thing_to_do, ['.']]).
 sentence(main, [[' Working with'], product, ['? Try'], product, [' the smartest'], dev_environment, [' for '], type_of_dev, [' developers.']]).
 sentence(main, [[' Stare directly at the sun with'], product, ['. Only on the'], product, [' by'], company, ['.']]).
+sentence(main, [[' Scale your services faster with'], product, [' and its advanced'], type_of_algorithm, [' algorithms']]).
+sentence(main, [[' Does your'], product, [' use advanced'], type_of_algorithm, [' algorithms? Upgrade to'], product, [' today!']]).
 sentence(main, [[' I don\'t always test my'], product, [' but when I do I do it in production.']]).
+sentence(main, [[' Love'], product, [' for'], type_of_dev, [' programming but want the safety/speed/scalability of'], product, ['? Try our free 1 hr boot camp!']]).
+sentence(main, [[' Our'], type_of_algorithm, [' algorithms will'], stupid_thing_to_do, ['. Try it today.']]).
 
 sentence(os, [[' Linux']]).
+sentence(os, [[' the os we made by generating random ones and zeros']]).
+sentence(os, [[' MS-DOS']]).
+sentence(os, [[' Unix']]).
+sentence(os, [[' Minix']]).
+sentence(os, [[' Debian']]).
+sentence(os, [[' Redhat']]).
 sentence(os, [[' Windows']]).
 sentence(os, [[' Mac OS X']]).
 sentence(os, [[' that one OS I\'ve been writing for fun']]).
 sentence(os, [[' an OS made of completely random data that happens to run']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
+sentence(thing_youll_love, [[' web servers that spew data everywhere']]).
+sentence(thing_youll_love, [[' smartphones that spew data everywhere']]).
+sentence(thing_youll_love, [[' laptops that spew data everywhere']]).
+sentence(thing_youll_love, [[' brain implants that spew data everywhere']]).
 sentence(thing_youll_love, [[' 10MB storage capacity']]).
 sentence(thing_youll_love, [[' computers within  computers']]).
 sentence(thing_youll_love, [[' lack of interface']]).
@@ -57,6 +72,7 @@ sentence(difficulty_level, [[' difficulty']]).
 sentence(difficulty_level, [[' slight difficulty']]).
 sentence(difficulty_level, [[' minor annoyances']]).
 sentence(difficulty_level, [[' extreme difficulty']]).
+sentence(difficulty_level, [[' ease (if you\'re a masochist)']]).
 
 sentence(dev_environment, [[' IDE']]).
 sentence(dev_environment, [[' command line']]).
@@ -65,9 +81,21 @@ sentence(dev_environment, [[' punchcard system']]).
 sentence(dev_environment, [[' teletype']]).
 sentence(dev_environment, [[' terminal']]).
 sentence(dev_environment, [[' notebook full of scribbled code']]).
+sentence(dev_environment, [[' punch card system']]).
+sentence(dev_environment, [[' Linux command line but with your boss yelling at you']]).
+
+sentence(type_of_algorithm, [[' advanced']]).
+sentence(type_of_algorithm, [[' primitive']]).
+sentence(type_of_algorithm, [[' overly complicated']]).
+sentence(type_of_algorithm, [[' overly simplified']]).
+sentence(type_of_algorithm, [[' broken']]).
+sentence(type_of_algorithm, [[' completely']]).
+sentence(type_of_algorithm, [buzzword]).
 
 sentence(type_of_dev, [[' webscale']]).
 sentence(type_of_dev, [[' webscale 2.0']]).
+sentence(type_of_dev, [[' experienced']]).
+sentence(type_of_dev, [[' highly experienced']]).
 sentence(type_of_dev, [[' Unix']]).
 sentence(type_of_dev, [[' Linux']]).
 sentence(type_of_dev, [[' Javascript']]).
@@ -83,6 +111,8 @@ sentence(main_intern, [[' Make your'], boring_thing, adj, [' by'], vp_ing, ['.']
 sentence(main_intern, [[' Access your'], adj, boring_thing, [' from anywhere by'], vp_ing, ['.']]).
 sentence(main_intern, [[' Access your'], adj, boring_thing, postadj, [' from anywhere by'], vp_ing, ['.']]).
 sentence(main_intern, [[' Real developers use the'], product, [' to'], boring_thing_to_do, ['.']]).
+sentence(main_intern, [[' Real developers use the'], product, [' to'], stupid_thing_to_do, ['.']]).
+sentence(main_intern, [buzzword, [' developers use the'], product, [' to'], stupid_thing_to_do, ['.']]).
 sentence(main_intern, [[' Deploy your'], boring_thing, [' more easily by'], vp_ing, ['.']]).
 sentence(main_intern, [[' Deploy your'], boring_thing, [' faster by'], vp_ing, ['.']]).
 sentence(main_intern, [[' Make'], things_users_have, [' easier for your users by'], vp_ing]).
@@ -145,6 +175,8 @@ sentence(boring_thing_to_do, [[' try to make sense of marketing data']]).
 
 sentence(thing_you_need, [[' help']]).
 sentence(thing_you_need, [[' bad advice']]).
+sentence(thing_you_need, [[' extra marketing']]).
+sentence(thing_you_need, [[' a smack in the back of the head']]).
 sentence(thing_you_need, [[' sentient toasters']]).
 sentence(thing_you_need, [[' obvious advice']]).
 sentence(thing_you_need, [[' marketing hype']]).
@@ -192,6 +224,7 @@ sentence(vp_ing, [[' punching Nazis in the face with'], product]).
 sentence(vp_ed, [[' punched Nazis in the face with'], product]).
 sentence(vp, [[' punch Nazis in the face with'], product]).
 
+sentence(buzzword, [[' algorithm']]).
 sentence(buzzword, [[' cloud data']]).
 sentence(buzzword, [[' webscale']]).
 sentence(buzzword, [[' Internet of shard']]).
@@ -304,6 +337,7 @@ sentence(bad_people, [[' Neo-Nazis']]).
 sentence(bad_people, [[' Trump supporting Neo-Nazis']]).
 sentence(bad_people, [[' evil hackers']]).
 
+sentence(event, [[' when people get tired of corporate bullshit']]).
 sentence(event, [[' the future']]).
 sentence(event, [[' the end of the world']]).
 sentence(event, [[' when something happens']]).
@@ -315,3 +349,13 @@ sentence(event, [[' when the cloud starts to rain']]).
 sentence(event, [[' the nuclear apocalypse']]).
 sentence(event, [[' when Trump launches the nukes']]).
 sentence(event, [[' the Trumpocalypse']]).
+sentence(event, [[' the apocalypse']]).
+
+sentence(product, [type_of_algorithm, [' algorithms']]).
+sentence(product, [type_of_algorithm, [' algorithms']]).
+sentence(product, [type_of_algorithm, [' algorithms']]).
+sentence(product, [type_of_algorithm, [' algorithms']]).
+
+sentence(stupid_thing_to_do, [[' detect'], buzzword]).
+sentence(stupid_thing_to_do, [[' optimize'], type_of_algorithm, [' algorithms']]).
+sentence(stupid_thing_to_do, [[' spy on your users with advanced'], buzzword, [' technology']]).

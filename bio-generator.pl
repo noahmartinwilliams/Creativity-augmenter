@@ -162,6 +162,9 @@ sentence(stupid_show, [[' Are you smarter than a'], random_thing]).
 sentence(random_person, [[' the president of'], random_club]).
 sentence(random_person, [[' Albert Einstein']]).
 sentence(random_person, [[' Noah']]).
+sentence(random_person, [[' Some troll in his moms basement']]).
+sentence(random_person, [[' Some troll in her moms basement']]).
+sentence(random_person, [[' Some troll in their moms basement']]).
 
 sentence(random_club, [[' the Mickey Mouse club']]).
 sentence(random_club, [[' the local HAM radio club']]).
@@ -171,7 +174,15 @@ sentence(university, [[' Stanford university']]).
 sentence(university, [[' MIT']]).
 sentence(university, [[' egghead university']]).
 sentence(university, [[' the school of life']]).
+sentence(university, [[' the school of death']]).
+sentence(university, [[' bullshit university']]).
 
+sentence(field, [[' fucking bullshit']]).
+sentence(field, [[' video games']]).
+sentence(field, [[' video game industry bullshit']]).
+sentence(field, [[' getting things done']]).
+sentence(field, [[' knowing everything']]).
+sentence(field, [[' picking friends']]).
 sentence(field, [[' giant robots']]).
 sentence(field, [[' math']]).
 sentence(field, [[' computer science']]).
@@ -183,10 +194,11 @@ sentence(field, [[' voodoo']]).
 sentence(field, [[' why ice cubes aren\'t actual cubes']]).
 sentence(field, [[' advanced impostor syndrome']]).
 
-sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclination']]). %@blakestacey
+sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclination']]):- maybe. %@blakestacey
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
+sentence(stupid_quote, [[' I studied'], field, [' at'], university]).
 sentence(stupid_quote, [[' Bios are overrated.']]). %@aliB_itch
 sentence(stupid_quote, [[' I\'m not invited to Trump\'s press conferences. :(']]).
 sentence(stupid_quote, [[' I play to win.']]). %@BunnyHopDva
@@ -218,6 +230,7 @@ sentence(stupid_quote, [[' Now you can support me on Patreon: '], random_site]).
 sentence(stupid_quote, [[' you\'re the'], thing_i_am, [' to my'], thing_i_am, ['.']]). %@ElpisOaks original quote: "You're the hinga to my dinga."
 sentence(stupid_quote, [[' I asked'], random_organization, [' to write my bio because it\'s 2017 and'], stupid_quote, ['.']]). %https://twitter.com/faliqfahmie/status/816511006494949376
 sentence(stupid_quote, [[' I didn\'t use eclipse glasses and I\'m (mostly) fine.']]).
+sentence(stupid_quote, [[' I\'m not very good at'], field]).
 
 sentence(random_organization, [[' a fast food restaurant']]).
 sentence(random_organization, [[' the government']]).

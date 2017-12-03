@@ -40,6 +40,16 @@ sentence(main, [[' New'], new_thing, [' Shows'], shapes, [' And'], shapes, [' Ar
 sentence(main, [news_org, [' Banned From Attending Press Conferences.']]).
 sentence(main, [['Could The Eclipse Be Evidence That Electing'], authority_figure, [' Was A Bad Idea?']]).
 sentence(main, [authority_figure, [' Bans Viewing Eclipse Because It\'s Not Mathematical Enough.']]).
+sentence(main, [['Op-ed:'], difficult_subject, [' Is Only Hard If You'], logical_thing_to_do]).
+sentence(main, [authority_figure, [' Bans'], logical_thing_to_do]).
+
+sentence(difficult_subject, [[' Statistics']]).
+sentence(difficult_subject, [[' Finding Real Life Hypercubes']]).
+sentence(logical_thing_to_do, [[' Study Math']]).
+sentence(logical_thing_to_do, [[' Think Logically']]).
+sentence(logical_thing_to_do, [[' Decide Not To Shoot Yourself In The Foot']]).
+sentence(logical_thing_to_do, [[' Use Computer Algebra Systems For Big Equations']]).
+sentence(logical_thing_to_do, [[' Make Safe Assumptions']]).
 
 sentence(news_org, [[' Lambda News']]).
 sentence(news_org, [[' Matrix News']]).
@@ -197,6 +207,9 @@ sentence(unlikely_thing, [[' The Chosen Number']]).
 
 sentence(new_thing, [[' Claim From Some Conspiracy Nutcase']]).
 sentence(new_thing, [[' Theorem']]).
+sentence(new_thing, [[' StackOverflow Question']]).
+sentence(new_thing, [[' StackOverflow Answer']]).
+sentence(new_thing, [[' Drunken Rant']]).
 sentence(new_thing, [[' Axiom']]).
 sentence(new_thing, [[' Calculation']]).
 sentence(new_thing, [[' Field Of Mathematics']]).
@@ -206,7 +219,7 @@ sentence(new_thing, [[' Randomly Generated String Of Text']]).
 sentence(new_thing, [[' Idea We Read On The Internet']]).
 
 
-sentence(bad_people, [[' hyperbolic'], bad_people]).
+sentence(bad_people, [[' Hyperbolic'], bad_people]).
 sentence(bad_people, [[' Applied Mathematicians']]).
 sentence(bad_people, [[' Applied Mathematicians']]).
 sentence(bad_people, [[' Applied Mathematicians']]).
@@ -234,6 +247,7 @@ sentence(bad_people, [[' Evil Math Wizards']]).
 sentence(bad_people, [[' Newton Notation Users']]).
 sentence(bad_people, [[' Leibnitz Notation Users']]).
 sentence(bad_people, [[' Dot Notation Users']]).
+sentence(bad_people, [[' Our Enemies']]).
 
 sentence(thing, [[' The Edge Of Infinity']]).
 sentence(thing, [theorem]).
