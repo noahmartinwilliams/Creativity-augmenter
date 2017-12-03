@@ -231,6 +231,7 @@ sentence(stupid_quote, [[' you\'re the'], thing_i_am, [' to my'], thing_i_am, ['
 sentence(stupid_quote, [[' I asked'], random_organization, [' to write my bio because it\'s 2017 and'], stupid_quote, ['.']]). %https://twitter.com/faliqfahmie/status/816511006494949376
 sentence(stupid_quote, [[' I didn\'t use eclipse glasses and I\'m (mostly) fine.']]).
 sentence(stupid_quote, [[' I\'m not very good at'], field]).
+sentence(stupid_quote, [[' Why does everyone insist on'], stupid_thing_to_do, ['?']]).
 
 sentence(random_organization, [[' a fast food restaurant']]).
 sentence(random_organization, [[' the government']]).
