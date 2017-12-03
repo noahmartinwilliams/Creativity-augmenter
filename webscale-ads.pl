@@ -19,7 +19,8 @@ sentence(main, [[' Want to deliver'], product, [' to market ', Percent, '% faste
 sentence(main, [[' Are you terrified of president Trump? Fight back with'], product, [' by'], company, ['.']]).
 sentence(main, [vp, [' today and get a coupon for'], product, ['!']]).
 sentence(main, [[' Is your company\'s'], buzzword, [' strategy built for'], event, ['?']]).
-sentence(main, [buzzword, [' devices and'], buzzword, [' apps can bring'], bad_thing, ['. Get strategic advice for a'], buzzword, [' solution.']]).
+sentence(main, [buzzword, [' devices can bring'], bad_thing, ['. Get strategic advice for a'], buzzword, [' solution.']]).
+sentence(main, [buzzword, [' devices can bring'], bad_thing, ['. Get strategic advice for a'], type_of_algorithm, [' algorithm.']]).
 sentence(main, [[' Zero-in on getting'], buzzword, [' done faster by cutting out non'], buzzword, [' tasks.']]).
 sentence(main, [[' Attention all'], type_of_dev, [' developers! Take the'], product, [' for a test drive with this free 30 day trial.']]).
 sentence(main, [[' Design and implement'], buzzword, [' and'], buzzword, [' only with the'], product, ['.']]).
@@ -39,7 +40,6 @@ sentence(main, [[' Stare directly at the sun with'], product, ['. Only on the'],
 sentence(main, [[' Scale your services faster with'], product, [' and its advanced'], type_of_algorithm, [' algorithms']]).
 sentence(main, [[' Does your'], product, [' use advanced'], type_of_algorithm, [' algorithms? Upgrade to'], product, [' today!']]).
 sentence(main, [[' I don\'t always test my'], product, [' but when I do I do it in production.']]).
-sentence(main, [[' Love'], product, [' for'], type_of_dev, [' programming but want the safety/speed/scalability of'], product, ['? Try our free 1 hr boot camp!']]).
 sentence(main, [[' Our'], type_of_algorithm, [' algorithms will'], stupid_thing_to_do, ['. Try it today.']]).
 
 sentence(os, [[' Linux']]).
@@ -92,6 +92,7 @@ sentence(type_of_algorithm, [[' broken']]).
 sentence(type_of_algorithm, [[' completely']]).
 sentence(type_of_algorithm, [buzzword]).
 
+sentence(type_of_dev, [[' certified']]).
 sentence(type_of_dev, [[' webscale']]).
 sentence(type_of_dev, [[' webscale 2.0']]).
 sentence(type_of_dev, [[' experienced']]).
