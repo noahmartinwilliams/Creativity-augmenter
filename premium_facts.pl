@@ -20,9 +20,12 @@ sentence(main, [['In'], country, [' music is'], method_of_ingestion_ed]).
 
 sentence(method_of_ingestion_ed, [[' inhaled through a tube']]).
 sentence(method_of_ingestion_ed, [[' injected intrevenously']]).
+sentence(method_of_ingestion_ed, [[' absorbed by the skin']]).
+sentence(method_of_ingestion_ed, [[' absorbed telepathicly']]).
 sentence(method_of_ingestion_ed, [[' shoved into'], orifice]).
 
 sentence(modern_invention, [[' computers']]).
+sentence(modern_invention, [[' robots']]).
 sentence(modern_invention, [[' refrigerators']]).
 sentence(modern_invention, [[' software']]).
 sentence(modern_invention, [[' airplanes']]).
@@ -31,6 +34,8 @@ sentence(modern_invention, [expensive_things]).
 sentence(animals, [cute_animals]).
 sentence(animals, [terrifying_animals]).
 
+sentence(video_game, [[' Tyrian']]).
+sentence(video_game, [[' Metroid']]).
 sentence(video_game, [[' Pac-Man']]).
 sentence(video_game, [[' Half-Life']]).
 sentence(video_game, [[' Half-Life 2']]).
@@ -62,6 +67,9 @@ sentence(country, [[' Ireland']]).
 
 sentence(terrifying_animal, [[' giant spider']]).
 sentence(terrifying_animal, [[' dragon']]).
+sentence(terrifying_animal, [[' bear']]).
+sentence(terrifying_animal, [[' bear with chainsaws for arms']]).
+sentence(terrifying_animal, [[' bear that shoots lasers from its eyes']]).
 sentence(terrifying_animal, [cute_animal, [' with a minigun and a list of demands']]).
 
 sentence(terrifying_animals, [[' giant spiders']]).
@@ -89,6 +97,7 @@ sentence(hard_thing, [[' a surprisingly hard plastic']]).
 sentence(never, [[' never']]).
 sentence(never, [[' always']]).
 sentence(never, [[' sometimes']]).
+sentence(never, [[' usually']]).
 
 sentence(expensive_thing, [[' a house']]).
 sentence(expensive_thing, [[' a yacht']]).
@@ -103,6 +112,11 @@ sentence(expensive_things, [[' helicopters made of gold']]).
 sentence(expensive_things, [[' jetskis with sarcastic AIs']]).
 
 sentence(word, [[' honey']]).
+sentence(word, [[' bunny']]).
+sentence(word, [[' money']]).
+sentence(word, [[' sunny']]).
+sentence(word, [[' runny']]).
+sentence(word, [[' funny']]).
 
 sentence(phrase, [[' bear jizz']]).
 
@@ -118,17 +132,22 @@ sentence(sport, [[' baseball']]).
 sentence(pointy_thing, [[' knitting needle']]).
 sentence(pointy_thing, [[' toothpick']]).
 sentence(pointy_thing, [[' pencil']]).
+sentence(pointy_thing, [[' laser sword']]).
 
 sentence(orifice, [[' earhole']]).
 sentence(orifice, [[' mouth']]).
 sentence(orifice, [[' nose']]).
+sentence(orifice, [[' anus']]).
+sentence(orifice, [[' retinas']]).
 
 sentence(legal_activity, [[' cut your dominant hand off and use the other hand to wave it at someone']]).
+sentence(legal_activity, [[' remove your eye so you can disect it and study it with the other']]).
 sentence(legal_activity, [[' try to remove your'], inner_organ, [' to see what it looks like']]).
 sentence(legal_activity, [[' think you\'re so fucking smart']]).
 sentence(legal_activity, [[' have a pet'], terrifying_animal]).
 
 sentence(legal_activity_ing, [[' cutting your dominant hand off and using the other hand to wave it at someone']]).
+sentence(legal_activity_ing, [[' removing your eye so you can disect it and study it with the other']]).
 sentence(legal_activity_ing, [[' trying to remove your'], inner_organ, [' to see what it looks like']]).
 sentence(legal_activity_ing, [[' thinking you\'re so fucking smart']]).
 sentence(legal_activity_ing, [[' having a pet'], terrifying_animal]).
@@ -139,6 +158,7 @@ sentence(illegal_activity_ing, [[' killing'], politician]).
 sentence(illegal_activity_ing, [[' stealing'], important_thing]).
 
 sentence(important_thing, [[' the giant wifi router that keeps the Internet going']]).
+sentence(important_thing, [[' the giant switch that switches the Internet off']]).
 sentence(important_thing, [[' the moon']]).
 
 sentence(politician, [[' the president']]).
@@ -149,6 +169,8 @@ sentence(politician, [[' the supreme court']]).
 sentence(inner_organ, [[' appendix']]).
 sentence(inner_organ, [[' liver']]).
 sentence(inner_organ, [[' stomach']]).
+sentence(inner_organ, [[' kidney']]).
+sentence(inner_organ, [[' bladder']]).
 
 sentence(thing_an_ant_feels, [[' like watching television']]).
 sentence(thing_an_ant_feels, [[' like it wants to'], legal_activity]).
@@ -157,8 +179,11 @@ sentence(thing_an_ant_feels, [[' like it wants to'], illegal_activity]).
 sentence(thing_foreign_countries_speak, [[' in ancient languages that are used to summon'], something_terrible]).
 sentence(thing_foreign_countries_speak, [[' exactly the same language as you']]).
 sentence(thing_foreign_countries_speak, [[' to other foreign countries via an elaborate tube system']]).
+sentence(thing_foreign_countries_speak, [[' to our country because we\'re friends']]).
+sentence(thing_foreign_countries_speak, [[' to our country because we\'re friends and always have been']]).
 
 sentence(something_terrible, [[' demons']]).
 sentence(something_terrible, [[' the mothership']]).
 sentence(something_terrible, [[' your mother']]).
 sentence(something_terrible, [[' Cthulhu']]).
+sentence(something_terrible, [[' the voices in your head']]).
