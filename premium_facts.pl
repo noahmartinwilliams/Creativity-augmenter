@@ -17,6 +17,8 @@ sentence(main, [['For centuries humans were too stupid to invent'], modern_inven
 sentence(main, [['Nobody knows how'], modern_invention, [' work']]).
 sentence(main, [hard_thing, [' are legal tender in'], country]).
 sentence(main, [['In'], country, [' music is'], method_of_ingestion_ed]).
+sentence(main, [['Alcohol can help you enjoy'], legal_activity_ing]).
+sentence(main, [cute_animals, [' stop'], legal_activity_ing, [' when you squeeze them.']]).
 
 sentence(method_of_ingestion_ed, [[' inhaled through a tube']]).
 sentence(method_of_ingestion_ed, [[' injected intrevenously']]).

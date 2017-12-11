@@ -26,6 +26,13 @@ sentence(stupid_thing_to_do, [[' solve our'], nonproblem, [' problem']]).
 sentence(stupid_thing_to_do_ing, [[' solving our'], nonproblem, [' problem']]).
 sentence(stupid_thing_to_do_ed, [[' solved our'], nonproblem, [' problem']]).
 
+sentence(stupid_thing_to_do, [[' be racist']]).
+sentence(stupid_thing_to_do_ing, [[' being racist']]).
+
+sentence(stupid_thing_to_do, [[' shout nonsense at'], arbitrary_group]).
+sentence(stupid_thing_to_do_ing, [[' shouting nonsense at'], arbitrary_group]).
+sentence(stupid_thing_to_do_ed, [[' shouted nonsense at'], arbitrary_group]).
+
 sentence(stupid_thing_to_do, [[' deport random children']]).
 sentence(stupid_thing_to_ing, [[' deporting random children']]).
 sentence(stupid_thing_to_ed, [[' deported random children']]).

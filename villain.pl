@@ -38,6 +38,7 @@ sentence(bad_thing_to_do_to_me, [[' destroy me']]).
 sentence(bad_thing_to_do_to_me, [[' sell me insurance']]).
 sentence(bad_thing_to_do_to_me, [[' annoy me']]).
 sentence(bad_thing_to_do_to_me, [[' make me argue with a Nazi']]).
+sentence(bad_thing_to_do_to_me, [[' criticize my brilliant work']]).
 sentence(bad_thing_to_do_to_me, [[' steal my'], doomsday_device]).
 
 sentence(thing_to_suffer_from, [[' annoying telemarketers']]).

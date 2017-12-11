@@ -52,6 +52,10 @@ sentence(logical_thing_to_do, [[' Use Computer Algebra Systems For Big Equations
 sentence(logical_thing_to_do, [[' Make Safe Assumptions']]).
 
 sentence(news_org, [[' Lambda News']]).
+sentence(news_org, [[' My Brother']]).
+sentence(news_org, [[' My Sister']]).
+sentence(news_org, [[' Ed From Accounting']]).
+sentence(news_org, [[' This One Dude I Met On The Metro Today']]).
 sentence(news_org, [[' Matrix News']]).
 sentence(news_org, [[' Vector News']]).
 sentence(news_org, [[' Eigen Vector News']]).
@@ -226,6 +230,7 @@ sentence(bad_people, [[' Applied Mathematicians']]).
 sentence(bad_people, [[' Applied Mathematicians']]).
 sentence(bad_people, [[' Applied Mathematicians']]).
 sentence(bad_people, [[' Applied Mathematicians']]).
+sentence(bad_people, [[' Sigma Rebels']]).
 sentence(bad_people, [[' Boring Math Teachers']]).
 sentence(bad_people, [[' Math Lobyists']]).
 sentence(bad_people, [[' Free Thinkers']]).

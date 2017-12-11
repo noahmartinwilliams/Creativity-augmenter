@@ -34,6 +34,7 @@ sentence(main_intern, [adj, adj, n]).
 sentence(main_intern, [adj, adj, adj, n]).
 sentence(main_intern, [[' deluxe'], thing]).
 
+sentence(edition, [[' cloudscale']]).
 sentence(edition, [[' webscale']]).
 sentence(edition, [[' webscale 2.0']]).
 sentence(edition, [[' IoT']]).
@@ -57,6 +58,8 @@ sentence(n, [[' cardboard box']]).
 sentence(n, [[' box']]).
 sentence(n, [[' waffle']]).
 sentence(n, [[' tree']]).
+sentence(n, [[' flower']]).
+sentence(n, [[' angry bee']]).
 sentence(n, [[' buffalo']]).
 sentence(n, [[' machine']]).
 sentence(n, [[' door']]).
@@ -69,6 +72,8 @@ sentence(n, [[' filing cabinet']]).
 sentence(n, [[' emergency snacks']]).
 sentence(n, [[' lamp']]).
 sentence(n, [[' tv']]).
+sentence(n, [[' plasma tube matrix']]).
+sentence(n, [[' box with wheels on it']]).
 
 sentence(thousand, [[Thousand]]):- random(1, 10, R), atom_number(N, R), atom_concat(N, '000', Thousand).
 sentence(version_number, [[Version]]):- random(1, 10, R), atom_number(N, R), atom_concat(N, '.0', Version).
@@ -92,6 +97,8 @@ sentence(bad_thing_intern, [[' Republican']]).
 sentence(bad_thing_intern, [[' murderous AI']]).
 sentence(bad_thing_intern, [[' Neo-Nazi']]).
 sentence(bad_thing_intern, [[' Trump voter']]).
+sentence(bad_thing_intern, [[' voices in your head whispering nonsense']]).
+sentence(bad_thing_intern, [[' shadow people']]).
 
 sentence(bad_thing, [bad_thing_intern]).
 sentence(bad_thing, [adj, bad_thing_intern]).
@@ -126,6 +133,8 @@ sentence(tool, [[' stapler']]).
 sentence(tool, [[' nut driver']]).
 sentence(tool, [[' power supply']]).
 sentence(tool, [[' dremel']]).
+sentence(tool, [[' plasma welder']]).
+sentence(tool, [[' sonic screwdriver']]).
 
 sentence(machine, [[' generator']]).
 sentence(machine, [thing, [' accelerator']]).
