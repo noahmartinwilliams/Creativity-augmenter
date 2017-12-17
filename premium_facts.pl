@@ -22,6 +22,19 @@ sentence(main, [['Alcohol can help you enjoy'], legal_activity_ing]).
 sentence(main, [cute_animals, [' stop'], legal_activity_ing, [' when you squeeze them.']]).
 sentence(main, [['Your'], opinion, [' matters to'], nobody, ['.']]).
 sentence(main, [terrifying_animals, [' are ideal pets for low income families.']]).
+sentence(main, [['Blind people don\'t believe in'], visible_thing]).
+sentence(main, [['Rubbing your face with'], rough_thing, [' eliminates acne.']]).
+sentence(main, [cute_animals, [' can swim in volcanic lava.']]).
+
+sentence(rough_thing, [[' sandpaper']]).
+sentence(rough_thing, [[' a cactus']]).
+sentence(rough_thing, [[' shards of glass']]).
+
+sentence(visible_thing, [[' rainbows']]).
+sentence(visible_thing, [[' the color blue']]).
+sentence(visible_thing, [[' your face']]).
+sentence(visible_thing, [terrifying_animals]).
+sentence(visible_thing, [cute_animals]).
 
 sentence(opinion, [[' opinion']]).
 sentence(opinion, [[' political opinion']]).
