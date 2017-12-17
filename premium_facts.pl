@@ -1,6 +1,7 @@
 #! ./augment-creativity.pl
 sentence(main, [sport, [' was originally called'], sport]).
 sentence(main, [['If you push a'], pointy_thing, [' into your'], orifice, [' it will come out the other side.']]).
+sentence(main, [['If you sleep on your'], fragile_thing, [' it will die.']]).
 sentence(main, [['It\'s not against the law to'], legal_activity]).
 sentence(main, [['An ant feels'], thing_an_ant_feels]).
 sentence(main, [['Foreign countries speak'], thing_foreign_countries_speak]).
@@ -19,6 +20,16 @@ sentence(main, [hard_thing, [' are legal tender in'], country]).
 sentence(main, [['In'], country, [' music is'], method_of_ingestion_ed]).
 sentence(main, [['Alcohol can help you enjoy'], legal_activity_ing]).
 sentence(main, [cute_animals, [' stop'], legal_activity_ing, [' when you squeeze them.']]).
+sentence(main, [['Your'], opinion, [' matters to'], nobody, ['.']]).
+sentence(main, [terrifying_animals, [' are ideal pets for low income families.']]).
+
+sentence(opinion, [[' opinion']]).
+sentence(opinion, [[' political opinion']]).
+sentence(opinion, [[' observations on global stock market trends']]).
+sentence(nobody, [[' nobody']]).
+sentence(nobody, [[' everybody']]).
+sentence(nobody, [[' somebody']]).
+sentence(nobody, [[' me']]).
 
 sentence(method_of_ingestion_ed, [[' inhaled through a tube']]).
 sentence(method_of_ingestion_ed, [[' injected intrevenously']]).
@@ -32,6 +43,9 @@ sentence(modern_invention, [[' refrigerators']]).
 sentence(modern_invention, [[' software']]).
 sentence(modern_invention, [[' airplanes']]).
 sentence(modern_invention, [expensive_things]).
+
+sentence(fragile_thing, [[' baby']]).
+sentence(fragile_thing, [cute_animal]).
 
 sentence(animals, [cute_animals]).
 sentence(animals, [terrifying_animals]).
@@ -78,13 +92,17 @@ sentence(terrifying_animals, [[' giant spiders']]).
 sentence(terrifying_animals, [[' dragons']]).
 sentence(terrifying_animals, [cute_animals, [' with miniguns and lists of demands']]).
 
-sentence(cute_animals, [[' kittens']]).
-sentence(cute_animals, [[' penguins']]).
-sentence(cute_animals, [[' pandas']]).
+sentence(cute_animals, [[' baby'], cute_animals_intern]).
+sentence(cute_animals, [cute_animals_intern]).
+sentence(cute_animals_intern, [[' kittens']]).
+sentence(cute_animals_intern, [[' penguins']]).
+sentence(cute_animals_intern, [[' pandas']]).
 
-sentence(cute_animal, [[' kitten']]).
-sentence(cute_animal, [[' penguin']]).
-sentence(cute_animal, [[' panda']]).
+sentence(cute_animal, [[' baby'], cute_animal_intern]).
+sentence(cute_animal, [cute_animal_intern]).
+sentence(cute_animal_intern, [[' kitten']]).
+sentence(cute_animal_intern, [[' penguin']]).
+sentence(cute_animal_intern, [[' panda']]).
 
 sentence(thing_all_men_are, [[' rapists']]).
 sentence(thing_all_men_are, [[' male']]).
