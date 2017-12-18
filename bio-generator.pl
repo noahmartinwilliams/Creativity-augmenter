@@ -198,6 +198,7 @@ sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclinat
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
+sentence(stupid_quote, [[' it takes one hell of a compression algorithm to boil a person down to 140c.']]).
 sentence(stupid_quote, [[' I studied'], field, [' at'], university]).
 sentence(stupid_quote, [[' Bios are overrated.']]). %@aliB_itch
 sentence(stupid_quote, [[' I\'m not invited to Trump\'s press conferences. :(']]).
