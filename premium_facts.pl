@@ -25,6 +25,20 @@ sentence(main, [terrifying_animals, [' are ideal pets for low income families.']
 sentence(main, [['Blind people don\'t believe in'], visible_thing]).
 sentence(main, [['Rubbing your face with'], rough_thing, [' eliminates acne.']]).
 sentence(main, [cute_animals, [' can swim in volcanic lava.']]).
+sentence(main, [thing_you_need, [' is scientificially a complete waste of time.']]).
+sentence(main, [famous_writer, [' could not'], thing_writers_do]).
+
+sentence(famous_writer, [[' Shakespeare']]).
+
+sentence(thing_writers_do, [[' read and write']]).
+sentence(thing_writers_do, [[' come up with new ideas']]).
+sentence(thing_writers_do, [[' create interesting stories']]).
+sentence(thing_writers_do, [[' publish a book']]).
+
+sentence(thing_you_need, [[' sleep']]).
+sentence(thing_you_need, [[' food']]).
+sentence(thing_you_need, [[' water']]).
+sentence(thing_you_need, [[' shelter']]).
 
 sentence(rough_thing, [[' sandpaper']]).
 sentence(rough_thing, [[' a cactus']]).
