@@ -1,17 +1,68 @@
 #! ./augment-creativity.pl
-sentence(main, [[' Oh no!'], dangerous_situation, ['!'], stupid_response]).
-sentence(main, [dangerous_situation, ['!'], stupid_response, stupid_reason]).
-sentence(main, [dangerous_situation, ['! Every man for himself!']]).
 sentence(main, [stupid_paranoia]).
-sentence(main, [[' Make'], arbitrary_group, [' great again!']]).
 sentence(main, [[' Why isn\'t the media talking about'], nonproblem, ['?!']]).
-sentence(main, [[' What do we want?'], something_terrible, ['! When do we want it?'], some_time, ['!']]).
 sentence(main, [[' Get over it,'], arbitrary_group, [' should come first.']]).
 sentence(main, [[' We should respect the'], nonauthority_figure, [' who wants to give us'], something_terrible, ['!']]).
-sentence(main, [[' Now that'], arbitrary_group, [' are great again we can focus on getting'], something_terrible, ['!']]).
-sentence(main, [arbitrary_group, [' are the master race!']]).
+sentence(main, [[' Now that'], arbitrary_group, [' aRE gREaT AgAiN wE CAn FOcUs On GETtiNg'], something_terrible, ['!']]).
 sentence(main, [[' Only'], nonauthority_figure, [' can'], stupid_thing_to_do, ['!']]).
-sentence(main, [[' Now that'], arbitrary_group, [' are great again we can'], stupid_thing_to_do, ['!']]).
+sentence(main, [[' Now THAt'], arbitrary_group, [' Are GReAT aGAin We can'], stupid_thing_to_do, ['!']]).
+sentence(main, [[' The PRESident Is A'], thing_that_bad_people_are, ['!']]).
+sentence(main, [[' FeELIngs aRe mOre iMPoRTaNt ThAn FActs!']]).
+sentence(main, [[' ThE MoOn iS A'], random_conspiricunt_buzzword, ['!']]).
+sentence(main, [[' ThE MOon Is a'], random_conspiricunt_buzzword, ['! Wake up, sheeple!']]).
+sentence(main, [arbitrary_group, [' iS TRyINg to EnSlAVe us!!1!?!']]).
+sentence(main, [arbitrary_group, [' iS TRyINg tO EnSLaVE Us! YouR GoVeRNmENt hAS lIEd to YoU!']]).
+sentence(main, [arbitrary_group, [' is TRyINg TO EnSLAve'], our_people, ['!']]).
+sentence(main, [meaningless_event, [' is PRoOF OF thE GLoBALiST AGEnDa!']]).
+sentence(main, [[' SaTAn Has InSeRtEd a PrO'], bad_person, [' mEsSaGe InTo tHiS vIdEo tO brAInWAsH us!']]).
+sentence(main, [[' REAL EYES REALIZE REAL LIES!1!!1!@!?!']]).
+sentence(main, [[' REL iS REALISE REAL LYES!1!!1!@!?!']]).
+sentence(main, [[' REAL EYS RELISE REL LIZE!1!!1!@!?!']]).
+sentence(main, [[' ReAL eYS ReLIsE ReL LiZe!1!!1!@!?!']]).
+sentence(main, [[' oNlY'], bad_people, [' CaN Be RAcIsT!']]).
+
+sentence(bad_people, [[' LiBeRAls']]).
+sentence(bad_people, [[' tRANsGeNdeRs']]).
+sentence(bad_people, [[' cOMMuNiSTs']]).
+sentence(bad_people, [[' dEmoNs']]).
+sentence(bad_people, [[' rEpTILes']]).
+sentence(bad_people, [[' sCIEnTiSts']]).
+sentence(bad_people, [[' pROGreSSIves']]).
+sentence(bad_people, [[' the hOMeLeSs']]).
+sentence(bad_people, [[' the ChInESe']]).
+sentence(bad_people, [[' NoRth KoREa']]).
+
+sentence(bad_person, [[' lIbERal']]).
+sentence(bad_person, [[' trANSgEnDer']]).
+sentence(bad_person, [[' CoMmUnISt']]).
+sentence(bad_person, [[' sATan']]).
+sentence(bad_person, [[' dEMOn']]).
+sentence(bad_person, [[' rEPtILe']]).
+sentence(bad_person, [[' ScIEnce']]).
+sentence(bad_person, [[' PrOGrESSiVE']]).
+sentence(bad_person, [[' BIgFOot']]).
+sentence(bad_person, [[' HOmEless']]).
+
+sentence(meaningless_event, [[' tHe RiSe Of thE SuN iN thE sKy EvErY mOrnIng']]).
+sentence(meaningless_event, [[' TOdAy\'s NeWsPaPer hEaDlIne']]).
+sentence(meaningless_event, [[' JuStIne BiBer MaKiNg A tRiaNglE wiTh hIs hAnDs']]).
+
+sentence(random_conspiricunt_buzzword, [[' hologram']]).
+sentence(random_conspiricunt_buzzword, [[' spaceship']]).
+sentence(random_conspiricunt_buzzword, [[' spaceship that Jesus has arrived in']]).
+sentence(random_conspiricunt_buzzword, [[' globalist plot to enslave'], our_people]).
+sentence(random_conspiricunt_buzzword, [thing_that_bad_people_are]).
+
+sentence(our_people, [[' humanity']]).
+sentence(our_people, [[' the white race']]).
+sentence(our_people, [[' red-blooded Americans']]).
+sentence(our_people, [[' good conservative christians']]).
+
+sentence(thing_that_bad_people_are, [[' lizard']]).
+sentence(thing_that_bad_people_are, [[' demon']]).
+sentence(thing_that_bad_people_are, [[' witch']]).
+sentence(thing_that_bad_people_are, [[' pagan']]).
+sentence(thing_that_bad_people_are, [[' communist']]).
 
 sentence(stupid_thing_to_do, [[' stare at the sun with the president']]).
 sentence(stupid_thing_to_do, [[' staring at the sun with the president']]).
