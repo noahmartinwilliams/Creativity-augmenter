@@ -85,43 +85,43 @@ sentence(stupid_thing_to_do, [[' solve our'], nonproblem, [' problem']]).
 sentence(stupid_thing_to_do_ing, [[' solving our'], nonproblem, [' problem']]).
 sentence(stupid_thing_to_do_ed, [[' solved our'], nonproblem, [' problem']]).
 
-sentence(stupid_thing_to_do, [[' be racist']]).
-sentence(stupid_thing_to_do_ing, [[' being racist']]).
+sentence(stupid_thing_to_do, [[' BE RACIST']]).
+sentence(stupid_thing_to_do_ing, [[' BEING RACIST']]).
 
-sentence(stupid_thing_to_do, [[' shout nonsense at'], arbitrary_group]).
-sentence(stupid_thing_to_do_ing, [[' shouting nonsense at'], arbitrary_group]).
-sentence(stupid_thing_to_do_ed, [[' shouted nonsense at'], arbitrary_group]).
+sentence(stupid_thing_to_do, [[' SHOUT NONSENSE AT'], arbitrary_group]).
+sentence(stupid_thing_to_do_ing, [[' SHOUTING NONSENSE AT'], arbitrary_group]).
+sentence(stupid_thing_to_do_ed, [[' SHOUTED NONSENSE AT'], arbitrary_group]).
 
-sentence(stupid_thing_to_do, [[' deport random children']]).
-sentence(stupid_thing_to_ing, [[' deporting random children']]).
-sentence(stupid_thing_to_ed, [[' deported random children']]).
+sentence(stupid_thing_to_do, [[' DEPORT RANDOM CHILDREN']]).
+sentence(stupid_thing_to_ing, [[' DEPORTING RANDOM CHILDREN']]).
+sentence(stupid_thing_to_ed, [[' DEPORTED RANDOM CHILDREN']]).
 
-sentence(something_terrible, [[' nuclear annihilation']]).
-sentence(something_terrible, [[' less healthcare']]).
-sentence(something_terrible, [[' nuclear genocide']]).
-sentence(something_terrible, [[' a Nazi to be president']]).
-sentence(something_terrible, [[' more corporate abuse']]).
-sentence(something_terrible, [[' impractically huge walls built for racism']]).
-sentence(something_terrible, [[' war crimes']]).
-sentence(something_terrible, [[' crimes against humanity']]).
-sentence(something_terrible, [[' genocide against'], random_minority]).
+sentence(something_terrible, [[' NUCLEAR ANNIHILATION']]).
+sentence(something_terrible, [[' LESS HEALTHCARE']]).
+sentence(something_terrible, [[' NUCLEAR GENOCIDE']]).
+sentence(something_terrible, [[' A nAZI TO BE PRSIDENT']]).
+sentence(something_terrible, [[' MORE CORPORATE ABUSE']]).
+sentence(something_terrible, [[' IMPRACTICALLY HUGE WALLS BUILT FOR RACISM']]).
+sentence(something_terrible, [[' WAR CRIMES']]).
+sentence(something_terrible, [[' CRIMES AGAINST HUMANITY']]).
+sentence(something_terrible, [[' GENOCIDE AGAINST'], random_minority]).
 
-sentence(some_time, [[' now']]).
-sentence(some_time, [[' later']]).
-sentence(some_time, [[' in '], [Time], [' hours']]):- random(0, 100, R), atom_number(Time, R).
-sentence(some_time, [[' yesterday']]).
+sentence(some_time, [[' NOW']]).
+sentence(some_time, [[' LATER']]).
+sentence(some_time, [[' IN '], [Time], [' HOURS']]):- random(0, 100, R), atom_number(Time, R).
+sentence(some_time, [[' YESTERDAY']]).
 sentence(some_time, [[' NEVER']]).
-sentence(some_time, [[' before we come to our senses']]).
+sentence(some_time, [[' BEFORE WE COME TO OUR SENSES']]).
 
-sentence(stupid_paranoia, [[' Only a'], witch, [' would'], logical_thing_to_do, ['!']]).
-sentence(stupid_paranoia, [[' CLEARLY'], serious_problem, [' is just a distraction from'], nonproblem, ['!']]).
-sentence(stupid_paranoia, [[' I don\'t want them putting chemicals in the water that turn the freaking'], animals, meaningless_attribute, ['!']]).
-sentence(stupid_paranoia, [[' If we don\'t act now'], random_minority, [' will be flooding into the US!']]).
-sentence(stupid_paranoia, [[' You people need to focus on REAL problems! Problems like'], nonproblem, ['!']]).
-sentence(stupid_paranoia, [[' Wake up'], arbitrary_group, ['!']]).
-sentence(stupid_paranoia, [[' I know this guy who knows'], nonauthority_figure, [' who says that'], random_minority, [' are trying to take over the world!']]).
-sentence(stupid_paranoia, [[' How can you talk about'], serious_problem, [' when'], nonproblem, [' is happening?']]).
-sentence(stupid_paranoia, [[' That quote from'], nonauthority_figure, [' about'], awful_thing_to_do, [' is taken out of context!']]).
+sentence(stupid_paranoia, [[' oNLY A'], witch, [' WOULD'], logical_thing_to_do, ['!']]).
+sentence(stupid_paranoia, [[' CLEARLY'], serious_problem, [' IS JUST A DISTRACTION FROM'], nonproblem, ['!']]).
+sentence(stupid_paranoia, [[' i DON\'T WANT THEM PUTTING CHEMICALS IN THE WATER THAT TURN THE FREAKING'], animals, meaningless_attribute, ['!']]).
+sentence(stupid_paranoia, [[' iF WE DON\'T ACT NOW'], random_minority, [' WILL BE FLOODING INTO THE US!']]).
+sentence(stupid_paranoia, [[' yOU PEOPLE NEED TO FOCUS ON REAL PROBLEMS! pROBLEMS LIKE'], nonproblem, ['!']]).
+sentence(stupid_paranoia, [[' wAKE UP'], arbitrary_group, ['!']]).
+sentence(stupid_paranoia, [[' I KNOW THIS GUY WHO KNOWS'], nonauthority_figure, [' WHO SAYS THAT'], random_minority, [' ARE TRYING TO TAKE OVER THE WORLD!']]).
+sentence(stupid_paranoia, [[' HOW CAN YOU TALK ABOUT'], serious_problem, [' WHEN'], nonproblem, [' IS HAPPENING?']]).
+sentence(stupid_paranoia, [[' THAT QUOTE FROM'], nonauthority_figure, [' ABOUT'], awful_thing_to_do, [' IS TAKEN OUT OF CONTEXT!']]).
 sentence(stupid_paranoia, [[' The president is spying on me through my'], microwave, ['!!']]).
 
 sentence(microwave, [[' microwave']]).
@@ -275,8 +275,8 @@ sentence(other_side_of_thing, [[' the galaxy']]).
 sentence(other_side_of_thing, [[' the universe']]).
 sentence(other_side_of_thing, [[' the Earth']]).
 
-sentence(irrelevant_issue, [[' terrorists']]).
-sentence(irrelevant_issue, [[' terrorism on the other side of'], other_side_of_thing]).
+sentence(irrelevant_issue, [[' TERRORORISTS']]).
+sentence(irrelevant_issue, [[' TERRORORISM ON THE OTHER SIDE OF'], other_side_of_thing]).
 sentence(irrelevant_issue, [[' how people should use the restroom']]).
 sentence(irrelevant_issue, [[' whether or not lizard people are running the world']]).
 sentence(irrelevant_issue, [[' gun-shaped pop tarts']]).
