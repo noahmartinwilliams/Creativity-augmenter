@@ -21,6 +21,7 @@ sentence(main, [[' REAL EYS RELISE REL LIZE!1!!1!@!?!']]).
 sentence(main, [[' ReAL eYS ReLIsE ReL LiZe!1!!1!@!?!']]).
 sentence(main, [[' oNlY'], bad_people, [' CaN Be RAcIsT!']]).
 sentence(main, [tech_company, [' Is TRyInG To InSeRT'], bad_person, [' ThOUGhts InTO UR BRAN!']]). %MY BRAN! D:
+sentence(main, [[' YOU ARE NO MATCH FOR JESUS CHRIST!!1!@!?!!']]).
 
 sentence(tech_company, [[' GoOGle']]).
 sentence(tech_company, [[' Aple']]).
