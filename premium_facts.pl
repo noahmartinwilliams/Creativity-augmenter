@@ -27,6 +27,15 @@ sentence(main, [['Rubbing your face with'], rough_thing, [' eliminates acne.']])
 sentence(main, [cute_animals, [' can swim in volcanic lava.']]).
 sentence(main, [thing_you_need, [' is scientificially a complete waste of time.']]).
 sentence(main, [famous_writer, [' could not'], thing_writers_do]).
+sentence(main, [[' Movies are written by the'], movie_peeps, [' as the actors perform.']]).
+
+sentence(movie_peeps, [[' writers']]).
+sentence(movie_peeps, [[' producers']]).
+sentence(movie_peeps, [[' directors']]).
+sentence(movie_peeps, [[' audience']]).
+sentence(movie_peeps, [[' critics']]).
+sentence(movie_peeps, [[' actors']]).
+sentence(movie_peeps, [[' makeup artists']]).
 
 sentence(famous_writer, [[' Shakespeare']]).
 

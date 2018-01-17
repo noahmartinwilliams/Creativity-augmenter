@@ -20,6 +20,14 @@ sentence(main, [[' REL iS REALISE REAL LYES!1!!1!@!?!']]).
 sentence(main, [[' REAL EYS RELISE REL LIZE!1!!1!@!?!']]).
 sentence(main, [[' ReAL eYS ReLIsE ReL LiZe!1!!1!@!?!']]).
 sentence(main, [[' oNlY'], bad_people, [' CaN Be RAcIsT!']]).
+sentence(main, [tech_company, [' Is TRyInG To InSeRT'], bad_person, [' ThOUGhts InTO UR BRAN!']]). %MY BRAN! D:
+
+sentence(tech_company, [[' GoOGle']]).
+sentence(tech_company, [[' Aple']]).
+sentence(tech_company, [[' MiCrOSHAFT']]).
+sentence(tech_company, [[' AmeZon']]).
+sentence(tech_company, [[' TwiTdger']]).
+sentence(tech_company, [[' FaCKBOoK']]).
 
 sentence(bad_people, [[' LiBeRAls']]).
 sentence(bad_people, [[' tRANsGeNdeRs']]).
@@ -54,15 +62,15 @@ sentence(random_conspiricunt_buzzword, [[' globalist plot to enslave'], our_peop
 sentence(random_conspiricunt_buzzword, [thing_that_bad_people_are]).
 
 sentence(our_people, [[' humanity']]).
-sentence(our_people, [[' the white race']]).
-sentence(our_people, [[' red-blooded Americans']]).
-sentence(our_people, [[' good conservative christians']]).
+sentence(our_people, [[' tHe WhITE rACe']]).
+sentence(our_people, [[' rEd-bLoDEd AmErIcNS']]).
+sentence(our_people, [[' good cUNsErVaTiVe chRIStIans']]).
 
 sentence(thing_that_bad_people_are, [[' lizard']]).
-sentence(thing_that_bad_people_are, [[' demon']]).
-sentence(thing_that_bad_people_are, [[' witch']]).
-sentence(thing_that_bad_people_are, [[' pagan']]).
-sentence(thing_that_bad_people_are, [[' communist']]).
+sentence(thing_that_bad_people_are, [[' DMOn']]).
+sentence(thing_that_bad_people_are, [[' wITch']]).
+sentence(thing_that_bad_people_are, [[' pAGan']]).
+sentence(thing_that_bad_people_are, [[' comMuNIst']]).
 
 sentence(stupid_thing_to_do, [[' stare at the sun with the president']]).
 sentence(stupid_thing_to_do, [[' staring at the sun with the president']]).
