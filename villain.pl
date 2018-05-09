@@ -3,6 +3,10 @@ sentence(main, [[' Foolish mortals!'], quote, ['!']]).
 sentence(main, [[' Foolish mortals!'], quote, ['! Muahahaha!']]).
 sentence(main, [quote, ['! Muahahaha!']]).
 sentence(main, [quote, ['!']]).
+sentence(main, [[' And now witness before you the POWER of'], doomsday_device, [' technology!']]).
+sentence(main, [[' And now witness before you the POWER of'], abstract_thing, [' technology!']]).
+sentence(main, [[' And now witness before you the POWER of'], scifi_tech_thing, [' technology!']]).
+
 sentence(main, [[' You fool! You can\'t'], thing_to_do, ['! You\'ll destroy us all!']]).
 sentence(main, [[' Muahahaha! Did you really think you could'], thing_to_do, ['?']]).
 sentence(main, [[' Only a TRUE'], thing_the_hero_is, [' can defeat the'], doomsday_device]).
@@ -24,6 +28,9 @@ sentence(main, [[' With the completion of my'], doomsday_device, [' none shall']
 sentence(main, [[' Did you really think I\'d fall for a trick as simple as'], stupid_thing_to_do_ing, ['?']]).
 sentence(main, [[' Soon you\'ll understand the POWER of'], stupid_thing_to_do_ing, ['!']]).
 sentence(main, [[' You\'ll never stop me from'], bad_plan_ing, ['!']]).
+
+sentence(scifi_tech_thing, [[' nanobot']]).
+sentence(scifi_tech_thing, [[' artificial intelligence']]).
 
 sentence(magic_sword, [[' flaming sword of'], abstract_thing]).
 sentence(magic_sword, [[' sword of'], abstract_thing]).
