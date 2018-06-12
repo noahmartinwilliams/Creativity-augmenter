@@ -43,6 +43,13 @@ sentence(main, [['Could The Eclipse Be Evidence That Electing'], authority_figur
 sentence(main, [authority_figure, [' Bans Viewing Eclipse Because It\'s Not Mathematical Enough.']]).
 sentence(main, [['Op-ed:'], difficult_subject, [' Is Only Hard If You'], logical_thing_to_do]).
 sentence(main, [authority_figure, [' Bans'], logical_thing_to_do]).
+sentence(main, [[' Check Out The Hottest New Product!'], ordinary_thing, [' In Hyperspace!']]).
+
+sentence(ordinary_thing, [[' office chairs']]).
+sentence(ordinary_thing, [[' cars']]).
+sentence(ordinary_thing, [[' airbags']]).
+sentence(ordinary_thing, [[' eating utensils']]).
+sentence(ordinary_thing, [[' staplers']]).
 
 sentence(difficult_subject, [[' Statistics']]).
 sentence(difficult_subject, [[' Finding Real Life Hypercubes']]).

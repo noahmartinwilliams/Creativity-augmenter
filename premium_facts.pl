@@ -28,6 +28,42 @@ sentence(main, [cute_animals, [' can swim in volcanic lava.']]).
 sentence(main, [thing_you_need, [' is scientificially a complete waste of time.']]).
 sentence(main, [famous_writer, [' could not'], thing_writers_do]).
 sentence(main, [[' Movies are written by the'], movie_peeps, [' as the actors perform.']]).
+sentence(main, [body_parts, [' are full of'], thing_in_body, [' and'], body_parts, [' are full of'], thing_in_body, ['.']]).
+sentence(main, [[' Some people don\'t know'], thing_some_people_dont_know, ['.']]).
+sentence(main, [[' Your retweets aren\'t making a'], rough_thing]).
+sentence(main, [[' Your retweets aren\'t making a'], hard_thing]).
+sentence(main, [[' In some cultures it might be illegal to'], do_illegal_thing, ['.']]).
+
+sentence(do_illegal_thing, [[' murder your family']]).
+sentence(do_illegal_thing, [[' murder my family']]).
+sentence(do_illegal_thing, [[' murder all families']]).
+sentence(do_illegal_thing, [[' murder'], cute_animals]).
+sentence(do_illegal_thing, [[' cut'], body_parts, [' off of'], cute_animals]).
+
+sentence(thing_some_people_dont_know, [[' that'], body_parts, [' are full of'], thing_in_body, [' and'], body_parts, [' are full of'], thing_in_body]).
+sentence(thing_some_people_dont_know, [[' that'], body_parts, [' are full of'], thing_in_body] ).
+sentence(thing_some_people_dont_know, [[' how to tie their shoelaces']] ).
+sentence(thing_some_people_dont_know, [[' how to read because they\'re stupid']] ).
+sentence(thing_some_people_dont_know, [[' how to be smart']] ).
+
+sentence(body_parts, [[' mouths']]).
+sentence(body_parts, [[' intestines']]).
+sentence(body_parts, [[' reproductive organs']]).
+sentence(body_parts, [[' eyeballs']]).
+sentence(body_parts, [[' brains']]).
+sentence(body_parts, [[' hearts']]).
+sentence(body_parts, [[' lungs']]).
+sentence(body_parts, [[' bodies']]).
+
+sentence(thing_in_body, [[' candy']]).
+sentence(thing_in_body, [[' little bits of stuff']]).
+sentence(thing_in_body, [[' little wigglies']]).
+sentence(thing_in_body, [[' blood']]).
+sentence(thing_in_body, [[' lucacytes']]).
+sentence(thing_in_body, [[' transmembrane organells']]).
+sentence(thing_in_body, [[' lipid bilayers']]).
+sentence(thing_in_body, [[' stomach juices']]).
+sentence(thing_in_body, [[' red goo that\'s fun to play with']]).
 
 sentence(movie_peeps, [[' writers']]).
 sentence(movie_peeps, [[' producers']]).

@@ -6,7 +6,9 @@ sentence(main, [quote, ['!']]).
 sentence(main, [[' And now witness before you the POWER of'], doomsday_device, [' technology!']]).
 sentence(main, [[' And now witness before you the POWER of'], abstract_thing, [' technology!']]).
 sentence(main, [[' And now witness before you the POWER of'], scifi_tech_thing, [' technology!']]).
-
+sentence(main, [[' And now witness before you the POWER of'], stupid_tech_thing, [' technology!']]).
+sentence(main, [[' I have stolen fire from the gods and created'], stupid_tech_thing, [' technology!']]).
+sentence(main, [[' I have stolen fire from the gods and created'], scifi_tech_thing, [' technology!']]).
 sentence(main, [[' You fool! You can\'t'], thing_to_do, ['! You\'ll destroy us all!']]).
 sentence(main, [[' Muahahaha! Did you really think you could'], thing_to_do, ['?']]).
 sentence(main, [[' Only a TRUE'], thing_the_hero_is, [' can defeat the'], doomsday_device]).
@@ -34,6 +36,12 @@ sentence(scifi_tech_thing, [[' artificial intelligence']]).
 
 sentence(magic_sword, [[' flaming sword of'], abstract_thing]).
 sentence(magic_sword, [[' sword of'], abstract_thing]).
+
+sentence(stupid_tech_thing, [[' upside-down ketchup bottle']]).
+sentence(stupid_tech_thing, [[' really fast computer']]).
+sentence(stupid_tech_thing, [[' smartphones with unbreakable screens']]).
+sentence(stupid_tech_thing, [[' color changing lightbulb']]).
+sentence(stupid_tech_thing, [[' nanobot-based weight loss']]).
 
 sentence(reason_you_cannot_destroy_me, [[' I created you']]).
 sentence(reason_you_cannot_destroy_me, [[' I helped make you']]).
