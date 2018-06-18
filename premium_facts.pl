@@ -33,6 +33,13 @@ sentence(main, [[' Some people don\'t know'], thing_some_people_dont_know, ['.']
 sentence(main, [[' Your retweets aren\'t making a'], rough_thing]).
 sentence(main, [[' Your retweets aren\'t making a'], hard_thing]).
 sentence(main, [[' In some cultures it might be illegal to'], do_illegal_thing, ['.']]).
+sentence(main, [[' People who unfollow you on'], social_media_site, [' are going to'], do_illegal_thing, ['.']]).
+
+sentence(do_illegal_thing, [[' murder you']]).
+
+sentence(social_media_site, [[' Twitter']]).
+sentence(social_media_site, [[' Facebook']]).
+sentence(social_media_site, [[' Google Plus']]).
 
 sentence(do_illegal_thing, [[' murder your family']]).
 sentence(do_illegal_thing, [[' murder my family']]).
