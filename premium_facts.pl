@@ -34,6 +34,28 @@ sentence(main, [[' Your retweets aren\'t making a'], rough_thing]).
 sentence(main, [[' Your retweets aren\'t making a'], hard_thing]).
 sentence(main, [[' In some cultures it might be illegal to'], do_illegal_thing, ['.']]).
 sentence(main, [[' People who unfollow you on'], social_media_site, [' are going to'], do_illegal_thing, ['.']]).
+sentence(main, [[' You\'ll be found out'], in_time]).
+sentence(main, [[' The 90\'s happened'], some_time_ago]).
+sentence(main, [[' The closest you\'ll ever come to changing history is'], how_to_change_history_ing]).
+
+sentence(how_to_change_history_ing, [[' editing Wikipedia']]).
+sentence(how_to_change_history_ing, [[' finishing that time machine you started working on']]).
+sentence(how_to_change_history_ing, [[' leading a revolution and becoming a dictator']]).
+sentence(how_to_change_history_ing, [[' conquering the world with a robot army']]).
+sentence(how_to_change_history_ing, [[' arguing with your history teacher']]).
+
+sentence(some_time_ago, [[' 50 years ago']]).
+sentence(some_time_ago, [[' forever ago']]).
+sentence(some_time_ago, [[' a really long time ago']]).
+sentence(some_time_ago, [[' back at the dawn of time itself']]).
+sentence(some_time_ago, [[' when man first walked upright']]).
+
+sentence(in_time, [[' eventually']]).
+sentence(in_time, [[' immediately']]).
+sentence(in_time, [[' next Tuesday']]).
+sentence(in_time, [[' when the authorities get around to dealing with you']]).
+sentence(in_time, [[' when the authorities finally feel like dealing with you']]).
+sentence(in_time, [[' when Sha-Laki the ancient Sha-Lakian goddess of war and plague rises again']]).
 
 sentence(do_illegal_thing, [[' murder you']]).
 

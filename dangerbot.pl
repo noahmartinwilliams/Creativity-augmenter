@@ -5,6 +5,7 @@ sentence(main, [[' Get over it,'], arbitrary_group, [' should come first.']]).
 sentence(main, [[' We should respect the'], nonauthority_figure, [' who wants to give us'], something_terrible, ['!']]).
 sentence(main, [[' Now that'], arbitrary_group, [' aRE gREaT AgAiN wE CAn FOcUs On GETtiNg'], something_terrible, ['!']]).
 sentence(main, [[' Only'], nonauthority_figure, [' can'], stupid_thing_to_do, ['!']]).
+sentence(main, [nonauthority_figure, [' will make everything better!']]).
 sentence(main, [[' Now THAt'], arbitrary_group, [' Are GReAT aGAin We can'], stupid_thing_to_do, ['!']]).
 sentence(main, [[' The PRESident Is A'], thing_that_bad_people_are, ['!']]).
 sentence(main, [[' FeELIngs aRe mOre iMPoRTaNt ThAn FActs!']]).
@@ -22,6 +23,30 @@ sentence(main, [[' ReAL eYS ReLIsE ReL LiZe!1!!1!@!?!']]).
 sentence(main, [[' oNlY'], bad_people, [' CaN Be RAcIsT!']]).
 sentence(main, [tech_company, [' Is TRyInG To InSeRT'], bad_person, [' ThOUGhts InTO UR BRAN!']]). %MY BRAN! D:
 sentence(main, [[' YOU ARE NO MATCH FOR JESUS CHRIST!!1!@!?!!']]).
+sentence(main, [nonauthority_figure, [' SAID'], terrible_thing_to_say, [' but actually meant'], terrible_thing_to_say, ['!']]).
+sentence(main, [[' The'], natural_disaster, [' was God\'s way of telling us to overthrow'], expert, ['!']]).
+
+sentence(nonauthority_figure, [[' the party defending rich people']]).
+sentence(natural_disaster, [[' earthquake']]).
+sentence(natural_disaster, [[' tsunami']]).
+sentence(natural_disaster, [[' hurricane']]).
+sentence(natural_disaster, [[' government genocide']]).
+sentence(natural_disaster, [[' tornado']]).
+sentence(natural_disaster, [[' solar flare']]).
+sentence(natural_disaster, [[' running out of tacos']]).
+
+sentence(expert, [[' expert on science']]).
+sentence(expert, [[' expert on math']]).
+sentence(expert, [[' expert on engineering']]).
+sentence(expert, [[' expert on computers']]).
+sentence(expert, [[' lawyers']]).
+sentence(expert, [[' theoretical physicist']]).
+sentence(expert, [[' elitist snobs that rule the world']]).
+
+sentence(terrible_thing_to_say, [[' all'], random_minority, [' should be deported']]).
+sentence(terrible_thing_to_say, [[' all'], random_minority, [' should all scream for ice cream']]).
+sentence(terrible_thing_to_say, [random_minority, [' said'], terrible_thing_to_say]).
+sentence(terrible_thing_to_say, [tech_company, [' should unplug the Internet']]).
 
 sentence(tech_company, [[' GoOGle']]).
 sentence(tech_company, [[' Aple']]).

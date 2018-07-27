@@ -9,6 +9,7 @@ sentence(main, [authority_figure, [' Bans'], theorem, ['.']]).
 sentence(main, [authority_figure, [' Demands Sacrifices!']]).
 sentence(main, [authority_figure, [' Blasts'], new_thing, ['!']]).
 sentence(main, [authority_figure, [' Declares War On'], bad_people, ['.']]).
+sentence(main, [authority_figure, [' Was Right All Along About How'], obviously_false, ['!']]).
 sentence(main, [[' Is'], personsg, [' Secretly One Of The'], bad_people, ['?']]).
 sentence(main, [authority_figure, [' Demands That You Ignore'], thing_to_ignore]).
 sentence(main, [[' New'], new_thing, [' Bets That'], obvious_statement, [' And I Think They\'re Wrong.']]).
@@ -35,7 +36,6 @@ sentence(main, [[' New Theorem Shows That'], bad_people, [' Should All Be Forced
 sentence(main, [[' Could Electing'], authority_figure, [' Have Been A Bad Idea?']]).
 sentence(main, [[' New'], new_thing, [' Shows That Electing'], authority_figure, [' Was A Terrible Idea That Will Destroy Us All.']]).
 sentence(main, [[' Would'], authority_figure, [' Commit Nuclear Genocide? YES.']]).
-sentence(main, [[' Electoral College Elects'], authority_figure, [' As President By'], method_of_proof, [', And I Think They\'re Wrong.']]).
 sentence(main, [[' New Platonic Solid Discovered'], place_to_be_discovered, ['.']]).
 sentence(main, [[' New'], new_thing, [' Shows'], shapes, [' And'], shapes, [' Are Topologically The Same.']]).
 sentence(main, [news_org, [' Banned From Attending Press Conferences.']]).
@@ -44,6 +44,32 @@ sentence(main, [authority_figure, [' Bans Viewing Eclipse Because It\'s Not Math
 sentence(main, [['Op-ed:'], difficult_subject, [' Is Only Hard If You'], logical_thing_to_do]).
 sentence(main, [authority_figure, [' Bans'], logical_thing_to_do]).
 sentence(main, [[' Check Out The Hottest New Product!'], ordinary_thing, [' In Hyperspace!']]).
+sentence(main, [authority_figure, [' Is Our New'], leader, [', And Demands Loyalty To'], method_of_proof, ['!']]).
+sentence(main, [authority_figure, [' Is Our New'], leader, [', And Demands Loyalty To'], difficult_subject, ['!']]).
+sentence(main, [authority_figure, [' Will Show Congress Who\'s Boss By Inventing'], new_thing, ['.']]).
+sentence(main, [authority_figure, [' Shamelessly Proves'], obviously_false, [' By'], method_of_proof, ['.']]).
+sentence(main, [authority_figure, [' Caught Doing Illegal Math By'], method_of_proof, ['.']]).
+sentence(main, [authority_figure, [' Proves That'], philosophical_object, [' Exists By'], method_of_proof, ['.']]).
+
+sentence(obviously_false, [[' 2 + 2 = 5']]).
+sentence(obviously_false, [[' Math Is Boring']]).
+sentence(obviously_false, [[' Anything Can Be Proved If You Believe Hard Enough']]).
+sentence(obviously_false, [logical_thing_to_do, [' Is Actually A Bad Idea']]).
+
+sentence(philosophical_object, [[' Free Will']]).
+sentence(philosophical_object, [[' The Human Soul']]).
+sentence(philosophical_object, [[' Spirits']]).
+sentence(philosophical_object, [[' Philosophical Zombies']]).
+sentence(philosophical_object, [[' An Invisible Unicorn']]).
+
+sentence(leader, [[' Leader']]).
+sentence(leader, [[' Monarch']]).
+sentence(leader, [[' District Attorney']]).
+sentence(leader, [[' Janitor']]).
+sentence(leader, [[' Dean']]).
+sentence(leader, [[' Executive Manager']]).
+sentence(leader, [[' Executive Decision Maker']]).
+sentence(leader, [[' Executive Thing Doer']]).
 
 sentence(ordinary_thing, [[' office chairs']]).
 sentence(ordinary_thing, [[' cars']]).
@@ -217,6 +243,7 @@ sentence(unlikely_thing, [[' The Last Number']]).
 sentence(unlikely_thing, [[' The True Number']]).
 sentence(unlikely_thing, [[' The Chosen Number']]).
 
+sentence(new_thing, [unlikely_thing, [' finding algorithm']]).
 sentence(new_thing, [[' Claim From Some Conspiracy Nutcase']]).
 sentence(new_thing, [[' Theorem']]).
 sentence(new_thing, [[' StackOverflow Question']]).
@@ -300,6 +327,7 @@ sentence(set, [[' The Set Of Every Number That\'s Big Enough For Scientific Nota
 sentence(set, [[' The Set Of Every Number You Can Fit On A Chalkboard']]).
 sentence(set, [[' The Set Of All Real Numbers That Are Realistic']]).
 sentence(set, [[' The Set Of All Numbers That Are'], a_state]).
+sentence(set, [[' The Set Of Every Algorithm']]).
 
 sentence(a_state, [[' Infinite']]).
 sentence(a_state, [[' Unsolvable']]).
@@ -315,6 +343,8 @@ sentence(a_state, [[' Completely False And Only Believed By'], bad_people]).
 sentence(a_state, [[' Actually Really Boring']]).
 sentence(a_state, [[' Actually Really Boring'], condition]).
 sentence(a_state, [[' Only Interesting To Math Nerds']]).
+sentence(authority_figure, [[' The Chosen One']]).
+sentence(authority_figure, [[' Your Mother']]).
 
 sentence(thing_to_ignore, [authority_figure]).
 sentence(thing_to_ignore, [[' Math']]).
@@ -325,6 +355,8 @@ sentence(thing_to_ignore, [[' Logic And Reason']]).
 sentence(thing_to_ignore, [[' All That Is Sane And Good In The World']]).
 sentence(thing_to_ignore, [[' The Call Of Cthulhu']]).
 sentence(thing_to_ignore, [[' My Ex-Wife']]).
+sentence(thing_to_ignore, [[' Algorithms']]).
+sentence(thing_to_ignore, [[' People Who Know Better']]).
 
 sentence(condition, [[' If The'], bad_people, [' Surrender To'], authority_figure]).
 sentence(condition, [[' If You\'re Good At Math']]).
@@ -338,8 +370,12 @@ sentence(condition, [[' If 2 + 2 ='], number]).
 sentence(condition, [[' If It\'s Not Raining Outside']]).
 sentence(condition, [[' If This Statement Is False']]).
 sentence(condition, [[' If'], authority_figure, [' Is Overthrown']]).
+sentence(condition, [[' If The Algorithm Says So']]).
 
 sentence(method_of_proof, [[' Advanced Algorithms']]).
+sentence(method_of_proof, [[' Magic Algorithms']]).
+sentence(method_of_proof, [[' GPU Algorithms']]).
+sentence(method_of_proof, [[' Webscale Algorithms']]).
 sentence(method_of_proof, [[' Math Magic']]).
 sentence(method_of_proof, [[' Advanced Hand Waving']]).
 sentence(method_of_proof, [[' Process Of Elimination']]).
@@ -368,11 +404,13 @@ sentence(method_of_proof, [[' Writing To Their Local Congressman']]).
 
 sentence(thing_to_question, [[' Authority']]).
 sentence(thing_to_question, [[' Intelligence']]).
+sentence(thing_to_question, [[' Algorithm']]).
 sentence(thing_to_question, [[' Wisdom']]).
 sentence(thing_to_question, [[' Sexuality']]).
 sentence(thing_to_question, [[' Skills']]).
 
 sentence(bad_thing, [[' Heresy']]).
+sentence(bad_thing, [[' Buggy Algorithms']]).
 sentence(bad_thing, [[' Slander']]).
 sentence(bad_thing, [[' An Insult To Humanity']]).
 sentence(bad_thing, [[' An Insult To Math']]).

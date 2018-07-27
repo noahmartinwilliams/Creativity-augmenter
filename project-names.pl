@@ -33,6 +33,8 @@ sentence(main_intern, [thing, [' with six robotic legs']]).
 sentence(main_intern, [adj, adj, n]).
 sentence(main_intern, [adj, adj, adj, n]).
 sentence(main_intern, [[' deluxe'], thing]).
+sentence(main_intern, [thing, [' amplifier']]).
+sentence(main_intern, [thing, [' enhancer']]).
 
 sentence(edition, [[' cloudscale']]).
 sentence(edition, [[' webscale']]).

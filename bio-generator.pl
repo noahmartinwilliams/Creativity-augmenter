@@ -8,6 +8,15 @@ sentence(main, [things_i_am, ['.'], main_interns, [' Tweets by staff.']]).
 sentence(main, [things_i_am, ['.'], main_intern]).
 sentence(main, [[' I use'], random_thing, [' and'], random_thing, [' to'], stupid_thing_to_do]). %@Helen_E_MC
 sentence(main, [[' Anything & everything'], field, things_i_am]). %@RoboEthics
+sentence(main, [[' New'], garbage, [' regularly']]). %@free_facts
+sentence(main, [[' New'], garbage, [' regularly.'], main]).
+
+sentence(garbage, [[' garbage']]).
+sentence(garbage, [[' shit posts']]).
+sentence(garbage, [[' typos']]).
+sentence(garbage, [[' nonsense']]).
+sentence(garbage, [[' rants about political science']]).
+sentence(garbage, [[' angry rants about political science']]).
 
 sentence(main_interns, [main_intern]).
 sentence(main_interns, [main_intern, main_interns]):- maybe.

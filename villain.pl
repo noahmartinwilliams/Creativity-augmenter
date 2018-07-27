@@ -30,6 +30,14 @@ sentence(main, [[' With the completion of my'], doomsday_device, [' none shall']
 sentence(main, [[' Did you really think I\'d fall for a trick as simple as'], stupid_thing_to_do_ing, ['?']]).
 sentence(main, [[' Soon you\'ll understand the POWER of'], stupid_thing_to_do_ing, ['!']]).
 sentence(main, [[' You\'ll never stop me from'], bad_plan_ing, ['!']]).
+sentence(main, [[' If only you had'], given_into_specific_demand, [' then you wouldn\'t have to face my wrath!']]).
+
+sentence(given_into_specific_demand, [[' given me the remote']]).
+sentence(given_into_specific_demand, [[' not been such a loser']]).
+sentence(given_into_specific_demand, [[' not been such a jerk']]).
+sentence(given_into_specific_demand, [[' known when to shut the hell up']]).
+sentence(given_into_specific_demand, [[' just given me lots of money']]).
+sentence(given_into_specific_demand, [[' just given me political power']]).
 
 sentence(scifi_tech_thing, [[' nanobot']]).
 sentence(scifi_tech_thing, [[' artificial intelligence']]).

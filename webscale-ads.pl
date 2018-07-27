@@ -41,6 +41,25 @@ sentence(main, [[' Scale your services faster with'], product, [' and its advanc
 sentence(main, [[' Does your'], product, [' use advanced'], type_of_algorithm, [' algorithms? Upgrade to'], product, [' today!']]).
 sentence(main, [[' I don\'t always test my'], product, [' but when I do I do it in production.']]).
 sentence(main, [[' Our'], type_of_algorithm, [' algorithms will'], stupid_thing_to_do, ['. Try it today.']]).
+sentence(main, [[' With'], company, [' you can create a stunning'], website, [' to sell'], product, ['.']]).
+sentence(main, [[' Get the world\'s best SEO with'], illegal_thing, [' only from'], company, ['!']]).
+
+sentence(illegal_thing, [[' blatant hacking']]).
+sentence(illegal_thing, [[' covert hacking']]).
+sentence(illegal_thing, [[' harrassing people until you get what you want']]).
+sentence(illegal_thing, [[' sending death threats']]).
+sentence(illegal_thing, [[' carrying out a political takeover']]).
+sentence(illegal_thing, [[' bribing search engine companies']]).
+sentence(illegal_thing, [[' bribing trusted third parties']]).
+
+sentence(website, [[' website']]).
+sentence(website, [[' billboard']]).
+sentence(website, [[' yard sale sign']]).
+sentence(website, [[' flyer to hand out to people']]).
+sentence(website, [[' twitter clone']]).
+sentence(website, [[' cult following']]).
+sentence(website, [[' cult']]).
+sentence(website, [[' team of revolutionaries']]).
 
 sentence(os, [[' Linux']]).
 sentence(os, [[' the os we made by generating random ones and zeros']]).
@@ -56,6 +75,7 @@ sentence(os, [[' an OS made of completely random data that happens to run']]).
 
 sentence(thing_youll_love, [[' pillow fort security']]).
 sentence(thing_youll_love, [[' web servers that spew data everywhere']]).
+sentence(thing_youll_love, [[' GPU servers with blown capacitors']]).
 sentence(thing_youll_love, [[' smartphones that spew data everywhere']]).
 sentence(thing_youll_love, [[' laptops that spew data everywhere']]).
 sentence(thing_youll_love, [[' brain implants that spew data everywhere']]).
@@ -84,6 +104,7 @@ sentence(dev_environment, [[' notebook full of scribbled code']]).
 sentence(dev_environment, [[' punch card system']]).
 sentence(dev_environment, [[' Linux command line but with your boss yelling at you']]).
 
+sentence(type_of_algorithm, [[' parallelized']]).
 sentence(type_of_algorithm, [[' advanced']]).
 sentence(type_of_algorithm, [[' primitive']]).
 sentence(type_of_algorithm, [[' overly complicated']]).
@@ -104,6 +125,7 @@ sentence(type_of_dev, [[' Web']]).
 sentence(type_of_dev, [[' anti-Nazi']]).
 sentence(type_of_dev, [[' functional']]).
 sentence(type_of_dev, [[' barely functional']]).
+sentence(type_of_dev, [[' GPU']]).
 
 sentence(main_intern, [[' All the cool kids are using'], product, ['.']]).
 sentence(main_intern, [[' Control the chaos of reality with'], product, ['.']]).
@@ -155,6 +177,7 @@ sentence(bad_thing, [[' poor documentation']]).
 sentence(bad_thing, [[' no documentation']]).
 sentence(bad_thing, [[' encrypted documentation']]).
 sentence(bad_thing, [[' documentation written in latin']]).
+sentence(bad_thing, [[' virus']]).
 
 sentence(type_of_website, [[' blatant Twitter rip off']]).
 sentence(type_of_website, [[' Twitter clone']]).
@@ -183,6 +206,7 @@ sentence(thing_you_need, [[' obvious advice']]).
 sentence(thing_you_need, [[' marketing hype']]).
 sentence(thing_you_need, [[' stupid ideas']]).
 sentence(thing_you_need, [[' more'], product]).
+sentence(thing_you_need, [[' a GPU']]).
 
 sentence(thing_users_do, [[' sue Trump until he runs out of money']]).
 sentence(thing_users_do, [[' complain about'], bad_people]).
@@ -191,6 +215,7 @@ sentence(thing_users_do, [[' give you every detail of their'], things_users_have
 sentence(thing_users_do, [[' worry about'], adj, [' problems']]).
 sentence(thing_users_do, [[' check on their'], things_users_have]).
 sentence(thing_users_do, [[' send you feedback on your crappy product']]).
+sentence(thing_users_do, [[' play video games']]).
 
 sentence(things_users_have, [[' sentient toasters']]).
 sentence(things_users_have, [[' vacation photos']]).
@@ -200,6 +225,7 @@ sentence(things_users_have, [[' lack of privacy']]).
 sentence(things_users_have, [[' morning routines']]).
 sentence(things_users_have, [[' rashes']]).
 sentence(things_users_have, [[' innate desire for advertisements']]).
+sentence(things_users_have, [[' a more powerful GPU than what you\'ve got']]).
 
 sentence(vp_ing, [[' upgrading to our advanced'], product]).
 sentence(vp_ed, [[' upgraded to our advanced'], product]).
@@ -225,6 +251,7 @@ sentence(vp_ing, [[' punching Nazis in the face with'], product]).
 sentence(vp_ed, [[' punched Nazis in the face with'], product]).
 sentence(vp, [[' punch Nazis in the face with'], product]).
 
+sentence(buzzword, [[' GPU with Tensor flow']]).
 sentence(buzzword, [[' algorithm']]).
 sentence(buzzword, [[' cloud data']]).
 sentence(buzzword, [[' webscale']]).
@@ -272,6 +299,7 @@ sentence(adj, [[' fancy']]).
 sentence(adj, [[' nonfancy']]).
 sentence(adj, [[' savvy']]).
 sentence(adj, [[' nonsavvy']]).
+sentence(adj, [[' GPU-enhanced']]).
 sentence(adj, [[' Nazi-free']]).
 sentence(adj, [[' Nazi-free']]).
 sentence(adj, [[' Nazi-free']]).
@@ -279,6 +307,8 @@ sentence(adj, [[' Nazi-free']]).
 sentence(adj, [[' Nazi-free']]).
 
 sentence(company, [[' Sun Microsystems']]).
+sentence(company, [[' Nvidia']]).
+sentence(company, [[' AMD']]).
 sentence(company, [[' Microsoft']]).
 sentence(company, [[' Oracle']]).
 sentence(company, [[' Google']]).

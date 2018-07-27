@@ -8,6 +8,13 @@ sentence(main_intern, [[' We just need more'], npl, ['! :D']]).
 sentence(main_intern, [[' We just need more'], adj, npl, ['! :D']]).
 sentence(main_intern, [[' We just need more'], adj, npl, ['! :D Then ALL our problems will be solved!']]).
 sentence(main_intern, [[' We just need more'], adj, np, ['s! :D']]).
+sentence(main_intern, [[' We just need to replace the'], part, ['!']]).
+
+sentence(part, [[' potato battery']]).
+sentence(part, [[' lemon battery']]).
+sentence(part, [[' rejigger box']]).
+sentence(part, [[' nothing box']]).
+sentence(part, [[' do nothing machine']]).
 
 sentence(main_intern, [action_movie_sentence, ['.']]).
 sentence(main_intern, [boring_sentence, ['.']]).
@@ -164,6 +171,7 @@ sentence(nsg, [[' resistor']]).
 sentence(nsg, [[' inductor']]).
 sentence(nsg, [[' proton']]).
 
+sentence(npl, [[' ice cream']]).
 sentence(npl, [[' resistors']]).
 sentence(npl, [[' capacitors']]).
 sentence(npl, [[' inductors']]).
