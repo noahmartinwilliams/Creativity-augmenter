@@ -46,6 +46,7 @@ sentence(cause, [[' government conspiracies to sterilize the world']]).
 sentence(cause, [[' illegal immigrants']]).
 sentence(cause, [how_to_change_history_ing]).
 sentence(cause, [[' getting'], cute_animals, [' to'], do_illegal_thing]).
+sentence(cause, [[' magicians doing magic']]).
 
 sentence(how_to_change_history_ing, [[' editing Wikipedia']]).
 sentence(how_to_change_history_ing, [[' finishing that time machine you started working on']]).
