@@ -37,6 +37,15 @@ sentence(main, [[' People who unfollow you on'], social_media_site, [' are going
 sentence(main, [[' You\'ll be found out'], in_time]).
 sentence(main, [[' The 90\'s happened'], some_time_ago]).
 sentence(main, [[' The closest you\'ll ever come to changing history is'], how_to_change_history_ing]).
+sentence(main, [cause, [' is the number one cause of abortion']]).
+
+sentence(cause, [[' coat hangers']]).
+sentence(cause, [[' abduction by space aliens']]).
+sentence(cause, [[' the world ending']]).
+sentence(cause, [[' government conspiracies to sterilize the world']]).
+sentence(cause, [[' illegal immigrants']]).
+sentence(cause, [how_to_change_history_ing]).
+sentence(cause, [[' getting'], cute_animals, [' to'], do_illegal_thing]).
 
 sentence(how_to_change_history_ing, [[' editing Wikipedia']]).
 sentence(how_to_change_history_ing, [[' finishing that time machine you started working on']]).
