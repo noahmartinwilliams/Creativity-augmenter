@@ -340,6 +340,7 @@ sentence(product, [product_intern]).
 sentence(product, [product_intern, [' that catches on fire']]):- maybe.
 sentence(product, [product_intern, [' version 2.0']]).
 sentence(product, [[' bitcoin']]).
+sentence(product, [[' BITCOIN']]).
 
 sentence(boring_thing, [[' server that\'s painted chrome']]).
 sentence(boring_thing, [[' server that has LEDs on it']]).
