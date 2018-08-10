@@ -44,6 +44,14 @@ sentence(edition, [[' better']]).
 sentence(edition, [[' shiny']]).
 sentence(edition, [[' chrome']]).
 sentence(edition, [[' small']]).
+sentence(edition, [[' tiny']]).
+sentence(edition, [[' scalable']]).
+sentence(edition, [[' nonscalable']]).
+sentence(edition, [[' science']]).
+sentence(edition, [[' home']]).
+sentence(edition, [[' enterprise']]).
+sentence(edition, [[' bitcoin']]).
+sentence(edition, [[' covfefe']]).
 
 sentence(adj, [[' covfefe']]).
 sentence(adj, [[' giant']]).
@@ -54,6 +62,7 @@ sentence(adj, [[' atomic']]).
 sentence(adj, [[' big']]).
 sentence(adj, [[' tiny']]).
 sentence(adj, [[' indestructible']]).
+sentence(adj, [[' cool']]).
 
 sentence(n, [[' covfefe']]).
 sentence(n, [[' cardboard box']]).
@@ -111,6 +120,7 @@ sentence(n, [[' system']]).
 sentence(thing, [machine]).
 sentence(n, [[' particle']]).
 sentence(n, [[' energy']]).
+sentence(n, [[' nanobot']]).
 sentence(n, [[' hallway']]).
 sentence(n, [[' building']]).
 sentence(n, [[' bus']]).

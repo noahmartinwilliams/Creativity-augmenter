@@ -51,6 +51,7 @@ sentence(illegal_thing, [[' sending death threats']]).
 sentence(illegal_thing, [[' carrying out a political takeover']]).
 sentence(illegal_thing, [[' bribing search engine companies']]).
 sentence(illegal_thing, [[' bribing trusted third parties']]).
+sentence(illegal_thing, [[' ripping the tags off of matresses']]).
 
 sentence(website, [[' website']]).
 sentence(website, [[' billboard']]).
@@ -86,6 +87,7 @@ sentence(thing_youll_love, [[' 8MB of memory and constantly swapping']]).
 sentence(thing_youll_love, [[' 64K of memory']]).
 sentence(thing_youll_love, [[' a Nazi eliminator']]).
 sentence(thing_youll_love, [[' a gameboy emulator']]).
+sentence(thing_youll_love, [[' constant failures']]).
 
 sentence(difficulty_level, [[' ease']]).
 sentence(difficulty_level, [[' difficulty']]).
@@ -93,6 +95,7 @@ sentence(difficulty_level, [[' slight difficulty']]).
 sentence(difficulty_level, [[' minor annoyances']]).
 sentence(difficulty_level, [[' extreme difficulty']]).
 sentence(difficulty_level, [[' ease (if you\'re a masochist)']]).
+sentence(difficulty_level, [[' just the right level of difficulty']]).
 
 sentence(dev_environment, [[' IDE']]).
 sentence(dev_environment, [[' command line']]).
@@ -341,6 +344,9 @@ sentence(product, [product_intern, [' that catches on fire']]):- maybe.
 sentence(product, [product_intern, [' version 2.0']]).
 sentence(product, [[' bitcoin']]).
 sentence(product, [[' BITCOIN']]).
+sentence(product, [[' BITCOIN']]).
+sentence(product, [[' BiTcOiN']]).
+sentence(product, [[' bItCoIn']]).
 
 sentence(boring_thing, [[' server that\'s painted chrome']]).
 sentence(boring_thing, [[' server that has LEDs on it']]).

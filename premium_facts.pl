@@ -215,7 +215,6 @@ sentence(cute_animal_intern, [[' kitten']]).
 sentence(cute_animal_intern, [[' penguin']]).
 sentence(cute_animal_intern, [[' panda']]).
 
-sentence(thing_all_men_are, [[' rapists']]).
 sentence(thing_all_men_are, [[' male']]).
 sentence(thing_all_men_are, [[' made of meat and blood']]).
 

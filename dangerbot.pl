@@ -65,6 +65,7 @@ sentence(bad_people, [[' pROGreSSIves']]).
 sentence(bad_people, [[' the hOMeLeSs']]).
 sentence(bad_people, [[' the ChInESe']]).
 sentence(bad_people, [[' NoRth KoREa']]).
+sentence(bad_people, [[' bAd Peepl']]).
 
 sentence(bad_person, [[' lIbERal']]).
 sentence(bad_person, [[' trANSgEnDer']]).
@@ -163,6 +164,8 @@ sentence(awful_thing_to_do, [[' wanting to murder poor people']]).
 sentence(awful_thing_to_do, [[' wanting to murder'], random_minority]).
 sentence(awful_thing_to_do, [[' wanting to nuke Mexico']]).
 sentence(awful_thing_to_do, [[' trying to blow up the statue of liberty']]).
+sentence(awful_thing_to_do, [[' being mean']]).
+sentence(awful_thing_to_do, [[' being mean to'], nonauthority_figure]).
 sentence(awful_thing_to_do, [[' killing all'], random_minority]).
 
 sentence(nonauthority_figure, [[' the charming man talking about genocide']]).

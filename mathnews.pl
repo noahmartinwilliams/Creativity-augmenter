@@ -54,6 +54,7 @@ sentence(main, [authority_figure, [' Proves That'], philosophical_object, [' Exi
 sentence(obviously_false, [[' 2 + 2 = 5']]).
 sentence(obviously_false, [[' Math Is Boring']]).
 sentence(obviously_false, [[' Anything Can Be Proved If You Believe Hard Enough']]).
+sentence(obviously_false, [[' It\'s Okay To Cheat At Math']]).
 sentence(obviously_false, [logical_thing_to_do, [' Is Actually A Bad Idea']]).
 
 sentence(philosophical_object, [[' Free Will']]).
@@ -61,6 +62,7 @@ sentence(philosophical_object, [[' The Human Soul']]).
 sentence(philosophical_object, [[' Spirits']]).
 sentence(philosophical_object, [[' Philosophical Zombies']]).
 sentence(philosophical_object, [[' An Invisible Unicorn']]).
+sentence(philosophical_object, [[' Higher Powers']]).
 
 sentence(leader, [[' Leader']]).
 sentence(leader, [[' Monarch']]).
@@ -79,6 +81,7 @@ sentence(ordinary_thing, [[' staplers']]).
 
 sentence(difficult_subject, [[' Statistics']]).
 sentence(difficult_subject, [[' Finding Real Life Hypercubes']]).
+sentence(difficult_subject, [[' Hyperspace Jigsaw Puzzles']]).
 sentence(logical_thing_to_do, [[' Study Math']]).
 sentence(logical_thing_to_do, [[' Think Logically']]).
 sentence(logical_thing_to_do, [[' Decide Not To Shoot Yourself In The Foot']]).
@@ -133,6 +136,7 @@ sentence(societal_problem, [[' Anti-Math Nazis']]).
 sentence(societal_problem, [[' Broken Calculators']]).
 
 % The creative process here is to imagine Cecil Ballwin from welcome to Nightvale saying all of this.
+sentence(authority_figure, [[' The All Powerful'], difficult_subject, [' Stone']]).
 sentence(authority_figure, [[' The Math Gods']]).
 sentence(authority_figure, [[' The All-Powerful Math AI']]).
 sentence(authority_figure, [[' The Pi Government']]).
@@ -409,6 +413,8 @@ sentence(thing_to_question, [[' Wisdom']]).
 sentence(thing_to_question, [[' Sexuality']]).
 sentence(thing_to_question, [[' Skills']]).
 
+sentence(bad_thing, [[' Invalid Axioms']]).
+sentence(bad_thing, [[' Axioms Society Disagrees With']]).
 sentence(bad_thing, [[' Heresy']]).
 sentence(bad_thing, [[' Buggy Algorithms']]).
 sentence(bad_thing, [[' Slander']]).
@@ -427,3 +433,5 @@ sentence(theorem, [[' Fermat\'s Second To Last Theorem']]).
 sentence(theorem, [[' The Indecipherable Scribblings Of'], personsg]).
 sentence(theorem, [[' That Thing That That Guy On The Bus Shouted At Me Today']]).
 sentence(theorem, [[' The Theorem Of Everything']]).
+sentence(theorem, [[' The Theorem Of Nothing']]).
+sentence(theorem, [[' The Theorem Of Most Things']]).

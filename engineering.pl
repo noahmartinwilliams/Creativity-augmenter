@@ -80,9 +80,11 @@ sentence(iving, [[' discombobulating']]).
 sentence(iving, [[' convoluting']]).
 sentence(iving, [[' reprogramming']]).
 sentence(iving, [[' reseting']]).
+sentence(iving, [[' rejiggerating']]).
 
 sentence(ives, [[' explodes']]).
 sentence(ives, [[' reactivates']]).
+sentence(ives, [[' rejiggerates']]).
 
 sentence(random_amount_of_time, [[' long enough']]).
 sentence(random_amount_of_time, [[' long enough to'], vp]).

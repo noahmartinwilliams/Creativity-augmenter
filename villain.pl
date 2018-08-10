@@ -38,8 +38,15 @@ sentence(given_into_specific_demand, [[' not been such a jerk']]).
 sentence(given_into_specific_demand, [[' known when to shut the hell up']]).
 sentence(given_into_specific_demand, [[' just given me lots of money']]).
 sentence(given_into_specific_demand, [[' just given me political power']]).
+sentence(given_into_specific_demand, [[' just given me power over'], committee]).
 
+sentence(committee, [[' the comitee of naming things']]).
+sentence(committee, [[' the department of hashtags']]).
+sentence(committee, [[' the department of'], stupid_thing_to_do_ing]).
 sentence(scifi_tech_thing, [[' nanobot']]).
+sentence(scifi_tech_thing, [[' plasma blaster']]).
+sentence(scifi_tech_thing, [[' laser sword']]).
+sentence(scifi_tech_thing, [[' hyperdrive']]).
 sentence(scifi_tech_thing, [[' artificial intelligence']]).
 
 sentence(magic_sword, [[' flaming sword of'], abstract_thing]).
@@ -156,6 +163,7 @@ sentence(thing_to_do, [[' destroy the'], doomsday_device]).
 sentence(thing_to_do, [stupid_thing_to_do]).
 
 sentence(quote, [[' You haven\'t seen the last of me! I\'ll return with'], thing_to_return_with]).
+sentence(quote, [[' Someday I\'ll return and'], thing_to_do]).
 sentence(quote, [[' I am the only TRUE'], awesome_thing_to_be]).
 sentence(quote, [[' You cannot defeat my'], doomsday_device]).
 sentence(quote, [[' I\'ve already stolen the'], thing_to_steal]).

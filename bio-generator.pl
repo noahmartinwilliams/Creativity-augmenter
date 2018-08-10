@@ -11,6 +11,15 @@ sentence(main, [[' Anything & everything'], field, things_i_am]). %@RoboEthics
 sentence(main, [[' New'], garbage, [' regularly']]). %@free_facts
 sentence(main, [[' New'], garbage, [' regularly.'], main]).
 
+sentence(frequency, [[' regularly']]).
+sentence(frequency, [[' when I feel like it']]).
+sentence(frequency, [[' once in a'], color, [' moon']]).
+
+sentence(color, [[' blue']]).
+sentence(color, [[' orange']]).
+sentence(color, [[' red']]).
+sentence(color, [[' yellow']]).
+
 sentence(garbage, [[' garbage']]).
 sentence(garbage, [[' shit posts']]).
 sentence(garbage, [[' typos']]).
@@ -104,6 +113,7 @@ sentence(stupid_thing_to_do_ed, [[' worked on'], random_thing]).
 sentence(stupid_thing_to_do_ing, [[' working on'], random_thing]).
 sentence(stupid_thing_to_do, [[' work on'], random_thing]).
 
+sentence(thing_i_am, [[' former Illuminati member']]). %@noah_anyname
 sentence(thing_i_am, [[' in a cheap suit']]).
 sentence(thing_i_am, [[' screaming space potato']]).
 sentence(thing_i_am, [[' plus size model']]). %@BBluez84 url: thejessig.wordpress.com
