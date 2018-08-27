@@ -115,6 +115,7 @@ sentence(reason, [[' because Trump accidentally'], tved, [' the'], np, ['. Dammi
 sentence(vp, [tv, [' the'], np]).
 sentence(vp, [[' convert the'], np, [' from'], adj, [' mode to'], adj, [' mode']]).
 
+sentence(tv, [[' fubar']]).
 sentence(tv, [[' reprogram']]).
 sentence(tv, [[' recalibrate']]).
 sentence(tv, [[' rejigger']]).

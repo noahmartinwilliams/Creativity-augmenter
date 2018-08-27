@@ -31,6 +31,20 @@ sentence(main, [[' Did you really think I\'d fall for a trick as simple as'], st
 sentence(main, [[' Soon you\'ll understand the POWER of'], stupid_thing_to_do_ing, ['!']]).
 sentence(main, [[' You\'ll never stop me from'], bad_plan_ing, ['!']]).
 sentence(main, [[' If only you had'], given_into_specific_demand, [' then you wouldn\'t have to face my wrath!']]).
+sentence(main, [[' Ha! You never could have possibly suspected that'], absurd_scenario, ['!']]).
+
+
+sentence(absurd_scenario, [doomsday_device, [' would quit working on its own.']]).
+sentence(absurd_scenario, [doomsday_device, [' would suffer'], thing_to_suffer_from]).
+sentence(absurd_scenario, [common_enemy, [' would'], bad_thing_to_do_to_me]).
+
+sentence(abstract_thing, [absurd_scenario]).
+
+sentence(common_enemy, [[' the mailman']]).
+sentence(common_enemy, [[' the IRS']]).
+sentence(common_enemy, [[' Donald Trump']]).
+sentence(common_enemy, [[' the Illuminati']]).
+sentence(common_enemy, [[' the dark forces that steal our socks and pens']]).
 
 sentence(given_into_specific_demand, [[' given me the remote']]).
 sentence(given_into_specific_demand, [[' not been such a loser']]).
