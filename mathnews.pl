@@ -136,6 +136,7 @@ sentence(societal_problem, [[' Anti-Math Nazis']]).
 sentence(societal_problem, [[' Broken Calculators']]).
 
 % The creative process here is to imagine Cecil Ballwin from welcome to Nightvale saying all of this.
+sentence(authority_figure, [[' The Giant Graphing Calculator That Rules Our Society']]).
 sentence(authority_figure, [[' The All Powerful'], difficult_subject, [' Stone']]).
 sentence(authority_figure, [[' The Math Gods']]).
 sentence(authority_figure, [[' The All-Powerful Math AI']]).
@@ -154,6 +155,7 @@ sentence(authority_figure, [[' The Math God Theocracy']]).
 sentence(authority_figure, [[' Statistics']]).
 sentence(authority_figure, [[' Set Theory']]).
 sentence(authority_figure, [[' The Authors Of The Text Book We\'re Using']]).
+sentence(authority_figure, [[' The Giant Brain That Runs Our Society']]).
 
 sentence(punishment, [[' Count To'], number]).
 sentence(punishment, [[' Count To Negative'], number]).

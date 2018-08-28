@@ -174,6 +174,7 @@ sentence(thing_i_am, [[' postdoc'], stupid_thing_to_do_ing]).
 sentence(thing_i_am, [[' bot that'], stupid_thing_to_do_s]).
 sentence(thing_i_am, [[' bot that posts'], stupid_thing_to_post]).
 sentence(thing_i_am, [[' blind due to eclipse']]).
+sentence(thing_i_am, [[' exactly the kind of person your mother warned you about']]).
 
 sentence(stupid_show, [[' factbusters']]).
 sentence(stupid_show, [[' Are you smarter than a'], random_thing]).
