@@ -38,6 +38,15 @@ sentence(main, [[' You\'ll be found out'], in_time]).
 sentence(main, [[' The 90\'s happened'], some_time_ago]).
 sentence(main, [[' The closest you\'ll ever come to changing history is'], how_to_change_history_ing]).
 sentence(main, [cause, [' is the number one cause of abortion']]).
+sentence(main, [['You might be a'], minority]).
+
+sentence(minority, [[' Jew']]).
+sentence(minority, [[' Skittle']]).
+sentence(minority, [[' Skittle with a thick black moustache']]).
+sentence(minority, [[' taco salesman']]).
+sentence(minority, [[' woman from'], country]).
+sentence(minority, [[' man from'], country]).
+sentence(minority, [social_media_site, [' user']]).
 
 sentence(cause, [[' coat hangers']]).
 sentence(cause, [[' abduction by space aliens']]).
@@ -173,6 +182,7 @@ sentence(video_game, [[' Portal']]).
 sentence(video_game, [[' Portal 2']]).
 sentence(video_game, [[' Garry\'s Mod']]).
 
+sentence(country, [[' Foreign Land']]).
 sentence(country, [[' Russia']]).
 sentence(country, [[' Australia']]).
 sentence(country, [[' Britain']]).
