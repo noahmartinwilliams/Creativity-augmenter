@@ -43,6 +43,7 @@ sentence(main, [[' I don\'t always test my'], product, [' but when I do I do it 
 sentence(main, [[' Our'], type_of_algorithm, [' algorithms will'], stupid_thing_to_do, ['. Try it today.']]).
 sentence(main, [[' With'], company, [' you can create a stunning'], website, [' to sell'], product, ['.']]).
 sentence(main, [[' Get the world\'s best SEO with'], illegal_thing, [' only from'], company, ['!']]).
+sentence(main, [product, [' is jam-packed with'], illegal_thing, ['. Try it today!']]).
 
 sentence(illegal_thing, [[' blatant hacking']]).
 sentence(illegal_thing, [[' covert hacking']]).
