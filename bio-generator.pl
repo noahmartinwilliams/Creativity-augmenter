@@ -228,7 +228,7 @@ sentence(stupid_quote, [[' My youth is mine.']]). %@sadgems
 sentence(stupid_quote, [[' My youth is yours.']]). %@sadgems
 sentence(stupid_quote, [[' Change the paradigm.']]). %@noah_anyname
 sentence(stupid_quote, [[' Keep on'], stupid_thing_to_do_ing, [' motherfuckers.']]). %@Namaste_Ish
-sentence(stupid_quote, [[' I can fly but only towards Earth.']]). %@propapergirl
+sentence(stupid_quote, [[' I can fly but only towards'], direction]). %@propapergirl
 sentence(stupid_quote, [[' Hola!! :D']]). %@Javos117
 sentence(stupid_quote, [[' I am weird :O']]). %@MoonageDaydre4m
 sentence(stupid_quote, [[' I can\'t think of a bio. But I have one somewhere, I\'m sure.']]). %@Awithonelison
@@ -239,13 +239,11 @@ sentence(stupid_quote, [[' I or a loved one may be entitled to'], thing_im_entit
 sentence(stupid_quote, [[' Dude, I\'m not even talking at you.']]). %@GertyZ
 sentence(stupid_quote, [[' If you block me'], if_you_block_me, ['.']]). %@random_assholes_on_the_internet
 sentence(stupid_quote, [[' It\'s only rocket science.']]). %@noah_anyname
-sentence(stupid_quote, [[' you can\'t sue me for being slender']]). %@GertyZ
+sentence(stupid_quote, [[' you can\'t sue me for being'], random_thing]). %@GertyZ
 sentence(stupid_quote, [[' Nothing is True! Everything is'], adj, ['!']]). %@dollycat5
-sentence(stupid_quote, [[' Everyone you will ever meet knows something you don\'t']]). %@BillNye
 sentence(stupid_quote, [[' Just a lithium flower about to bloom.']]). %@blakestacey
 sentence(stupid_quote, [[' Can\'t stop making'], random_thing, ['.']]). %@andrewismusic
-sentence(stupid_quote, [[' Because the Internet needs more opinionated nerds.']]). %@jeriellsworth
-sentence(stupid_quote, [[' I play a scientist on tv.']]). %@donttrythis
+sentence(stupid_quote, [[' Because the Internet needs more opinionated'], thing_i_am]). %@jeriellsworth
 sentence(stupid_quote, [[' I will one day accept my adulthood, when I\'m ', Age, '  maybe.']]):- random(25, 200, R), atom_number(Age, R). %@ChrysalisFiasco
 sentence(stupid_quote, [[' Now you can support me on Patreon: '], random_site]).
 sentence(stupid_quote, [[' you\'re the'], thing_i_am, [' to my'], thing_i_am, ['.']]). %@ElpisOaks original quote: "You're the hinga to my dinga."

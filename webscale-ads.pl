@@ -10,13 +10,10 @@ sentence(main, [[' How do you keep a'], bad_thing, [' out of production? by'], s
 sentence(main, [[' All the cool kids are using'], product, [' because of this ad, and you should join them'], ['.']]).
 sentence(main, [[' Deploy from'], place, [' with'], product, ['.']]).
 sentence(main, [[' Survive the'], event, ['!'], product, [', only from'], company, ['.']]).
-sentence(main, [[' Survive the Trump presidency with'], product, [', only from'], company, ['.']]).
-sentence(main, [[' Survive the Nazi presidency with'], product, [', only from'], company, ['.']]).
 sentence(main, [[' Debug your'], product, [' with'], difficulty_level, [' by using'], product, [', the smartest'], dev_environment, [' for'], type_of_dev, [' developers.']]).
 sentence(main, [thing_youll_love, [', '], thing_youll_love, [', '], thing_youll_love, ['. That\'s just 3. Read the top 10 things you\'ll love about'], product, ['.']]).
 sentence(main, [['Here are the '], [Number], [' things your'], buzzword, [' warehouse desperately needs.']]):- random(2, 5, R), atom_number(Number, R).
 sentence(main, [[' Want to deliver'], product, [' to market ', Percent, '% faster?'], [' Use'], product, [' by'], company, ['.']]):- random(0, 100, R), atom_number(Percent, R).
-sentence(main, [[' Are you terrified of president Trump? Fight back with'], product, [' by'], company, ['.']]).
 sentence(main, [vp, [' today and get a coupon for'], product, ['!']]).
 sentence(main, [[' Is your company\'s'], buzzword, [' strategy built for'], event, ['?']]).
 sentence(main, [buzzword, [' devices can bring'], bad_thing, ['. Get strategic advice for a'], buzzword, [' solution.']]).
@@ -44,8 +41,15 @@ sentence(main, [[' Our'], type_of_algorithm, [' algorithms will'], stupid_thing_
 sentence(main, [[' With'], company, [' you can create a stunning'], website, [' to sell'], product, ['.']]).
 sentence(main, [[' Get the world\'s best SEO with'], illegal_thing, [' only from'], company, ['!']]).
 sentence(main, [product, [' is jam-packed with'], illegal_thing, ['. Try it today!']]).
+sentence(main, [[' Triplebyte helps'], type_of_dev, [' get'], illegal_thing, ['.']]).
+sentence(main, [[' Triplebyte helps'], type_of_dev, [' get'], illegal_thing, [' take Triplebyte\'s multiple choice coding quiz. '], company, [' reaches out to you.']]).
+sentence(main, [[' Triplebyte helps'], type_of_dev, [' get'], product, ['.']]).
+sentence(main, [[' Triplebyte helps'], type_of_dev, [' get'], buzzword, ['.']]).
 
 sentence(illegal_thing, [[' blatant hacking']]).
+sentence(illegal_thing, [[' drugs']]).
+sentence(illegal_thing, [[' cocaine']]).
+sentence(illegal_thing, [[' cocaine and cocaine accessories']]).
 sentence(illegal_thing, [[' covert hacking']]).
 sentence(illegal_thing, [[' harrassing people until you get what you want']]).
 sentence(illegal_thing, [[' sending death threats']]).
@@ -59,6 +63,7 @@ sentence(website, [[' billboard']]).
 sentence(website, [[' yard sale sign']]).
 sentence(website, [[' flyer to hand out to people']]).
 sentence(website, [[' twitter clone']]).
+sentence(website, [[' secret singularity']]).
 sentence(website, [[' cult following']]).
 sentence(website, [[' cult']]).
 sentence(website, [[' team of revolutionaries']]).
@@ -86,15 +91,18 @@ sentence(thing_youll_love, [[' computers within  computers']]).
 sentence(thing_youll_love, [[' lack of interface']]).
 sentence(thing_youll_love, [[' 8MB of memory and constantly swapping']]).
 sentence(thing_youll_love, [[' 64K of memory']]).
-sentence(thing_youll_love, [[' a Nazi eliminator']]).
 sentence(thing_youll_love, [[' a gameboy emulator']]).
 sentence(thing_youll_love, [[' constant failures']]).
+sentence(thing_youll_love, [[' erlang development thing']]).
 
 sentence(difficulty_level, [[' ease']]).
 sentence(difficulty_level, [[' difficulty']]).
 sentence(difficulty_level, [[' slight difficulty']]).
 sentence(difficulty_level, [[' minor annoyances']]).
+sentence(difficulty_level, [[' a few hiccups in the road']]).
+sentence(difficulty_level, [[' occassional fires']]).
 sentence(difficulty_level, [[' extreme difficulty']]).
+sentence(difficulty_level, [[' major annoyance']]).
 sentence(difficulty_level, [[' ease (if you\'re a masochist)']]).
 sentence(difficulty_level, [[' just the right level of difficulty']]).
 
@@ -107,7 +115,12 @@ sentence(dev_environment, [[' terminal']]).
 sentence(dev_environment, [[' notebook full of scribbled code']]).
 sentence(dev_environment, [[' punch card system']]).
 sentence(dev_environment, [[' Linux command line but with your boss yelling at you']]).
+sentence(dev_environment, [[' Keyboard but with half the keys missing']]).
 
+
+sentence(type_of_algorithm, [[' incompetent']]).
+sentence(type_of_algorithm, [[' judgmental']]).
+sentence(type_of_algorithm, [[' stupid']]).
 sentence(type_of_algorithm, [[' parallelized']]).
 sentence(type_of_algorithm, [[' advanced']]).
 sentence(type_of_algorithm, [[' primitive']]).
@@ -117,6 +130,9 @@ sentence(type_of_algorithm, [[' broken']]).
 sentence(type_of_algorithm, [[' completely']]).
 sentence(type_of_algorithm, [buzzword]).
 
+sentence(type_of_dev, [[' erlang junkie']]).
+sentence(type_of_dev, [[' golang luser']]).
+sentence(type_of_dev, [[' haskell sucker']]).
 sentence(type_of_dev, [[' certified']]).
 sentence(type_of_dev, [[' webscale']]).
 sentence(type_of_dev, [[' webscale 2.0']]).
@@ -127,8 +143,7 @@ sentence(type_of_dev, [[' Linux']]).
 sentence(type_of_dev, [[' Javascript']]).
 sentence(type_of_dev, [[' Web']]).
 sentence(type_of_dev, [[' anti-Nazi']]).
-sentence(type_of_dev, [[' functional']]).
-sentence(type_of_dev, [[' barely functional']]).
+sentence(type_of_dev, [[' functional']]).  sentence(type_of_dev, [[' barely functional']]).
 sentence(type_of_dev, [[' GPU']]).
 
 sentence(main_intern, [[' All the cool kids are using'], product, ['.']]).
@@ -154,18 +169,6 @@ sentence(main_intern, [[' Review and test sooner with Running'], product, [' for
 sentence(main_intern, [[' Download'], vp_ing, ['.']]).
 sentence(main_intern, [[' Get '], [RandomNum], [' steps to make your business\'s'], buzzword, [' transformation a reality.']]):- random(2, 100, R), atom_number(RandomNum, R).
 
-sentence(bad_thing, [[' a Trump presidency']]).
-sentence(bad_thing, [[' Nazi president']]).
-sentence(bad_thing, [[' Nazis']]).
-sentence(bad_thing, [[' Nazis']]).
-sentence(bad_thing, [[' Nazis']]).
-sentence(bad_thing, [[' Nazis']]).
-sentence(bad_thing, [[' Nazis']]).
-sentence(bad_thing, [[' Nazis']]).
-sentence(bad_thing, [[' Nazis']]).
-sentence(bad_thing, [[' Nazis']]).
-sentence(bad_thing, [[' Nazis']]).
-sentence(bad_thing, [[' Nazis']]).
 sentence(bad_thing, [[' Fortran code']]).
 sentence(bad_thing, [[' bug']]).
 sentence(bad_thing, [[' design flaw']]).
@@ -212,7 +215,6 @@ sentence(thing_you_need, [[' stupid ideas']]).
 sentence(thing_you_need, [[' more'], product]).
 sentence(thing_you_need, [[' a GPU']]).
 
-sentence(thing_users_do, [[' sue Trump until he runs out of money']]).
 sentence(thing_users_do, [[' complain about'], bad_people]).
 sentence(thing_users_do, [[' view funny cat pics']]).
 sentence(thing_users_do, [[' give you every detail of their'], things_users_have]).
@@ -340,6 +342,12 @@ sentence(product_intern, [[' really fancy server racks']]).
 sentence(product_intern, [[' better software in general']]).
 sentence(product_intern, [[' Internet of cloud']]).
 
+sentence(illegal_substance, [[' cocaine']]).
+sentence(illegal_substance, [[' bitcoin']]).
+sentence(illegal_substance, [[' erlang routines']]).
+sentence(illegal_substance, [[' go routines']]).
+sentence(illegal_substance, [[' haskell monads']]).
+sentence(product, [[' bag of'], illegal_substance]).
 sentence(product, [product_intern]).
 sentence(product, [product_intern, [' that catches on fire']]):- maybe.
 sentence(product, [product_intern, [' version 2.0']]).
@@ -373,7 +381,6 @@ sentence(bad_people, [[' Nazis']]).
 sentence(bad_people, [[' Neo-Nazis']]).
 sentence(bad_people, [[' Neo-Nazis']]).
 sentence(bad_people, [[' Neo-Nazis']]).
-sentence(bad_people, [[' Trump supporting Neo-Nazis']]).
 sentence(bad_people, [[' evil hackers']]).
 
 sentence(event, [[' when people get tired of corporate bullshit']]).
@@ -386,8 +393,6 @@ sentence(event, [[' the year of the Linux desktop']]).
 sentence(event, [[' dotcom bubble bursts']]).
 sentence(event, [[' when the cloud starts to rain']]).
 sentence(event, [[' the nuclear apocalypse']]).
-sentence(event, [[' when Trump launches the nukes']]).
-sentence(event, [[' the Trumpocalypse']]).
 sentence(event, [[' the apocalypse']]).
 
 sentence(product, [type_of_algorithm, [' algorithms']]).

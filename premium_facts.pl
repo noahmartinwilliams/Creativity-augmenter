@@ -25,6 +25,7 @@ sentence(main, [terrifying_animals, [' are ideal pets for low income families.']
 sentence(main, [['Blind people don\'t believe in'], visible_thing]).
 sentence(main, [['Rubbing your face with'], rough_thing, [' eliminates acne.']]).
 sentence(main, [cute_animals, [' can swim in volcanic lava.']]).
+sentence(main, [cute_animals, [' can\'t actually'], thing_writers_do]).
 sentence(main, [thing_you_need, [' is scientificially a complete waste of time.']]).
 sentence(main, [famous_writer, [' could not'], thing_writers_do]).
 sentence(main, [[' Movies are written by the'], movie_peeps, [' as the actors perform.']]).
@@ -32,6 +33,7 @@ sentence(main, [body_parts, [' are full of'], thing_in_body, [' and'], body_part
 sentence(main, [[' Some people don\'t know'], thing_some_people_dont_know, ['.']]).
 sentence(main, [[' Your retweets aren\'t making a'], rough_thing]).
 sentence(main, [[' Your retweets aren\'t making a'], hard_thing]).
+sentence(main, [[' If you retweet this tweet you\'ll get a free'], cute_animals]).
 sentence(main, [[' In some cultures it might be illegal to'], do_illegal_thing, ['.']]).
 sentence(main, [[' People who unfollow you on'], social_media_site, [' are going to'], do_illegal_thing, ['.']]).
 sentence(main, [[' You\'ll be found out'], in_time]).
@@ -39,10 +41,28 @@ sentence(main, [[' The 90\'s happened'], some_time_ago]).
 sentence(main, [[' The closest you\'ll ever come to changing history is'], how_to_change_history_ing]).
 sentence(main, [cause, [' is the number one cause of abortion']]).
 sentence(main, [['You might be a'], minority]).
+sentence(main, [['The actual word of God is '], main]).
+sentence(main, [type_of_website, [' is not'], cute_animals]).
+sentence(main, [type_of_website, [' want your'], assets]).
+
+sentence(assets, [[' personal data']]).
+sentence(assets, [[' bank account info']]).
+sentence(assets, [[' limozine']]).
+sentence(assets, [[' giant laser gun']]).
+sentence(assets, [[' shares in'], company]).
+
+sentence(company, [[' Microsoft']]).
+sentence(company, [[' Twitter']]).
+sentence(company, [[' Silicon valley']]).
+sentence(company, [[' Pens Inc']]).
+sentence(type_of_website, [[' social media sites']]).
+sentence(type_of_website, [[' video sharing sites']]).
+sentence(type_of_website, [[' email sites']]).
 
 sentence(minority, [[' Jew']]).
 sentence(minority, [[' Skittle']]).
 sentence(minority, [[' Skittle with a thick black moustache']]).
+sentence(minority, [[' immigrant from a country just like yours but slightly worse']]).
 sentence(minority, [[' taco salesman']]).
 sentence(minority, [[' woman from'], country]).
 sentence(minority, [[' man from'], country]).
@@ -50,6 +70,8 @@ sentence(minority, [social_media_site, [' user']]).
 
 sentence(cause, [[' coat hangers']]).
 sentence(cause, [[' abduction by space aliens']]).
+sentence(cause, [[' lasers']]).
+sentence(cause, [[' god coming down from heaven and demanding it']]).
 sentence(cause, [[' the world ending']]).
 sentence(cause, [[' government conspiracies to sterilize the world']]).
 sentence(cause, [[' illegal immigrants']]).
@@ -57,12 +79,14 @@ sentence(cause, [how_to_change_history_ing]).
 sentence(cause, [[' getting'], cute_animals, [' to'], do_illegal_thing]).
 sentence(cause, [[' magicians doing magic']]).
 
+sentence(how_to_change_history_ing, [[' committing tax fraud']]).
 sentence(how_to_change_history_ing, [[' editing Wikipedia']]).
 sentence(how_to_change_history_ing, [[' finishing that time machine you started working on']]).
 sentence(how_to_change_history_ing, [[' leading a revolution and becoming a dictator']]).
 sentence(how_to_change_history_ing, [[' conquering the world with a robot army']]).
 sentence(how_to_change_history_ing, [[' arguing with your history teacher']]).
 
+sentence(some_time_ago, [[' a long time ago on a social media site far away']]).
 sentence(some_time_ago, [[' 50 years ago']]).
 sentence(some_time_ago, [[' forever ago']]).
 sentence(some_time_ago, [[' a really long time ago']]).
@@ -305,12 +329,15 @@ sentence(politician, [[' the president']]).
 sentence(politician, [[' the entirety of congress']]).
 sentence(politician, [[' the entire senate']]).
 sentence(politician, [[' the supreme court']]).
+sentence(politician, [[' the supreme brain in a jar who rules over this world']]).
 
 sentence(inner_organ, [[' appendix']]).
 sentence(inner_organ, [[' liver']]).
 sentence(inner_organ, [[' stomach']]).
 sentence(inner_organ, [[' kidney']]).
 sentence(inner_organ, [[' bladder']]).
+sentence(inner_organ, [[' brain']]).
+sentence(inner_organ, [[' skin']]).
 
 sentence(thing_an_ant_feels, [[' like watching television']]).
 sentence(thing_an_ant_feels, [[' like it wants to'], legal_activity]).
@@ -322,6 +349,10 @@ sentence(thing_foreign_countries_speak, [[' to other foreign countries via an el
 sentence(thing_foreign_countries_speak, [[' to our country because we\'re friends']]).
 sentence(thing_foreign_countries_speak, [[' to our country because we\'re friends and always have been']]).
 
+sentence(something_terrible, [[' telemarketers']]).
+sentence(something_terrible, [[' televangelists']]).
+sentence(something_terrible, [[' politics']]).
+sentence(something_terrible, [[' income taxes']]).
 sentence(something_terrible, [[' demons']]).
 sentence(something_terrible, [[' the mothership']]).
 sentence(something_terrible, [[' your mother']]).
