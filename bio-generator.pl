@@ -6,19 +6,19 @@ sentence(main, [things_i_am, ['.']]).
 sentence(main, [things_i_am, ['.'], main_interns]).
 sentence(main, [things_i_am, ['.'], main_interns, [' Tweets by staff.']]).
 sentence(main, [things_i_am, ['.'], main_intern]).
-sentence(main, [[' I use'], random_thing, [' and'], random_thing, [' to'], stupid_thing_to_do]). %@Helen_E_MC
-sentence(main, [[' Anything & everything'], field, things_i_am]). %@RoboEthics
-sentence(main, [[' New'], garbage, [' regularly']]). %@free_facts
 sentence(main, [[' New'], garbage, [' regularly.'], main]).
 
 sentence(frequency, [[' regularly']]).
 sentence(frequency, [[' when I feel like it']]).
 sentence(frequency, [[' once in a'], color, [' moon']]).
+sentence(frequency, [[' at 20 khz']]).
 
 sentence(color, [[' blue']]).
 sentence(color, [[' orange']]).
 sentence(color, [[' red']]).
 sentence(color, [[' yellow']]).
+sentence(color, [[' yorange']]).
+sentence(color, [[' blred']]).
 
 sentence(garbage, [[' garbage']]).
 sentence(garbage, [[' shit posts']]).
@@ -116,7 +116,6 @@ sentence(stupid_thing_to_do, [[' work on'], random_thing]).
 sentence(thing_i_am, [[' former Illuminati member']]). %@noah_anyname
 sentence(thing_i_am, [[' in a cheap suit']]).
 sentence(thing_i_am, [[' screaming space potato']]).
-sentence(thing_i_am, [[' plus size model']]). %@BBluez84 url: thejessig.wordpress.com
 sentence(thing_i_am, [[' future leader of Earth']]). %@noah_anyname
 sentence(thing_i_am, [[' robot trapped in a human body']]). %@noah_anyname
 sentence(thing_i_am, [[' veteran']]).
@@ -124,12 +123,10 @@ sentence(thing_i_am, [[' secret ninja']]).
 sentence(thing_i_am, [[' wife']]).
 sentence(thing_i_am, [[' husband']]).
 sentence(thing_i_am, [[' mom']]).
-sentence(thing_i_am, [[' hacker']]). %@DJSnM
+sentence(thing_i_am, [[' hacker']]).
 sentence(thing_i_am, [[' dad']]).
 sentence(thing_i_am, [[' grandpa']]).
 sentence(thing_i_am, [[' grandma']]).
-sentence(thing_i_am, [[' Internet enthusiast']]). %@wayspurrchen
-sentence(thing_i_am, [[' comedy video editor']]). %@dylabolical
 sentence(thing_i_am, [[' anti-Nazi']]).
 sentence(thing_i_am, [[' anti-Nazi']]).
 sentence(thing_i_am, [[' anti-Nazi']]).
@@ -144,29 +141,17 @@ sentence(thing_i_am, [[' queer']]).
 sentence(thing_i_am, [[' liberal']]).
 sentence(thing_i_am, [[' Jewish']]).
 sentence(thing_i_am, [[' trans']]).
-sentence(thing_i_am, [[' feminist']]). %@Sciencegurlz0 
+sentence(thing_i_am, [[' feminist']]).
 sentence(thing_i_am, [[' professor of'], field]).
 sentence(thing_i_am, [[' professor of'], field, [' at'], university]).
-sentence(thing_i_am, [[' lover of tea']]). %@Sciencegurlz0
 sentence(thing_i_am, [[' atheist']]).
-sentence(thing_i_am, [[' human']]). %@alexreich
 sentence(thing_i_am, [[' robot enthusiast']]).
 sentence(thing_i_am, [[' management enthusiast']]).
-sentence(thing_i_am, [[' imaginer of advice from'], random_things]). %@IHStreet
-sentence(thing_i_am, [[' tenure track warrior']]). %@TheNewPI
-sentence(thing_i_am, [[' aspiring youtuber']]). %@Neotaku1998
 sentence(thing_i_am, [[' animator']]).
 sentence(thing_i_am, [[' host of'], stupid_show]). %@JamieNoTweet
-sentence(thing_i_am, [[' insufferable skeptic']]). %@leon_summer
 sentence(thing_i_am, [[' entrepreneur']]).
-sentence(thing_i_am, [[' bionic actress']]). %@aannggeellll
-sentence(thing_i_am, [[' angry academic']]). %@MsEntropy 
 sentence(thing_i_am, [[' official Twitter account of'], random_person]).
-sentence(thing_i_am, [[' valiant teddy bear of a young'], thing_i_am]). %@bernoulli_bear
 sentence(thing_i_am, [[' technology innovator']]).
-sentence(thing_i_am, [[' unapologetic fighter for justice']]). %@DrSpectra
-sentence(thing_i_am, [[' ripped grandpa on a motorcycle']]). %@kevleeb
-sentence(thing_i_am, [[' Twitter bot commander']]). %@molly0x57
 sentence(thing_i_am, [[' associate professor of'], field]).
 sentence(thing_i_am, [[' PhD research associate of'], field]).
 sentence(thing_i_am, [[' doctor of'], random_thing]).
@@ -214,40 +199,15 @@ sentence(field, [[' voodoo']]).
 sentence(field, [[' why ice cubes aren\'t actual cubes']]).
 sentence(field, [[' advanced impostor syndrome']]).
 
-sentence(things_i_am, [thing_i_am, [' by training.'], thing_i_am, [' by inclination']]):- maybe. %@blakestacey
 sentence(things_i_am, [thing_i_am, [', and'], thing_i_am]).
 sentence(things_i_am, [thing_i_am, [','], things_i_am]).
 
 sentence(stupid_quote, [[' it takes one hell of a compression algorithm to boil a person down to 140c.']]).
 sentence(stupid_quote, [[' I studied'], field, [' at'], university]).
-sentence(stupid_quote, [[' Bios are overrated.']]). %@aliB_itch
 sentence(stupid_quote, [[' I\'m not invited to Trump\'s press conferences. :(']]).
-sentence(stupid_quote, [[' I play to win.']]). %@BunnyHopDva
-sentence(stupid_quote, [[' My youth is mine. All mine! >:(']]). %@sadgems
-sentence(stupid_quote, [[' My youth is mine.']]). %@sadgems
-sentence(stupid_quote, [[' My youth is yours.']]). %@sadgems
 sentence(stupid_quote, [[' Change the paradigm.']]). %@noah_anyname
-sentence(stupid_quote, [[' Keep on'], stupid_thing_to_do_ing, [' motherfuckers.']]). %@Namaste_Ish
-sentence(stupid_quote, [[' I can fly but only towards'], direction]). %@propapergirl
-sentence(stupid_quote, [[' Hola!! :D']]). %@Javos117
-sentence(stupid_quote, [[' I am weird :O']]). %@MoonageDaydre4m
-sentence(stupid_quote, [[' I can\'t think of a bio. But I have one somewhere, I\'m sure.']]). %@Awithonelison
-sentence(stupid_quote, [[' Future tastemakers start here.']]). %@TeenVogue
-sentence(stupid_quote, [[' A twitter account about nothing.']]). %@Reflog_18
-sentence(stupid_quote, [[' I used to work for'], random_organization, ['. Now I work for'], random_organization, ['.']]). %@Snowden
-sentence(stupid_quote, [[' I or a loved one may be entitled to'], thing_im_entitled_to, ['.']]). %@Namaste_Ish
-sentence(stupid_quote, [[' Dude, I\'m not even talking at you.']]). %@GertyZ
-sentence(stupid_quote, [[' If you block me'], if_you_block_me, ['.']]). %@random_assholes_on_the_internet
 sentence(stupid_quote, [[' It\'s only rocket science.']]). %@noah_anyname
-sentence(stupid_quote, [[' you can\'t sue me for being'], random_thing]). %@GertyZ
-sentence(stupid_quote, [[' Nothing is True! Everything is'], adj, ['!']]). %@dollycat5
-sentence(stupid_quote, [[' Just a lithium flower about to bloom.']]). %@blakestacey
-sentence(stupid_quote, [[' Can\'t stop making'], random_thing, ['.']]). %@andrewismusic
-sentence(stupid_quote, [[' Because the Internet needs more opinionated'], thing_i_am]). %@jeriellsworth
-sentence(stupid_quote, [[' I will one day accept my adulthood, when I\'m ', Age, '  maybe.']]):- random(25, 200, R), atom_number(Age, R). %@ChrysalisFiasco
 sentence(stupid_quote, [[' Now you can support me on Patreon: '], random_site]).
-sentence(stupid_quote, [[' you\'re the'], thing_i_am, [' to my'], thing_i_am, ['.']]). %@ElpisOaks original quote: "You're the hinga to my dinga."
-sentence(stupid_quote, [[' I asked'], random_organization, [' to write my bio because it\'s 2017 and'], stupid_quote, ['.']]). %https://twitter.com/faliqfahmie/status/816511006494949376
 sentence(stupid_quote, [[' I didn\'t use eclipse glasses and I\'m (mostly) fine.']]).
 sentence(stupid_quote, [[' I\'m not very good at'], field]).
 sentence(stupid_quote, [[' Why does everyone insist on'], stupid_thing_to_do, ['?']]).

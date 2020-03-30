@@ -1,6 +1,7 @@
 #! ./augment-creativity.pl
 sentence(main, [[' Our'], product, [' uses advanced'], type_of_algorithm, [' algorithms to'], stupid_thing_to_do, ['. Get yours today.']]).
 sentence(main, [main_intern]).
+sentence(main, [main_intern, ['. Thanks, Triplebyte!']]).
 sentence(main, [main_intern, [' Only on the'], product, ['.']]).
 sentence(main, [main_intern, [' So your users can'], thing_users_do, [' while they'], thing_users_do, ['.']]).
 sentence(main, [main_intern, company, product, ['. drink the kool-aid.']]).
@@ -45,8 +46,27 @@ sentence(main, [[' Triplebyte helps'], type_of_dev, [' get'], illegal_thing, ['.
 sentence(main, [[' Triplebyte helps'], type_of_dev, [' get'], illegal_thing, [' take Triplebyte\'s multiple choice coding quiz. '], company, [' reaches out to you.']]).
 sentence(main, [[' Triplebyte helps'], type_of_dev, [' get'], product, ['.']]).
 sentence(main, [[' Triplebyte helps'], type_of_dev, [' get'], buzzword, ['.']]).
+sentence(main, [[' Triplebyte helps'], random_profession_that_has_nothing_to_do_with_codes, [' get'], illegal_thing, ['. Take Triplebyte\'s'], illegal_thing, [' companies reach out to you.']]).
+sentence(main, [[' Take Triplebyte\'s'], illegal_thing, [' companies reach out to you. Match with'], company]).
+sentence(main, [[' In honor of women\'s history month. We\'re snorting'], illegal_thing, ['.']]).
+sentence(main, [[' In honor of women\'s history month. We\'re selling'], illegal_thing, [' in a'], product, [' package.']]).
+sentence(main, [[' When choosing a'], product, [' provider, the question is simple:'], question]).
+sentence(main, [[' community is everything and'], main]).
+
+sentence(product, [[' security']]).
+sentence(question, [[' how much'], product, [' does it take to change a lightbulb?']]).
+sentence(question, [[' what came first, the'], product, [' or the'], product, ['?']]).
+sentence(question, [[' are you tired of'], type_of_dev, [' stealing your meth?']]).
+
+sentence(random_profession_that_has_nothing_to_do_with_codes, [[' hookers']]).
+sentence(random_profession_that_has_nothing_to_do_with_codes, [[' chefs']]).
+sentence(random_profession_that_has_nothing_to_do_with_codes, [[' cops']]).
+sentence(random_profession_that_has_nothing_to_do_with_codes, [[' doctors']]).
+sentence(random_profession_that_has_nothing_to_do_with_codes, [[' political scumbags who can\'t write a single line of code']]).
 
 sentence(illegal_thing, [[' blatant hacking']]).
+sentence(illegal_thing, [[' murdering hookers']]).
+sentence(illegal_thing, [[' Tripleybyte\'s multiple choice drug test']]).
 sentence(illegal_thing, [[' drugs']]).
 sentence(illegal_thing, [[' cocaine']]).
 sentence(illegal_thing, [[' cocaine and cocaine accessories']]).
@@ -203,7 +223,10 @@ sentence(boring_thing_to_do, [[' manipulate the masses']]).
 sentence(boring_thing_to_do, [[' stalk your ex']]).
 sentence(boring_thing_to_do, [[' play the stock market']]).
 sentence(boring_thing_to_do, [[' try to make sense of marketing data']]).
+sentence(boring_thing_to_do, [[' start your career']]).
+sentence(boring_thing_to_do, [[' advance your career']]).
 
+sentence(thing_you_need, [[' career advice']]).
 sentence(thing_you_need, [[' help']]).
 sentence(thing_you_need, [[' bad advice']]).
 sentence(thing_you_need, [[' extra marketing']]).
@@ -271,6 +294,7 @@ sentence(buzzword, [[' mongoDB']]).
 sentence(buzzword, [[' quantum cloud']]).
 sentence(buzzword, [[' webscale 2.0 on the quantum cloud']]).
 sentence(buzzword, [[' webscale 2.0 on the electron cloud']]).
+sentence(buzzword, [[' cloud']]).
 
 sentence(postadj, [[' solution']]).
 sentence(postadj, [[' problem']]).
@@ -341,6 +365,7 @@ sentence(product_intern, [[' quantum chromodynamic energy pumps']]).
 sentence(product_intern, [[' really fancy server racks']]).
 sentence(product_intern, [[' better software in general']]).
 sentence(product_intern, [[' Internet of cloud']]).
+sentence(product_intern, [[' bubbles']]).
 
 sentence(illegal_substance, [[' cocaine']]).
 sentence(illegal_substance, [[' bitcoin']]).

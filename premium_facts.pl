@@ -44,6 +44,7 @@ sentence(main, [['You might be a'], minority]).
 sentence(main, [['The actual word of God is '], main]).
 sentence(main, [type_of_website, [' is not'], cute_animals]).
 sentence(main, [type_of_website, [' want your'], assets]).
+sentence(main, [['Only'], company, [' is allowed to sell'], assets]).
 
 sentence(assets, [[' personal data']]).
 sentence(assets, [[' bank account info']]).
@@ -55,6 +56,8 @@ sentence(company, [[' Microsoft']]).
 sentence(company, [[' Twitter']]).
 sentence(company, [[' Silicon valley']]).
 sentence(company, [[' Pens Inc']]).
+sentence(company, [[' startup inc']]).
+
 sentence(type_of_website, [[' social media sites']]).
 sentence(type_of_website, [[' video sharing sites']]).
 sentence(type_of_website, [[' email sites']]).

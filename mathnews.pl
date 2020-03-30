@@ -1,5 +1,4 @@
 #! ./augment-creativity.pl
-sentence(main, [[' What I Learned Trying To'], punishment, [' And The Friends I Made Along The Way.']]).
 sentence(main, [[' Largest'], type_of_number, [' Number Discovered By'], really_bad_way_to_find_numbers, ['.']]).
 sentence(main, [personsg, [' Proves Idea That'], obvious_statement, [' Is'], bad_thing, ['.']]).
 sentence(main, [[' Rogue Group Of'], bad_people, [' Captured And Sentenced To'], punishment, ['.']]).
@@ -50,6 +49,47 @@ sentence(main, [authority_figure, [' Will Show Congress Who\'s Boss By Inventing
 sentence(main, [authority_figure, [' Shamelessly Proves'], obviously_false, [' By'], method_of_proof, ['.']]).
 sentence(main, [authority_figure, [' Caught Doing Illegal Math By'], method_of_proof, ['.']]).
 sentence(main, [authority_figure, [' Proves That'], philosophical_object, [' Exists By'], method_of_proof, ['.']]).
+sentence(main, [type_of_space, [' discovered'], in_location, [' more on this as it developes.']]).
+sentence(main, [['New math toy makes learning math'], advj]).
+sentence(main, [['Should'], controversial_math_topic, [' be taught in schools? This parent says no.']]).
+sentence(main, [['New math book claims'], controversial_statement, ['.']]).
+sentence(main, [['Crazed mathematician claims'], controversial_statement]).
+sentence(main, [controversial_statement, [' found as grafitti on wall near my house.']]).
+
+sentence(controversial_statement, [[' the'], authority_figure, [' is one of the'], bad_people]).
+sentence(controversial_statement, [[' math sucks']]).
+sentence(controversial_statement, [controversial_math_topic, [' sucks']]).
+sentence(controversial_statement, [controversial_math_topic, [' is the best']]).
+sentence(controversial_statement, [controversial_math_topic, [' is witchcraft practiced by'], personpl]).
+
+sentence(controversial_math_topic, [[' euclidean geometry']]).
+sentence(controversial_math_topic, [[' applied math']]).
+sentence(controversial_math_topic, [[' impure math']]).
+sentence(controversial_math_topic, [[' movie math']]).
+sentence(controversial_math_topic, [[' old math that nobody cares about anymore']]).
+sentence(controversial_math_topic, [[' math that has been dirtied by it\'s use in science']]).
+sentence(controversial_math_topic, [[' the theory of mathual selection']]).
+sentence(controversial_math_topic, [authority_figure, ['\'s theorem']]).
+sentence(controversial_math_topic, [advj]).
+
+sentence(advj, [[' fun and challenging']]).
+sentence(advj, [[' boring and repetitive']]).
+sentence(advj, [[' a slap to the face']]).
+sentence(advj, [[' painful and extreme']]).
+sentence(advj, [[' weird and itchy']]).
+
+
+sentence(in_location, [[' in hotel room']]).
+sentence(in_location, [[' in cheap motel room']]).
+sentence(in_location, [[' in secret cave under an amusement park']]).
+sentence(in_location, [[' in a big radio tower on the moon']]).
+
+sentence(type_of_space, [[' hyperbolic']]).
+sentence(type_of_space, [[' spherical']]).
+sentence(type_of_space, [[' four-dimensional']]).
+sentence(type_of_space, [[' cute']]).
+sentence(type_of_space, [[' weird']]).
+sentence(type_of_space, [[' half empty']]).
 
 sentence(obviously_false, [[' 2 + 2 = 5']]).
 sentence(obviously_false, [[' Math Is Boring']]).
@@ -207,6 +247,7 @@ sentence(personsg, [[' The New President Who\'s Going To Nuke Us']]).
 
 sentence(personpl, [[' The Pi Government']]).
 sentence(personpl, [[' Mathematicians']]).
+sentence(personpl, [[' hookers']]).
 sentence(personpl, [[' Math Robots']]).
 sentence(personpl, [[' New Field Of Mathematics']]).
 sentence(personpl, [[' Math Gods']]).
